@@ -1,0 +1,21 @@
+flowchart TB
+    subgraph DEV["Desarrollo"]
+      G["Repositorio GitHub<br/>gagarang25/ProyectoFase2"]
+      C["Google Colab (GPU T4)<br/>ajuste de mDeBERTa-v3"]
+    end
+    C -->|"publica model-v1.0.0"| H[("Hugging Face Hub<br/>modelo del router")]
+    G -->|"clona commit"| C
+    subgraph LOCAL["Ejecución local (Docker Desktop)"]
+      L1["docker compose up"] --> L2["web :8080"] & L3["api :8000"]
+    end
+    subgraph NUBE["Nube pública · PaaS de contenedores"]
+      S1["Hugging Face Spaces<br/>(demo, Dockerfile)"]
+      S2["Alternativas de producción:<br/>Google Cloud Run · Azure Container Apps"]
+    end
+    G --> L1
+    H -->|"docker build descarga el modelo"| L3
+    G -->|"publicar_space.py"| S1
+    H --> S1
+    G -.->|"imagen en un registro de contenedores"| S2
+    classDef verde fill:#e6f2ee,stroke:#0e5c4a,color:#1d2421
+    class G,C,L1,L2,L3,S1,S2 verde

@@ -1,0 +1,19 @@
+# Dependencias de la API (versiones exactas: los modelos .joblib dependen de la versión de scikit-learn).
+# torch se instala aparte en el Dockerfile desde el índice de PyTorch para CPU (imagen más ligera, sin CUDA).
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+transformers==5.21.0
+tokenizers==0.23.3
+sentencepiece==0.2.2
+safetensors==0.8.0
+huggingface_hub>=1.0,<3
+protobuf==7.36.2
+scikit-learn==1.9.1
+pandas==3.1.0
+numpy==2.5.4
+scipy>=1.14
+joblib==1.6.0
+# Pruebas automáticas (se ejecutan dentro del contenedor)
+pytest==9.2.0
+httpx==0.28.1

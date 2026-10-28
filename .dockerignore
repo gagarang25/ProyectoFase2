@@ -1,0 +1,16 @@
+.git
+.github
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.env
+salida_router
+resultados
+docs
+pruebas/resultados
+bitacora
+datos/mensajes_cab
+datos/entregas/entregas_cab.csv
+entrenamiento
+*.ipynb
+*.zip

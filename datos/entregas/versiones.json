@@ -1,0 +1,27 @@
+{
+  "version": "data-v1.0.0",
+  "semilla": 42,
+  "generador": "entrenamiento/generar_datos_entregas.py (copia del generador de la Actividad 6)",
+  "archivos": {
+    "entregas_cab.csv": {
+      "filas": 27273,
+      "columnas": 30,
+      "tasa_retraso": 0.2278,
+      "periodo": [
+        "2024-10-01",
+        "2026-09-30"
+      ],
+      "sha256": "677bab165d385a5720446e215ce8729e8715cb2e4caacd9ac833cc5cb40ba103"
+    },
+    "piloto_ab_cab.csv": {
+      "filas": 1222,
+      "columnas": 30,
+      "tasa_retraso": 0.2324,
+      "periodo": [
+        "2026-10-01",
+        "2026-12-31"
+      ],
+      "sha256": "042c6de4ed95f55d6e536ac90f4534d071d9130c763bd4d2f8ae963a110c0a07"
+    }
+  }
+}

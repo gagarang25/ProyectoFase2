@@ -1,0 +1,8 @@
+# Para entrenar los modelos de ETA y riesgo y correr las pruebas de estrés en una computadora (CPU).
+# El router se entrena en Colab con requirements-colab.txt.
+scikit-learn==1.9.1
+pandas==3.1.0
+numpy==2.5.4
+scipy>=1.14
+joblib==1.6.0
+matplotlib>=3.9

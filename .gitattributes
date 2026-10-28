@@ -1,0 +1,9 @@
+# Finales de línea LF en el repositorio y en Windows: los Dockerfile, scripts y CSV (sus SHA-256) no cambian.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.joblib binary
+*.zip binary
+*.pdf binary
+*.docx binary
+*.safetensors binary

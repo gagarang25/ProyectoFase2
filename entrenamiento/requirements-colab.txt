@@ -1,0 +1,11 @@
+# Librerías para ajustar el router en Google Colab (torch ya viene instalado en Colab).
+# Las versiones de transformers, tokenizers y sentencepiece son las mismas que usa la API (backend/requirements.txt).
+transformers==5.21.0
+tokenizers==0.23.3
+sentencepiece==0.2.2
+safetensors==0.8.0
+datasets==5.1.0
+accelerate==1.15.0
+scikit-learn==1.9.1
+matplotlib
+scipy

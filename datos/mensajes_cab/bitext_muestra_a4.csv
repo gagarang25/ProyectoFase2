@@ -1,0 +1,2001 @@
+id,mensaje,intencion,intencion_original,categoria_original,num_palabras
+1,i want assistance filing a complaint against ur business,queja,complaint,FEEDBACK,9
+2,I need help to check what hours I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+3,i do not know what i have to do to get invoice #37777,otro,get_invoice,INVOICE,13
+4,where do i check how long it takes for my shipment to arrive,fecha_entrega,delivery_period,DELIVERY,13
+5,I want help to use the platinum profile,otro,switch_account,ACCOUNT,8
+6,i want assistance to see the earlly termination fee,otro,check_cancellation_fee,CANCEL,9
+7,I call to check how long it takes for the purchase to arrive,fecha_entrega,delivery_period,DELIVERY,13
+8,where to make a customer complaint against your company?,queja,complaint,FEEDBACK,9
+9,"I have to call customer service, could you help me?",contactar_ejecutivo,contact_customer_service,CONTACT,10
+10,notifying of errors creating user,otro,registration_problems,ACCOUNT,5
+11,how do i see at what time customer support availabl is,contactar_ejecutivo,contact_customer_service,CONTACT,11
+12,I want assistance updating my delivery address,otro,change_shipping_address,SHIPPING,7
+13,"I need to see when will my package arrive, help me",fecha_entrega,delivery_period,DELIVERY,11
+14,wanna see orer {{Order Number}} current status can ya help me,estatus_orden,track_order,ORDER,11
+15,I try to check what hours I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+16,i dont know how i can call customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,9
+17,wanna chec order {{Order Number}} status,estatus_orden,track_order,ORDER,6
+18,iw it possible to get in touch with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+19,I want help to make a complaint against your organization,queja,complaint,FEEDBACK,10
+20,help me lodge a consumer claim,queja,complaint,FEEDBACK,6
+21,i cant see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+22,i try to make a bloody consumer complaint against ur company,queja,complaint,FEEDBACK,11
+23,I want assistance to file a claim against your organization,queja,complaint,FEEDBACK,10
+24,"I need to see when will my item arrive, how to do it?",fecha_entrega,delivery_period,DELIVERY,13
+25,assistance filing a complaint against your organization,queja,complaint,FEEDBACK,7
+26,i want assistance to get in touch with customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+27,"I have to see when my item is going to arrive, help me",fecha_entrega,delivery_period,DELIVERY,13
+28,"I want to see when will my product arrive, how can I do it?",fecha_entrega,delivery_period,DELIVERY,14
+29,what do I need to do to see order {{Order Number}} status?,estatus_orden,track_order,ORDER,12
+30,what do i have to do to talk with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,11
+31,where can i see the damn eta of the purchase {{Order Number}},estatus_orden,track_order,ORDER,12
+32,I need help to check when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,10
+33,I try to see the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+34,help seeing how soon can I expect the product,fecha_entrega,delivery_period,DELIVERY,9
+35,how do I see how soon can I expect the bloody delivery?,fecha_entrega,delivery_period,DELIVERY,12
+36,can you help me see the ETA of the order {{Order Number}}?,estatus_orden,track_order,ORDER,12
+37,i have got to file a customer claim,queja,complaint,FEEDBACK,8
+38,I want to create a {{Account Type}} account for my daughter,otro,create_account,ACCOUNT,11
+39,how to check how soon can I expect my item?,fecha_entrega,delivery_period,DELIVERY,10
+40,I don't know how to contact customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,8
+41,how to contact an assistant?,contactar_ejecutivo,contact_human_agent,CONTACT,5
+42,where to filr a consumer complaint?,queja,complaint,FEEDBACK,6
+43,I try to talk to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+44,"I have got to locate order {{Order Number}}, can I get some help?",estatus_orden,track_order,ORDER,13
+45,I want assistance to download my bill #85632,otro,get_invoice,INVOICE,8
+46,what do i have to do to check how long the shipment takes,fecha_entrega,delivery_period,DELIVERY,13
+47,where do I check the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+48,find information about the delivery period,fecha_entrega,delivery_period,DELIVERY,6
+49,I need assistance to talk with damn customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+50,can you help me to make a complaint?,queja,complaint,FEEDBACK,8
+51,i do not know how i can shop a few of ur product,otro,place_order,ORDER,13
+52,is it possible to talk to damn customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+53,wanna submit feedback for ur company can i get somehelp,otro,review,FEEDBACK,10
+54,I need assistance to chat with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+55,i have got to see how soon can i expect the product,fecha_entrega,delivery_period,DELIVERY,12
+56,I want to lodge a consumer complaint against your company,queja,complaint,FEEDBACK,10
+57,i have to submita secondary shipping address help me,otro,set_up_shipping_address,SHIPPING,9
+58,I do not know how I can make a customer reclamation,queja,complaint,FEEDBACK,11
+59,I try to check how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+60,how do I see what hours I can contact customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+61,I don't know what I need to do to purchase some items,otro,place_order,ORDER,12
+62,can I check the ETA of order {{Order Number}}?,estatus_orden,track_order,ORDER,9
+63,can i lodge a customer claim againmst ur company,queja,complaint,FEEDBACK,9
+64,assistance to see how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,10
+65,can you help me filing a complaiont?,queja,complaint,FEEDBACK,7
+66,help me lodging a customer complaint against ur business,queja,complaint,FEEDBACK,9
+67,help to check how long it takes for the package to asrrive,fecha_entrega,delivery_period,DELIVERY,12
+68,editing order {{Order Number}},otro,change_order,ORDER,4
+69,how do i contact someone,contactar_ejecutivo,contact_human_agent,CONTACT,5
+70,check cancellation charges,otro,check_cancellation_fee,CANCEL,3
+71,i do not know how i can ese the termination charges,otro,check_cancellation_fee,CANCEL,11
+72,were to see at what time I can contact customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+73,is it possible to check what shipping methods I have?,otro,delivery_options,DELIVERY,10
+74,I am calling to check when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+75,show me purchase {{Order Number}} statud,estatus_orden,track_order,ORDER,6
+76,i dont know how to talk to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,9
+77,want help making an customer claim against your business,queja,complaint,FEEDBACK,9
+78,could you help me see purchase {{Order Number}} current status?,estatus_orden,track_order,ORDER,10
+79,i have got to call bloody customer assistance could uhelp me,contactar_ejecutivo,contact_customer_service,CONTACT,11
+80,I call to lodge a complaint against your business,queja,complaint,FEEDBACK,9
+81,help me see at what time customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,10
+82,help me to see how long it takes for the article to arrive,fecha_entrega,delivery_period,DELIVERY,13
+83,i need assistance to inform of problems with online payment,otro,payment_issue,PAYMENT,10
+84,create new pro account for daughter,otro,create_account,ACCOUNT,6
+85,could I make a customer claim against your organization?,queja,complaint,FEEDBACK,9
+86,I need asisstance unsubscribing from your newsletter,otro,newsletter_subscription,SUBSCRIPTION,7
+87,I want help to lodge a consumer claim,queja,complaint,FEEDBACK,8
+88,need help to check order {{Order Number}} status,estatus_orden,track_order,ORDER,8
+89,assistance to talk to an agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+90,lodge customer complaint,queja,complaint,FEEDBACK,3
+91,i don know what to do to see the payment modalities,otro,check_payment_methods,PAYMENT,11
+92,wanna make a customer claim against ur business,queja,complaint,FEEDBACK,8
+93,i want help chatting with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+94,I want help to chat with a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+95,i want help filing a damn customer claim against ur business,queja,complaint,FEEDBACK,11
+96,lodging consumer claim against your company,queja,complaint,FEEDBACK,6
+97,see current status of order {{Order Number}},estatus_orden,track_order,ORDER,7
+98,"I bought some product, I want to cancel order {{Order Number}}",otro,cancel_order,ORDER,11
+99,how to swap a product of order {{Order Number}}?,otro,change_order,ORDER,9
+100,how can i file a consumre claim against ur organization,queja,complaint,FEEDBACK,10
+101,help me to check when my item is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+102,I want assistance checking how soon can I expect my package,fecha_entrega,delivery_period,DELIVERY,11
+103,need assistance checking the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+104,I need to see in what cases can I ask for a reimbursement,otro,check_refund_policy,REFUND,13
+105,i want help to see what hours i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+106,where to check how soon can I expect my shipment?,fecha_entrega,delivery_period,DELIVERY,10
+107,what do i have to do to locate purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+108,do you have a mail to get in touch with cusomer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+109,I try to seethe status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+110,I am trying to locate order {{Order Number}},estatus_orden,track_order,ORDER,8
+111,where is order {{Order Number}}?,estatus_orden,track_order,ORDER,5
+112,how could I check your money back policy?,otro,check_refund_policy,REFUND,8
+113,"I have got to see when will my article arrive, how to do it?",fecha_entrega,delivery_period,DELIVERY,14
+114,"the experience with you was awful, help me file a complaint",queja,complaint,FEEDBACK,11
+115,i do not kno what to do to locate purchase {{Order Number}},estatus_orden,track_order,ORDER,12
+116,I want help to talk with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,8
+117,where can i check how soon can i expect my item,fecha_entrega,delivery_period,DELIVERY,11
+118,where can I see how long it takes for the order to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+119,help checking at what time I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+120,help to lodge a customer claim against your business,queja,complaint,FEEDBACK,9
+121,help me making a claim against your business,queja,complaint,FEEDBACK,8
+122,I am calling to see how long the shipping takes,fecha_entrega,delivery_period,DELIVERY,10
+123,where can i check how soon can i expect the package,fecha_entrega,delivery_period,DELIVERY,11
+124,see order {{Order Number}} cuurrent status,estatus_orden,track_order,ORDER,6
+125,i dont know what i need to do to talk to someone,contactar_ejecutivo,contact_human_agent,CONTACT,12
+126,how to shop some items?,otro,place_order,ORDER,5
+127,can i check the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+128,how to see how long it takes for my delivery to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+129,I call to see how long it takes for my purchase to arrive,fecha_entrega,delivery_period,DELIVERY,13
+130,"I have got to speak with customer support, how can I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,13
+131,can you help me to file a customer reclamation?,queja,complaint,FEEDBACK,9
+132,the experience with ur brand ws bad how to make a complaint,queja,complaint,FEEDBACK,12
+133,see order {{Order Number}} fucking current status,estatus_orden,track_order,ORDER,7
+134,i want help seeing theeta of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+135,"I need to see how soon can I expect the order, help me",fecha_entrega,delivery_period,DELIVERY,13
+136,I don't know what I need to do to modify my delivery address,otro,change_shipping_address,SHIPPING,13
+137,I want assistance to lodge a complaint against your business,queja,complaint,FEEDBACK,10
+138,assistance filing a claim against your organization,queja,complaint,FEEDBACK,7
+139,need help lodging a cutomer claim against your organization,queja,complaint,FEEDBACK,9
+140,help to use the {{Account Category}} profile,otro,switch_account,ACCOUNT,7
+141,where do I unsubscribe from the newsletter?,otro,newsletter_subscription,SUBSCRIPTION,7
+142,"I can't understand a word you say, speak with a human agent",contactar_ejecutivo,contact_human_agent,CONTACT,12
+143,help me file a reclamation against ur compay,queja,complaint,FEEDBACK,8
+144,want assistance to see how soon can i expect the shipment,fecha_entrega,delivery_period,DELIVERY,11
+145,assistance to retrieve my account pin,otro,recover_password,ACCOUNT,6
+146,where is purechase {{Order Number}},estatus_orden,track_order,ORDER,5
+147,need help to check order {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+148,"I forgot my user password, help me to reset it",otro,recover_password,ACCOUNT,10
+149,how do I speak to someone?,contactar_ejecutivo,contact_human_agent,CONTACT,6
+150,what do I need to do to talk to customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+151,need to make a complaint,queja,complaint,FEEDBACK,5
+152,is it possible to chck when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,10
+153,I'm trying to check the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+154,I want assistance checking how soon can I expect the product,fecha_entrega,delivery_period,DELIVERY,11
+155,help me to contact damn customer support,contactar_ejecutivo,contact_customer_service,CONTACT,7
+156,how do I check what hours I can call customer assistance ?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+157,want assistance seeing the fucking ETA of order {{Order Number}},estatus_orden,track_order,ORDER,10
+158,I need help making a claim against your organization,queja,complaint,FEEDBACK,9
+159,want help to check the fucking TEA of the order {{Order Number}},estatus_orden,track_order,ORDER,12
+160,need assistanbce to make a complaint,queja,complaint,FEEDBACK,6
+161,"I have to see the ETA of the order {{Order Number}}, how to do it?",estatus_orden,track_order,ORDER,15
+162,how do i check how long it takes for my item to arrive,fecha_entrega,delivery_period,DELIVERY,13
+163,I need to contact someone,contactar_ejecutivo,contact_human_agent,CONTACT,5
+164,where can I check when will my product arrive?,fecha_entrega,delivery_period,DELIVERY,9
+165,i call to lodge a customer reclamation,queja,complaint,FEEDBACK,7
+166,need to correct the info included on my user profile,otro,edit_account,ACCOUNT,10
+167,assistance to make a customer claim,queja,complaint,FEEDBACK,6
+168,I have got to check what payment methods are available,otro,check_payment_methods,PAYMENT,10
+169,need help to see at what time customer service availabl is,contactar_ejecutivo,contact_customer_service,CONTACT,11
+170,I'm not happy with ur service need help to file a complaint,queja,complaint,FEEDBACK,12
+171,"I have to see when will my item arrive, I need assistance",fecha_entrega,delivery_period,DELIVERY,12
+172,how to locate order {{Order Number}}?,estatus_orden,track_order,ORDER,6
+173,want help to make a customer claim,queja,complaint,FEEDBACK,7
+174,I'm trying to file a consumer reclamation against ur company,queja,complaint,FEEDBACK,10
+175,check order status,estatus_orden,track_order,ORDER,3
+176,I don't know what to do to notify of a payment problem,otro,payment_issue,PAYMENT,12
+177,can I track order {{Order Number}}?,estatus_orden,track_order,ORDER,6
+178,"I want to correct order {{Order Number}}, can you help me?",otro,change_order,ORDER,11
+179,help me see when will myarticle arrive,fecha_entrega,delivery_period,DELIVERY,7
+180,"my experience with your brand was bad, make a consumer claim",queja,complaint,FEEDBACK,11
+181,have a question about creating fucking {{Account Type}} accounts,otro,create_account,ACCOUNT,9
+182,how to see the status of order {{Order Number}}?,estatus_orden,track_order,ORDER,9
+183,filing customer complaint against your company,queja,complaint,FEEDBACK,6
+184,I am trying to check when my article is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+185,help seeing how long it takes for my item to arrive,fecha_entrega,delivery_period,DELIVERY,11
+186,want assistance seeing the status of order {{Order Number}},estatus_orden,track_order,ORDER,9
+187,i want help to lodge a customer complaint,queja,complaint,FEEDBACK,8
+188,lodge reclamation against your company,queja,complaint,FEEDBACK,5
+189,i need help checking when my package is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+190,can you help me to check what methods for delivery I have?,otro,delivery_options,DELIVERY,12
+191,"I have to check purchase {{Order Number}} status, I need help",estatus_orden,track_order,ORDER,11
+192,can uhelp me check what hours customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,10
+193,can I check what delivery methods I can choose?,otro,delivery_options,DELIVERY,9
+194,how could I get in touch with fucking customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+195,I do not know what I need to do to talk to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,14
+196,showing me estimated time of arrival of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+197,I'm trying to see how long it takes for my product to arrive,fecha_entrega,delivery_period,DELIVERY,13
+198,I'm calling to check whenb will my item arrive,fecha_entrega,delivery_period,DELIVERY,9
+199,order {{Order Number}} status,estatus_orden,track_order,ORDER,4
+200,I need assistance canceling a {{Account Type}} account,otro,delete_account,ACCOUNT,8
+201,I want help making a complaint against your company,queja,complaint,FEEDBACK,9
+202,wanna see the statusof order {{Order Number}} i need help,estatus_orden,track_order,ORDER,10
+203,I need help calling customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+204,what do i have to do to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,14
+205,help checking the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+206,i try to talk with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+207,I need to see in which situations can I ask for a refund,otro,check_refund_policy,REFUND,13
+208,I try to see your available payment options,otro,check_payment_methods,PAYMENT,8
+209,assistance to check how soon can I expect the product,fecha_entrega,delivery_period,DELIVERY,10
+210,i do not know what to do to contact an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,11
+211,how can I file a consumer complaint?,queja,complaint,FEEDBACK,7
+212,how doi see at what time i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+213,what is thecustomer support mail,contactar_ejecutivo,contact_customer_service,CONTACT,5
+214,uhave a free number to talk with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,9
+215,i want assistance to see the eta of the ordder {{Order Number}},estatus_orden,track_order,ORDER,12
+216,could I make a goddamn reclamation?,queja,complaint,FEEDBACK,6
+217,assistance seeing how long it takes for my order to arrive,fecha_entrega,delivery_period,DELIVERY,11
+218,can I contact an assistant?,contactar_ejecutivo,contact_human_agent,CONTACT,5
+219,can uhelp me to check the fucking eta of the order {{Order Number}},estatus_orden,track_order,ORDER,13
+220,help to retrieve the password of my profile,otro,recover_password,ACCOUNT,8
+221,can ya help me to check how son can i expect the shipment,fecha_entrega,delivery_period,DELIVERY,13
+222,I need help speaking with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,7
+223,need assistance to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+224,"I want to see when will my item arrive, how do I do it?",fecha_entrega,delivery_period,DELIVERY,14
+225,help to make a reclamation against your company,queja,complaint,FEEDBACK,8
+226,I'm extremely unhapp with ur services help to make a claim,queja,complaint,FEEDBACK,11
+227,how can I see purchase {{Order Number}} current status?,estatus_orden,track_order,ORDER,9
+228,help me to contact an ooperator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+229,"I am unhappy with your service, help me to make a claim",queja,complaint,FEEDBACK,12
+230,check at what time I can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+231,help me make a complaint against ur business,queja,complaint,FEEDBACK,8
+232,help me talk to a agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+233,what do I need to do to make a customer reclamation?,queja,complaint,FEEDBACK,11
+234,i have a problem with creating a freemium account,otro,create_account,ACCOUNT,9
+235,I try to file a consumer claim against your business,queja,complaint,FEEDBACK,10
+236,where do i cherck at what time i can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,12
+237,will you show me how long it takes for the parcel to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+238,can you show me how long it takes for my shipment to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+239,I want assistance to download the invoices from {{Person Name}},otro,get_invoice,INVOICE,10
+240,what is order {{Order Number}} status?,estatus_orden,track_order,ORDER,6
+241,where to check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+242,"I have got to sign up to the corporate newsletter, help me",otro,newsletter_subscription,SUBSCRIPTION,12
+243,where can i see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+244,wanna know about delivery periods give me some informtion,fecha_entrega,delivery_period,DELIVERY,9
+245,want assistance using the {{Account Category}} profile,otro,switch_account,ACCOUNT,7
+246,i have got to get in touch with customer support help me,contactar_ejecutivo,contact_customer_service,CONTACT,12
+247,assistance seeing how soon can I exect my delivery,fecha_entrega,delivery_period,DELIVERY,9
+248,assistance lodging a customer claim,queja,complaint,FEEDBACK,5
+249,can you help me seeing when my article is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+250,i purchased something how to cancel order {{Order Number}},otro,cancel_order,ORDER,9
+251,help me check how long it takes for my package to arrive,fecha_entrega,delivery_period,DELIVERY,12
+252,could I check at what time I can call customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+253,wanna check how long the shipment takes i need help,fecha_entrega,delivery_period,DELIVERY,10
+254,need assistance checking order {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+255,can you show me what payment options you accept?,otro,check_payment_methods,PAYMENT,9
+256,I need to see how long it takes for my parcel to arrive,fecha_entrega,delivery_period,DELIVERY,13
+257,checking status of order,estatus_orden,track_order,ORDER,4
+258,can uhelp me see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+259,I am calling to file a complaint against your organization,queja,complaint,FEEDBACK,10
+260,I don't know how I can download the bills from {{Person Name}},otro,get_invoice,INVOICE,12
+261,i dont know how to speak with customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+262,help to make a claim against your company,queja,complaint,FEEDBACK,8
+263,how to contact a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+264,wanna check in what cases can i request a refund,otro,check_refund_policy,REFUND,10
+265,i want assistance to check how soon can i expect my item,fecha_entrega,delivery_period,DELIVERY,12
+266,i have got to give a quick look at the invoice #12588,otro,check_invoice,INVOICE,12
+267,I do not know what to do to speak to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+268,do youhave an e-mail address to contact customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+269,i dont know wht i have to do to contact a person,contactar_ejecutivo,contact_human_agent,CONTACT,12
+270,could I check how long it takes for my product to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+271,where do I check the termination fees?,otro,check_cancellation_fee,CANCEL,7
+272,lodging customer complaint against your company,queja,complaint,FEEDBACK,6
+273,need to track purchase {{Order Number}},estatus_orden,track_order,ORDER,6
+274,what do I have to do to file a customer complaint?,queja,complaint,FEEDBACK,11
+275,"I need to file a customer reclamation, how do I do it?",queja,complaint,FEEDBACK,12
+276,I need assistance to lodge a fucking consumer reclamation,queja,complaint,FEEDBACK,9
+277,where do I check my last purchase estimated time of arrival?,estatus_orden,track_order,ORDER,11
+278,need assistance to check the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+279,can ya help em inform of a trouble with online payments,otro,payment_issue,PAYMENT,11
+280,do you have a free number to talk to customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+281,I'm calling to lodge a reclamation against ur business,queja,complaint,FEEDBACK,9
+282,could i change something of purchase {{Order Number}},otro,change_order,ORDER,8
+283,where do I see the ETA of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+284,can you help me to see the withdrawal fees?,otro,check_cancellation_fee,CANCEL,9
+285,help me submitting my feedback about your company,otro,review,FEEDBACK,8
+286,"I have to speak to customer assistance, how to do it?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+287,I do not know how to get in touch with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,12
+288,where to lodge a customer complaint,queja,complaint,FEEDBACK,6
+289,"I would like to call customer service, how to do it?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+290,I don't know what to do to talk with someone,contactar_ejecutivo,contact_human_agent,CONTACT,10
+291,help me see the current status of my rebate,otro,track_refund,REFUND,9
+292,I do not know how to check the bills from {{Person Name}},otro,check_invoice,INVOICE,12
+293,I have got to look for my fucking invoices from {{Person Name}},otro,check_invoice,INVOICE,12
+294,want assistance to make a reclamation against your business,queja,complaint,FEEDBACK,9
+295,hwere to see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+296,is it possible to chat with a human agent?,contactar_ejecutivo,contact_human_agent,CONTACT,9
+297,need help checking whatt hours customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,9
+298,I want assistance to file a fucking claim,queja,complaint,FEEDBACK,8
+299,"I am unhappy with your service, help to make a claim",queja,complaint,FEEDBACK,11
+300,see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+301,i want assistance to see the eta of order {{Order Number}},estatus_orden,track_order,ORDER,11
+302,I do not know how I could get in touch with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,13
+303,assistance to file a customer claim,queja,complaint,FEEDBACK,6
+304,help to check in whatcases can I request my money back,otro,check_refund_policy,REFUND,11
+305,see ETA of order {{Order Number}},estatus_orden,track_order,ORDER,6
+306,I do not know what to do to lodge a consumer claim,queja,complaint,FEEDBACK,12
+307,where do I see how soon can I expect my article?,fecha_entrega,delivery_period,DELIVERY,11
+308,I would like to ask for compensations,otro,get_refund,REFUND,7
+309,I do not know how to seehow soon can I expect my purchase,fecha_entrega,delivery_period,DELIVERY,13
+310,I want help calling customer support,contactar_ejecutivo,contact_customer_service,CONTACT,6
+311,help me check how soon can I expect my order,fecha_entrega,delivery_period,DELIVERY,10
+312,I do not know what I have to do to file a claim,queja,complaint,FEEDBACK,13
+313,could you help me set up the new shipping address?,otro,set_up_shipping_address,SHIPPING,10
+314,i have got to see how soon can i expect my delivery,fecha_entrega,delivery_period,DELIVERY,12
+315,i need assistance to see when my article is gonna arrive,fecha_entrega,delivery_period,DELIVERY,11
+316,wat help to see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+317,help to get the bill #37777,otro,get_invoice,INVOICE,6
+318,help getting a reimbursement of my money,otro,get_refund,REFUND,7
+319,need help filing a reclamation,queja,complaint,FEEDBACK,5
+320,could you help me unsubscribe from your bloody newsletter?,otro,newsletter_subscription,SUBSCRIPTION,9
+321,I try to see at what time I can reach customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,12
+322,how to make a damn customer claim against your business?,queja,complaint,FEEDBACK,10
+323,how can I check what hours I can call customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+324,how to contact customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,5
+325,is it possible to check how soon can i expect the item,fecha_entrega,delivery_period,DELIVERY,12
+326,need help seeing purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+327,where do I file a claim against your company?,queja,complaint,FEEDBACK,9
+328,wanna see purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,7
+329,can uhelp me file a claim,queja,complaint,FEEDBACK,6
+330,I want help to check order {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+331,where to see the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,10
+332,I'm trying to see the current status of order {{Order Number}},estatus_orden,track_order,ORDER,11
+333,is it possible to place an order from {{Delivery City}}?,otro,delivery_options,DELIVERY,10
+334,I cannot see the current status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+335,ned to speak with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,5
+336,I am trying to lodge a customer reclamation,queja,complaint,FEEDBACK,8
+337,I want assistance contacting someone,contactar_ejecutivo,contact_human_agent,CONTACT,5
+338,"I have to speak with customer support, how can I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,12
+339,assistance seeing how soon can i expect the shipment,fecha_entrega,delivery_period,DELIVERY,9
+340,I would like to file a reclamation against your business,queja,complaint,FEEDBACK,10
+341,ened help with cancelling purchase {{Order Number}},otro,cancel_order,ORDER,7
+342,i want help speaking to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,7
+343,where can I make a customer complaint against your business?,queja,complaint,FEEDBACK,10
+344,how do i check when will my parcel arrive,fecha_entrega,delivery_period,DELIVERY,9
+345,assistance to track purchase {{Order Number}},estatus_orden,track_order,ORDER,6
+346,could i file an customer claim,queja,complaint,FEEDBACK,6
+347,need assistance to contcat an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,6
+348,can you help me to make a customer complaint?,queja,complaint,FEEDBACK,9
+349,i have paid {{Currency Symbol}}{{Refund Amount}} for this purchase help receiving a rebate,otro,get_refund,REFUND,13
+350,need to check when my order is gonna arriev,fecha_entrega,delivery_period,DELIVERY,9
+351,need help speaking with a operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+352,I have to check the goddamn current status of order {{Order Number}},estatus_orden,track_order,ORDER,12
+353,I do not know how I can see your reimbursement policy,otro,check_refund_policy,REFUND,11
+354,where can i lodge a customer claim,queja,complaint,FEEDBACK,7
+355,what is the customer service workinghours?,contactar_ejecutivo,contact_customer_service,CONTACT,6
+356,seeing purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+357,assistance making a consumer reclamation against ur company,queja,complaint,FEEDBACK,8
+358,where could I lodge a consumer claim?,queja,complaint,FEEDBACK,7
+359,I need support trying to modify my address,otro,change_shipping_address,SHIPPING,8
+360,I have to see how long it takes for my shipment to arrive,fecha_entrega,delivery_period,DELIVERY,13
+361,is it possible to check order {{Order Number}} current status?,estatus_orden,track_order,ORDER,10
+362,i have got to talk to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,8
+363,is it possible to check purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,9
+364,where to check what hours I can reach customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+365,how can I check the ETA of the purchase {{Order Number}}?,estatus_orden,track_order,ORDER,11
+366,I'm trying to check purcahse {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+367,I want to make a customer claim against your business,queja,complaint,FEEDBACK,10
+368,i dont know how i can talk to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,10
+369,how soon can I expect my parcel ?,fecha_entrega,delivery_period,DELIVERY,8
+370,I don't know what I need to do to contact a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,13
+371,want assistance to give a quick look at my invoice #12588,otro,check_invoice,INVOICE,11
+372,where do I lodge a reclamation against your organization?,queja,complaint,FEEDBACK,9
+373,can you help me to talk with a damn live agent?,contactar_ejecutivo,contact_human_agent,CONTACT,11
+374,I do not know what I have to do to lodge a reclamation,queja,complaint,FEEDBACK,13
+375,"I have ordered some item, cancel purchase {{Order Number}}",otro,cancel_order,ORDER,9
+376,I need assistance switching to the {{Account Type}} account,otro,switch_account,ACCOUNT,9
+377,how to see order {{Order Number}} status,estatus_orden,track_order,ORDER,7
+378,how to make a claim against your business?,queja,complaint,FEEDBACK,8
+379,i try to lodge a reclamation against ur business,queja,complaint,FEEDBACK,9
+380,where can I inform of a damn sign-up issue?,otro,registration_problems,ACCOUNT,9
+381,tell me about canceling the newsletter subscription,otro,newsletter_subscription,SUBSCRIPTION,7
+382,help me see how long it takes for my article to arrive,fecha_entrega,delivery_period,DELIVERY,12
+383,purchase {{Order Number}} ststus,estatus_orden,track_order,ORDER,4
+384,help me lodge a consumer complaint against ur business,queja,complaint,FEEDBACK,9
+385,need assistance to submit my feedback for ur services,otro,review,FEEDBACK,9
+386,I'd like to locate purchase {{Order Number}} i need assistance,estatus_orden,track_order,ORDER,10
+387,can i see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+388,correcting data on platinum account,otro,edit_account,ACCOUNT,5
+389,I want to check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+390,I call to send my feedback about your services,otro,review,FEEDBACK,9
+391,need hedlp filing a consumer claim,queja,complaint,FEEDBACK,6
+392,help me making a reclamation against ur organizatuon,queja,complaint,FEEDBACK,8
+393,check status of order,estatus_orden,track_order,ORDER,4
+394,help me see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,7
+395,checking current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+396,where can I check when my package is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+397,i dont know how to switch to the {{Account Category}} account,otro,switch_account,ACCOUNT,11
+398,where do I file a customer claim against your business?,queja,complaint,FEEDBACK,10
+399,I want to see at what time I can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,12
+400,i need assistance to see the ETA of orderr {{Order Number}},estatus_orden,track_order,ORDER,11
+401,"I need to see when my order is going to arrive, help me",fecha_entrega,delivery_period,DELIVERY,13
+402,I do not know what I need to dp to contact an agent,contactar_ejecutivo,contact_human_agent,CONTACT,13
+403,"I need to see how soon can I expect my shipment, help me",fecha_entrega,delivery_period,DELIVERY,13
+404,"I have to locate order {{Order Number}}, could I get some help?",estatus_orden,track_order,ORDER,12
+405,showing me order {{Order Number}} status,estatus_orden,track_order,ORDER,6
+406,assistance to check hw soon can i expect the order,fecha_entrega,delivery_period,DELIVERY,10
+407,I am trying to lodge a customer complaint,queja,complaint,FEEDBACK,8
+408,want help speaking with custgomer service,contactar_ejecutivo,contact_customer_service,CONTACT,6
+409,help me to see when my shipment is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+410,help me see the current status of my compensation,otro,track_refund,REFUND,9
+411,how to see the ETA of order {{Order Number}}?,estatus_orden,track_order,ORDER,9
+412,i do not know how i cancheck the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,13
+413,helplodging a consumer reclamation against ur business,queja,complaint,FEEDBACK,7
+414,I want information about the fucking delivey period,fecha_entrega,delivery_period,DELIVERY,8
+415,help checking what hours I can call customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,9
+416,I have to list your damn allowed payment modalities,otro,check_payment_methods,PAYMENT,9
+417,can ya help me speak toan agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+418,I do not know how I can chat with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+419,can ya help me talk with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+420,where can I lodge a customer reclamation?,queja,complaint,FEEDBACK,7
+421,i have got to see order {{Order Number}} status i need assistane,estatus_orden,track_order,ORDER,12
+422,is it possible to talk to customer assistance ?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+423,i do not kow how i could delete the goddamn standard account,otro,delete_account,ACCOUNT,12
+424,need help checking the damn ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+425,is it possible to notify of an error with signup?,otro,registration_problems,ACCOUNT,10
+426,lodging claim against ur business,queja,complaint,FEEDBACK,5
+427,help me to uby several products,otro,place_order,ORDER,6
+428,how can I see how long it takes for the article to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+429,I do not know how I can see how long the shipment takes,fecha_entrega,delivery_period,DELIVERY,13
+430,i have troubles submitting a new shipping address,otro,set_up_shipping_address,SHIPPING,8
+431,can you help me checking purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,9
+432,I'm waiting for a rebate of {{Currency Symbol}}{{Refund Amount}},otro,track_refund,REFUND,9
+433,help me checking the goddamn status of the compensation,otro,track_refund,REFUND,9
+434,i cannot see the eta of order {{Order Number}},estatus_orden,track_order,ORDER,9
+435,"I have to file a reclamation, I need assistance",queja,complaint,FEEDBACK,9
+436,need help filing a customer claim against ur company,queja,complaint,FEEDBACK,9
+437,can you help me to check how soon can I expect my item?,fecha_entrega,delivery_period,DELIVERY,13
+438,where do i check when my shipment is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+439,"I don't understand you, help me to chat with an agent",contactar_ejecutivo,contact_human_agent,CONTACT,11
+440,could you help me shop a few of your article?,otro,place_order,ORDER,10
+441,wanna check purchase {{Order Number}} status,estatus_orden,track_order,ORDER,6
+442,i cant chat with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+443,i dont know how i can report a trouble with payments,otro,payment_issue,PAYMENT,11
+444,"I want to check order {{Order Number}} current status, help me",estatus_orden,track_order,ORDER,11
+445,can uhelp me list ur allowed payment modalities,otro,check_payment_methods,PAYMENT,8
+446,I don't know what to do to seeorder {{Order Number}} status,estatus_orden,track_order,ORDER,11
+447,I want information about the shipping period,fecha_entrega,delivery_period,DELIVERY,7
+448,want help to correct the damn info included on my profile,otro,edit_account,ACCOUNT,11
+449,i have to see the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+450,how do I check if there are any updates on my refund?,otro,track_refund,REFUND,12
+451,can you help me contact osmeone?,contactar_ejecutivo,contact_human_agent,CONTACT,6
+452,need to add some items to order {{Order Number}},otro,change_order,ORDER,9
+453,I need someone,contactar_ejecutivo,contact_human_agent,CONTACT,3
+454,i want help acquiring an article,otro,place_order,ORDER,6
+455,i try to file a customer claim against ur company,queja,complaint,FEEDBACK,10
+456,where can I make a customer claim against your company?,queja,complaint,FEEDBACK,10
+457,do you have a number to get in touch with customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+458,I don't know what I need to do to make a consumer claim,queja,complaint,FEEDBACK,13
+459,i need help shopping some of ur article,otro,place_order,ORDER,8
+460,"I have to see order {{Order Number}} status, I need assistance",estatus_orden,track_order,ORDER,11
+461,I don't know how I can talk with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+462,show me at what time customer assistance available is,contactar_ejecutivo,contact_customer_service,CONTACT,9
+463,icant see the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+464,how can I see when my article is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+465,need to see order {{Order Number}} current stayus,estatus_orden,track_order,ORDER,8
+466,ya have a free of charge customer support number,contactar_ejecutivo,contact_customer_service,CONTACT,9
+467,help seeing what hours customer assistance available is,contactar_ejecutivo,contact_customer_service,CONTACT,8
+468,where do I check how soon can I expect my package?,fecha_entrega,delivery_period,DELIVERY,11
+469,i want help to get in touch with customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+470,will you show me how soon can I expect my purchase?,fecha_entrega,delivery_period,DELIVERY,11
+471,i want assistance seeingorder {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+472,show me purchase {{Order Number}} status,estatus_orden,track_order,ORDER,6
+473,could utell me about the shipping periods,fecha_entrega,delivery_period,DELIVERY,7
+474,can you help me to cancel the newsletter subscription?,otro,newsletter_subscription,SUBSCRIPTION,9
+475,"I am unhappy with your work, how to make a customer claim?",queja,complaint,FEEDBACK,12
+476,where to check the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,10
+477,i dont know how to check purchase {{Order Number}} status,estatus_orden,track_order,ORDER,10
+478,how could I check the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+479,I have to contact na agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+480,how can I cancel the {{Account Category}} account?,otro,delete_account,ACCOUNT,8
+481,need to file an fucking consumer claim can i get some help,queja,complaint,FEEDBACK,12
+482,I don't know how I can submit a new shipping address,otro,set_up_shipping_address,SHIPPING,11
+483,where do I se what hours I can reach customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+484,I have to check purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+485,show me in which situations can i request refunds,otro,check_refund_policy,REFUND,9
+486,"I can't make a transfer, I need to inform of payment issues",otro,payment_issue,PAYMENT,12
+487,I want to see the fucking ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,12
+488,need help seeing what hours i can contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+489,I have to see how soon can I expect my article,fecha_entrega,delivery_period,DELIVERY,11
+490,assistance to see at what time I can call customr service,contactar_ejecutivo,contact_customer_service,CONTACT,11
+491,I have to notify of issues with a registration,otro,registration_problems,ACCOUNT,9
+492,I cannot see the current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+493,I am calling to lodge a complaint against your business,queja,complaint,FEEDBACK,10
+494,I have to see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+495,i want help to see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,9
+496,can you help me to check purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,10
+497,why I cannot enter a new shipping address valid,otro,set_up_shipping_address,SHIPPING,9
+498,is it possible to see purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+499,want help to make a claim against ur company,queja,complaint,FEEDBACK,9
+500,how do I see the goddamn ETA of order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+501,"I am unsatisfied with your work, how do I lodge a claim?",queja,complaint,FEEDBACK,12
+502,i want assistance seeing order {{Order Number}} status,estatus_orden,track_order,ORDER,8
+503,"I am trying to find delivery periods, can you help me?",fecha_entrega,delivery_period,DELIVERY,11
+504,how to delete an article from order {{Order Number}},otro,change_order,ORDER,9
+505,help me to file a consumer claim,queja,complaint,FEEDBACK,7
+506,help me file a customer complaint against your company,queja,complaint,FEEDBACK,9
+507,assistance shopping several products,otro,place_order,ORDER,4
+508,"you aren't helpful at all, contact somebody",contactar_ejecutivo,contact_human_agent,CONTACT,7
+509,can I make a consumer reclamation against your company?,queja,complaint,FEEDBACK,9
+510,"I have to see how long the shipment takes, I need help",fecha_entrega,delivery_period,DELIVERY,12
+511,help to see at what time i can reach customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,11
+512,i try to get in touch with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,9
+513,order 370795561790current status,estatus_orden,track_order,ORDER,3
+514,uhave a way to send an opinion about a product,otro,review,FEEDBACK,10
+515,how can I make a consumer reclamation against your business?,queja,complaint,FEEDBACK,10
+516,help me lodge a customer reclamation against your business,queja,complaint,FEEDBACK,9
+517,want assistance to check how soon can i exppect the item,fecha_entrega,delivery_period,DELIVERY,11
+518,"I need to speak to customer service, how do I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,12
+519,how do I give a quick look at the invoice from {{Person Name}}?,otro,check_invoice,INVOICE,13
+520,"I need to check how long the shipment takes, how do I do it?",fecha_entrega,delivery_period,DELIVERY,14
+521,I try to lodge a complaint against your company,queja,complaint,FEEDBACK,9
+522,I want help speaking with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+523,want help to file a consumer claim against your organization,queja,complaint,FEEDBACK,10
+524,can ya show me the eta of order {{Order Number}},estatus_orden,track_order,ORDER,10
+525,see the eta of the purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+526,want help to see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+527,assistance to check the eta of order {{Order Number}},estatus_orden,track_order,ORDER,9
+528,I don't know how to talk with customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+529,how can I check when my bloody product is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+530,need help retrieving my user account pin code,otro,recover_password,ACCOUNT,8
+531,help me see when my item is going to arrive,fecha_entrega,delivery_period,DELIVERY,10
+532,i want assistance filing a customer claim against ur company,queja,complaint,FEEDBACK,10
+533,do you have an e-mail address to contact customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+534,I am trying to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+535,how could I check how long it takes for the item to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+536,I have to lodge a consumer complaint against your company,queja,complaint,FEEDBACK,10
+537,i have to check the termination charges how to do it,otro,check_cancellation_fee,CANCEL,11
+538,where to check how soon can I expect my product ?,fecha_entrega,delivery_period,DELIVERY,11
+539,how to check the status of order {{Order Number}}?,estatus_orden,track_order,ORDER,9
+540,file consumer complaint,queja,complaint,FEEDBACK,3
+541,I need help to talk to custmoer service,contactar_ejecutivo,contact_customer_service,CONTACT,8
+542,I expect an compensation of {{Refund Amount}} dollars,otro,track_refund,REFUND,8
+543,"I have got to see how long the delivery takes, I need help",fecha_entrega,delivery_period,DELIVERY,13
+544,how do I check how long it takes for the product to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+545,"the address changed, I need assistace editing it",otro,change_shipping_address,SHIPPING,8
+546,I want help checking when my shipment is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+547,can ya help me tracking order {{Order Number}},estatus_orden,track_order,ORDER,8
+548,need help to make a complaint against your organization,queja,complaint,FEEDBACK,9
+549,i need help to file a customer claim against ur company,queja,complaint,FEEDBACK,11
+550,I want help to file a complaint against your organization,queja,complaint,FEEDBACK,10
+551,help me to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+552,how to see what hours I can call customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+553,I have to conract customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+554,can uhelp me to see when my product is gonna arrive,fecha_entrega,delivery_period,DELIVERY,11
+555,I try to see what hours I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+556,i have to receive the newsletter how to do it,otro,newsletter_subscription,SUBSCRIPTION,10
+557,I want help to file a reclamation against your company,queja,complaint,FEEDBACK,10
+558,I want assistance lodging a claim against your company,queja,complaint,FEEDBACK,9
+559,see what hours customer service available is,contactar_ejecutivo,contact_customer_service,CONTACT,7
+560,file consumer reclamation against ur company,queja,complaint,FEEDBACK,6
+561,where can i see the current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+562,need assistance lodging a reclamation against your company,queja,complaint,FEEDBACK,8
+563,help to check how soon can i expect the item,fecha_entrega,delivery_period,DELIVERY,10
+564,how could I see order {{Order Number}} status?,estatus_orden,track_order,ORDER,8
+565,i try to see the statuis of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+566,how can I check how soon can I expect the parcel?,fecha_entrega,delivery_period,DELIVERY,11
+567,i try to lodge a cliam,queja,complaint,FEEDBACK,6
+568,i dont know how to see how soon can i expect my item,fecha_entrega,delivery_period,DELIVERY,13
+569,"I need to see how soon can I expect my order, help me",fecha_entrega,delivery_period,DELIVERY,13
+570,could I talk to customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,6
+571,can you help me deleting my {{Account Type}} account?,otro,delete_account,ACCOUNT,9
+572,is there an e-mail to submit feedback for your company?,otro,review,FEEDBACK,10
+573,have a questoon about creating user profiles,otro,registration_problems,ACCOUNT,7
+574,editting details on standard account,otro,edit_account,ACCOUNT,5
+575,I try to track purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+576,help me check how soon can I expect my delivery,fecha_entrega,delivery_period,DELIVERY,10
+577,help me to check the current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+578,issues setting the shipping address up,otro,set_up_shipping_address,SHIPPING,6
+579,I don't know how to lodge a customer complaint,queja,complaint,FEEDBACK,9
+580,"I am unsatisfied with your service, how do I make a claim?",queja,complaint,FEEDBACK,12
+581,trouble submitting the edlivery address,otro,set_up_shipping_address,SHIPPING,5
+582,need help to file a reclamaion against ur business,queja,complaint,FEEDBACK,9
+583,I want assistance submitting feedback for your company,otro,review,FEEDBACK,8
+584,help me to talk to a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+585,help me to check when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+586,purchase {{Order Number}} status,estatus_orden,track_order,ORDER,4
+587,i have a problem with opening a standard account,otro,create_account,ACCOUNT,9
+588,want help filing a cudtomer claim against ur organization,queja,complaint,FEEDBACK,9
+589,can ya show me at what time customer service available is,contactar_ejecutivo,contact_customer_service,CONTACT,11
+590,I don't know what to do to contact a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+591,"I want to file a customer reclamation, how do I do it?",queja,complaint,FEEDBACK,12
+592,I do not know what to do to locate order {{Order Number}},estatus_orden,track_order,ORDER,12
+593,help me to file a custoer complaint against ur company,queja,complaint,FEEDBACK,10
+594,need assistance to set a secondary shipping address up,otro,set_up_shipping_address,SHIPPING,9
+595,where do I make a consumer claim against your business?,queja,complaint,FEEDBACK,10
+596,uhave a free number to get in touch with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,11
+597,could you help me cancel purchase {{Order Number}}?,otro,cancel_order,ORDER,8
+598,I'm trying to make a consumer clain,queja,complaint,FEEDBACK,7
+599,where can I see when my roder is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+600,I want to know more about the shipping period,fecha_entrega,delivery_period,DELIVERY,9
+601,I need assistance seeing how soon can I expect the package,fecha_entrega,delivery_period,DELIVERY,11
+602,showing me purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,7
+603,where can I check order {{Order Number}} status?,estatus_orden,track_order,ORDER,8
+604,I don't know how I could change to the premium account,otro,switch_account,ACCOUNT,11
+605,assistance seeing the early exit charges,otro,check_cancellation_fee,CANCEL,6
+606,"I bought some article, help canceling order {{Order Number}}",otro,cancel_order,ORDER,9
+607,can utell me about the delivery periods,fecha_entrega,delivery_period,DELIVERY,7
+608,i dont know how i can check the cancellation fee,otro,check_cancellation_fee,CANCEL,10
+609,I don't know how I can talk with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,10
+610,lodge reclamation,queja,complaint,FEEDBACK,2
+611,I want help to see how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,12
+612,where to see purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,7
+613,help me to check how long it takes for my delivery to arrive,fecha_entrega,delivery_period,DELIVERY,13
+614,what do i need to do to inform of an error with a isgnup,otro,registration_problems,ACCOUNT,14
+615,I need to lodge a consumer claim,queja,complaint,FEEDBACK,7
+616,can you tell me about updating the shipping address?,otro,change_shipping_address,SHIPPING,9
+617,"I want to see how long the shipping takes, how can I do it?",fecha_entrega,delivery_period,DELIVERY,14
+618,where to download the bill #12588?,otro,get_invoice,INVOICE,6
+619,where can I check when my product is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+620,help me seeing how soon can i expect my article,fecha_entrega,delivery_period,DELIVERY,10
+621,where to file a consumer complaint,queja,complaint,FEEDBACK,6
+622,"I have to edit some of my user details, how to do it?",otro,edit_account,ACCOUNT,13
+623,I need assistance locating order {{Order Number}},estatus_orden,track_order,ORDER,7
+624,i cannot see the status of order {{Order Number}},estatus_orden,track_order,ORDER,9
+625,help to make a customer complaint,queja,complaint,FEEDBACK,6
+626,want help checkin ur accepted payment methods,otro,check_payment_methods,PAYMENT,7
+627,i have got to see ur refund policy can uhelp me,otro,check_refund_policy,REFUND,11
+628,need help checking how long it takes for the item to arrive,fecha_entrega,delivery_period,DELIVERY,12
+629,how can i tfack purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+630,I do not know how I can list the allowed payment options,otro,check_payment_methods,PAYMENT,12
+631,where do i check what hours i can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,11
+632,I do not kow how to lodge a consumer claim,queja,complaint,FEEDBACK,10
+633,"I have to talk with customer assistance, how can I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,12
+634,help me to check how soon can I expect my article,fecha_entrega,delivery_period,DELIVERY,11
+635,do you have a free phone no to speak with customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+636,ETA of ordr {{Order Number}},estatus_orden,track_order,ORDER,5
+637,can you help me to file a fucking customer reclamation?,queja,complaint,FEEDBACK,10
+638,making customer claim against your company,queja,complaint,FEEDBACK,6
+639,I don't know what I have to do to call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+640,can you help me to purchase several articles ?,otro,place_order,ORDER,9
+641,do ya ship toUSA,otro,delivery_options,DELIVERY,4
+642,how do I see at what time customer assistance available is?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+643,check the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,8
+644,can you help me file a customer claim?,queja,complaint,FEEDBACK,8
+645,what do I need to do to lodge a claim against your company?,queja,complaint,FEEDBACK,13
+646,where to file a customer reclamation against your company ?,queja,complaint,FEEDBACK,10
+647,tell me at what time i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+648,assistance seeing the bloody ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+649,I need to check when my article is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+650,"I want to see how long the shipment takes, can you help me?",fecha_entrega,delivery_period,DELIVERY,13
+651,assistance lodging a customer reclamation against ur copany,queja,complaint,FEEDBACK,8
+652,I have troubles submittng the shipping address,otro,set_up_shipping_address,SHIPPING,7
+653,I do not know how to see how soon can I expect the product,fecha_entrega,delivery_period,DELIVERY,14
+654,where do I check how long it takes for my package to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+655,I don't know how to buy some of your item,otro,place_order,ORDER,10
+656,i need assistance to talk to a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+657,I'm trying to submit some feedback about a service,otro,review,FEEDBACK,9
+658,I call to make a consumer claim against your company,queja,complaint,FEEDBACK,10
+659,I need to see the current status of order {{Order Number}},estatus_orden,track_order,ORDER,11
+660,I am trying to see the status of order {{Order Number}},estatus_orden,track_order,ORDER,11
+661,I don't know what to do to talk to someone,contactar_ejecutivo,contact_human_agent,CONTACT,10
+662,"I want to see how soon can I expect my delivery, help me",fecha_entrega,delivery_period,DELIVERY,13
+663,could you help me to see how soon can I expect the item?,fecha_entrega,delivery_period,DELIVERY,13
+664,need help to chat with a prson,contactar_ejecutivo,contact_human_agent,CONTACT,7
+665,need to check how soon can i ezpect my package,fecha_entrega,delivery_period,DELIVERY,10
+666,could I make a customer complaint against your business?,queja,complaint,FEEDBACK,9
+667,I want to check what hours I can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+668,i want help filing a customer claim against ur company,queja,complaint,FEEDBACK,10
+669,can I talk with a bloody agent?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+670,contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,3
+671,help me see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+672,support trying to change my delivefy address,otro,change_shipping_address,SHIPPING,7
+673,"I want to see how soon can I expect my damn order, help me",fecha_entrega,delivery_period,DELIVERY,14
+674,I need help checking how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+675,I need to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+676,wanna see purchase {{Order Number}} status i need assistance,estatus_orden,track_order,ORDER,9
+677,I have to see the early termination penalty,otro,check_cancellation_fee,CANCEL,8
+678,help to call customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,5
+679,I want to see how long it takes for my product to arrive,fecha_entrega,delivery_period,DELIVERY,13
+680,I have got to make a customer claim against your business,queja,complaint,FEEDBACK,11
+681,i do not know what i need to do to get my invoice #37777,otro,get_invoice,INVOICE,14
+682,I don't know what to do to check when will my article arrive,fecha_entrega,delivery_period,DELIVERY,13
+683,i have to see the status of purchase {{Order Number}} how do i do it,estatus_orden,track_order,ORDER,15
+684,I have to file a consumer claim,queja,complaint,FEEDBACK,7
+685,can you help me to lodge a consumer claim?,queja,complaint,FEEDBACK,9
+686,need help to file a damn claim against your organization,queja,complaint,FEEDBACK,10
+687,assistanc to see what payment options are allowed,otro,check_payment_methods,PAYMENT,8
+688,i need supports updaing the damn address,otro,change_shipping_address,SHIPPING,7
+689,I need to unsubscribe from the newsletter,otro,newsletter_subscription,SUBSCRIPTION,7
+690,how to file a customer reclamation against ur organization,queja,complaint,FEEDBACK,9
+691,I'm trying to see at what time i can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+692,"I want to see the ETA of my order, could you help me?",estatus_orden,track_order,ORDER,13
+693,ETA of oorder {{Order Number}},estatus_orden,track_order,ORDER,5
+694,I try to see how soon can I expect my fucking package,fecha_entrega,delivery_period,DELIVERY,12
+695,I do not know what I have to do to switch to the pro account,otro,switch_account,ACCOUNT,15
+696,i need help making a consumer reclamation,queja,complaint,FEEDBACK,7
+697,"I need to call customer support, how do I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+698,assistance ordering several of ur product,otro,place_order,ORDER,6
+699,need assistance to check the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,10
+700,can I see what hours I can call customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+701,"I need to make a damn consumer complaint, how could I do it?",queja,complaint,FEEDBACK,13
+702,where can i make a consumer claim against ur organization,queja,complaint,FEEDBACK,10
+703,help me checking purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+704,filing customer reclamation against your organization,queja,complaint,FEEDBACK,6
+705,"I have got to talk to customer service, how can I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,13
+706,modify ordfer {{Order Number}},otro,change_order,ORDER,4
+707,how to see order {{Order Number}} damn status,estatus_orden,track_order,ORDER,8
+708,i need assistance seeing the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+709,could uhelp me to contact an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+710,i dont know how i could talk to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+711,need assistance to see when my item is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+712,there is an issue trying to change the shipping address,otro,change_shipping_address,SHIPPING,10
+713,can you help me checking when will my parcel arrive?,fecha_entrega,delivery_period,DELIVERY,10
+714,assistance speaking with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,5
+715,I need to see the ETA of purchase00123842,estatus_orden,track_order,ORDER,8
+716,need to check the etga of order {{Order Number}} help me,estatus_orden,track_order,ORDER,11
+717,where can i see my fucking bill from {{Person Name}},otro,check_invoice,INVOICE,10
+718,I want help to see at what time I can reach customer service,contactar_ejecutivo,contact_customer_service,CONTACT,13
+719,were could i locate purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+720,I do not knowwhat I need to do to get invoice #85632,otro,get_invoice,INVOICE,12
+721,I do not know how to chat with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,10
+722,I need help checking your payment modalities,otro,check_payment_methods,PAYMENT,7
+723,need to check order {{Order Number}} current status how do i do it,estatus_orden,track_order,ORDER,13
+724,"I need to unsubscribe from the newsletter, can yyou help me?",otro,newsletter_subscription,SUBSCRIPTION,11
+725,what do I have to doto download the invoice #85632?,otro,get_invoice,INVOICE,10
+726,where can i check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+727,hopw to contact an agent?,contactar_ejecutivo,contact_human_agent,CONTACT,5
+728,how can I see how soon can I expect the product?,fecha_entrega,delivery_period,DELIVERY,11
+729,where do I check the status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+730,assistance seeing how soon can I expect my item,fecha_entrega,delivery_period,DELIVERY,9
+731,can i speak with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+732,how couldi see how long it takes for my package to arrive,fecha_entrega,delivery_period,DELIVERY,12
+733,I'm trying to speak to a person,contactar_ejecutivo,contact_human_agent,CONTACT,7
+734,can you help me see purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,9
+735,i need assistance checking how soon can i expect my package,fecha_entrega,delivery_period,DELIVERY,11
+736,I need assistance seeing purchase {{Order Number}} bloody status,estatus_orden,track_order,ORDER,9
+737,want assistance seeing what methods for delivery I have,otro,delivery_options,DELIVERY,9
+738,I call to check how long it takes for my parcel to arrive,fecha_entrega,delivery_period,DELIVERY,13
+739,what do I have to do to cntact an assistant?,contactar_ejecutivo,contact_human_agent,CONTACT,10
+740,I have to check the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+741,i do not know what i have to do to contac a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,14
+742,i need assistance seeing the early termination fees,otro,check_cancellation_fee,CANCEL,8
+743,I don't know what I have to do to speak with a person,contactar_ejecutivo,contact_human_agent,CONTACT,13
+744,how to check whatg hours I can reach customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+745,I do not know how I can talk to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+746,help me tracking order {{Order Number}},estatus_orden,track_order,ORDER,6
+747,i dont know how to talk to someone,contactar_ejecutivo,contact_human_agent,CONTACT,8
+748,check purcase {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+749,there are problems setting a new delivery address up,otro,set_up_shipping_address,SHIPPING,9
+750,can i place a fucking order from {{Delivery City}},otro,delivery_options,DELIVERY,9
+751,opneing new {{Account Category}} account for daughter,otro,create_account,ACCOUNT,7
+752,i dont know what i need to do to get the bill #37777,otro,get_invoice,INVOICE,13
+753,how can I file a customer complaint against your company?,queja,complaint,FEEDBACK,10
+754,I want help to check the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,11
+755,I'm trying ot lodge a consumer complaint against ur company,queja,complaint,FEEDBACK,10
+756,talk to person,contactar_ejecutivo,contact_human_agent,CONTACT,3
+757,help me seeing when my product is gonna arrive,fecha_entrega,delivery_period,DELIVERY,9
+758,I do not know how I can file a claim,queja,complaint,FEEDBACK,10
+759,I want to see how long it takes for my shipment to arrive,fecha_entrega,delivery_period,DELIVERY,13
+760,i want information about creatign a {{Account Category}} account,otro,create_account,ACCOUNT,9
+761,I need to make a complaint agaisnt your company,queja,complaint,FEEDBACK,9
+762,can you help me see the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,12
+763,directing to person,contactar_ejecutivo,contact_human_agent,CONTACT,3
+764,"I need to check the payment methods, how to do it?",otro,check_payment_methods,PAYMENT,11
+765,I have to file a complaint against your organization,queja,complaint,FEEDBACK,9
+766,can you help me check how soon can I expect the shipment?,fecha_entrega,delivery_period,DELIVERY,12
+767,"I ain't happy with your work, lodge a customer reclamation",queja,complaint,FEEDBACK,10
+768,i dont know what to do to set my newdelivery address up,otro,set_up_shipping_address,SHIPPING,12
+769,I want help to see the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,11
+770,is it possible to correct my delivery address?,otro,change_shipping_address,SHIPPING,8
+771,i want help to speak with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+772,what do i have to do to check the shipping options,otro,delivery_options,DELIVERY,11
+773,can you help me see when my order is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+774,I have a trouble setting the shipping address up,otro,set_up_shipping_address,SHIPPING,9
+775,see at what time I can get in touch with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+776,I can't see the status of order {{Order Number}},estatus_orden,track_order,ORDER,9
+777,I need assistance lodging a claim,queja,complaint,FEEDBACK,6
+778,I have got to recover my user pwd,otro,recover_password,ACCOUNT,8
+779,help me talk with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+780,assistance to see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+781,I don't know how to see oder {{Order Number}} status,estatus_orden,track_order,ORDER,10
+782,do you have a toll-free number to reach customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+783,I want help locating order {{Order Number}},estatus_orden,track_order,ORDER,7
+784,can you show me when my item is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+785,i do not know what i have to do to chat with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,13
+786,I have issues changing my shipping address,otro,change_shipping_address,SHIPPING,7
+787,I try to track order {{Order Number}},estatus_orden,track_order,ORDER,7
+788,can I see how soon can I expect the shipment?,fecha_entrega,delivery_period,DELIVERY,10
+789,how can I see how soon can I expect my order?,fecha_entrega,delivery_period,DELIVERY,11
+790,"I want to see how soon can I expect the order, how to do it?",fecha_entrega,delivery_period,DELIVERY,15
+791,help me to list the payment options,otro,check_payment_methods,PAYMENT,7
+792,I'd like to lodge a damn consumer claim how could i do it,queja,complaint,FEEDBACK,13
+793,is it possible to check how soon can I expect the item?,fecha_entrega,delivery_period,DELIVERY,12
+794,show me how long it takes for my article to arrive,fecha_entrega,delivery_period,DELIVERY,11
+795,help me check what hours i can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+796,how can i check when will my product arrive,fecha_entrega,delivery_period,DELIVERY,9
+797,what do I have to do to locate order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+798,is it possible to demand refunds of my money?,otro,get_refund,REFUND,9
+799,need assistnce to see how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+800,see what hours i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,8
+801,checking status of order {{Order Number}},estatus_orden,track_order,ORDER,6
+802,can i see how soon cqn i expect the order,fecha_entrega,delivery_period,DELIVERY,10
+803,I want to talk to fucking customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,8
+804,I need help speaking with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,7
+805,can you help me to make a reclamation against your business?,queja,complaint,FEEDBACK,11
+806,i call to check when my parcel is gonna arive,fecha_entrega,delivery_period,DELIVERY,10
+807,how to contact a human agent?,contactar_ejecutivo,contact_human_agent,CONTACT,6
+808,need to make a claim against ur organization,queja,complaint,FEEDBACK,8
+809,help checkinjg the eta of order {{Order Number}},estatus_orden,track_order,ORDER,8
+810,want assistance checking how soon can i expect the product,fecha_entrega,delivery_period,DELIVERY,10
+811,I do not know how I could make a consumer claim,queja,complaint,FEEDBACK,11
+812,help me seeing what hours customer assistance available is,contactar_ejecutivo,contact_customer_service,CONTACT,9
+813,i do not know how i can acquire a product,otro,place_order,ORDER,10
+814,i want help to talk to customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,8
+815,i dont know what i have to do to lodge as consumer claim,queja,complaint,FEEDBACK,13
+816,how do I change some products of order {{Order Number}}?,otro,change_order,ORDER,10
+817,"I want to file a damn reclamation, how can I do it?",queja,complaint,FEEDBACK,12
+818,"I have to get my bill from {{Person Name}}, will you help me?",otro,get_invoice,INVOICE,13
+819,I want assisance to check when my product is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+820,report registration issues,otro,registration_problems,ACCOUNT,3
+821,I want help to file a customer claim againstt your business,queja,complaint,FEEDBACK,11
+822,"I want to locate order {{Order Number}}, can I get some help?",estatus_orden,track_order,ORDER,12
+823,I want assistance to lodge a claim,queja,complaint,FEEDBACK,7
+824,what is the shipping period for this order,fecha_entrega,delivery_period,DELIVERY,8
+825,i want assistance checking when will my item arrive,fecha_entrega,delivery_period,DELIVERY,9
+826,I need to talk to a operator,contactar_ejecutivo,contact_human_agent,CONTACT,7
+827,need assstance to file a consumer claim against your company,queja,complaint,FEEDBACK,10
+828,I have to list your accepted payment methods,otro,check_payment_methods,PAYMENT,8
+829,I do not know how I can contact an operator,contactar_ejecutivo,contact_human_agent,CONTACT,10
+830,where can i find information about the delivery periods,fecha_entrega,delivery_period,DELIVERY,9
+831,wanna know more about a delivery address correction,otro,change_shipping_address,SHIPPING,8
+832,I want to contact an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+833,"I would like to locate order {{Order Number}}, I need help",estatus_orden,track_order,ORDER,11
+834,I am trying to check purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+835,I try to check how long it takes for the parcel to arrive,fecha_entrega,delivery_period,DELIVERY,13
+836,where to check when my item is going to arrive?,fecha_entrega,delivery_period,DELIVERY,10
+837,can I see at what time I can reach customer support ?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+838,I do not know wha to do to check when will my product arrive,fecha_entrega,delivery_period,DELIVERY,14
+839,where do I see what hours I can call customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+840,need to see when will my parcel arrive,fecha_entrega,delivery_period,DELIVERY,8
+841,can you help me checking when will my purchase arrive?,fecha_entrega,delivery_period,DELIVERY,10
+842,i have to see how long i takes for my article to arrive,fecha_entrega,delivery_period,DELIVERY,13
+843,want help filing a claim,queja,complaint,FEEDBACK,5
+844,can I check how soon can I expect the parcel?,fecha_entrega,delivery_period,DELIVERY,10
+845,I want help checking when my delivery is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+846,I need help to see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+847,cfan you help me speak to customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,8
+848,I try to file a complaint against your company,queja,complaint,FEEDBACK,9
+849,can i see in what situations can i request to be refunded,otro,check_refund_policy,REFUND,12
+850,would it be possible to talk to an operator?,contactar_ejecutivo,contact_human_agent,CONTACT,9
+851,I am calling to see how soon can I expect the shipment,fecha_entrega,delivery_period,DELIVERY,12
+852,where can I see how long it takes for my delivery to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+853,can I see how soon can I expect my shipment?,fecha_entrega,delivery_period,DELIVERY,10
+854,can i see the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+855,i try to track order {{Order Number}},estatus_orden,track_order,ORDER,7
+856,where do I earn seberal products?,otro,place_order,ORDER,6
+857,"the experience with you was awful, file a customer complaint",queja,complaint,FEEDBACK,10
+858,"I want to track purchase {{Order Number}}, I need help",estatus_orden,track_order,ORDER,10
+859,help me to speak with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,7
+860,can I file a claim against your company?,queja,complaint,FEEDBACK,8
+861,want help seeing how long it takes for my shipment to arrive,fecha_entrega,delivery_period,DELIVERY,12
+862,I have got to track purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+863,where to see at what time customer support available is?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+864,i want assistance seeing when my parcel is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+865,I don't know what I need to do to check my invoice #00108,otro,check_invoice,INVOICE,13
+866,I need to chat with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+867,i want assistance to see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,12
+868,I need assistance to make a complaint,queja,complaint,FEEDBACK,7
+869,i have to check the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+870,I don't know how to make a consumer reclamation,queja,complaint,FEEDBACK,9
+871,need assiwtance seeing the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+872,can ya help me solving issues with online payment,otro,payment_issue,PAYMENT,9
+873,want help filing a consumer complaint,queja,complaint,FEEDBACK,6
+874,how to reportr an error with signup,otro,registration_problems,ACCOUNT,7
+875,need help to check the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+876,where do i see the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+877,i need help speaking to somebody,contactar_ejecutivo,contact_human_agent,CONTACT,6
+878,can I check what hours customer assistance available is?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+879,need to see the damn eta of the purchase {{Order Number}} help me,estatus_orden,track_order,ORDER,13
+880,see early exit penalties,otro,check_cancellation_fee,CANCEL,4
+881,wanna oldge a claim against ur company will uhelp me,queja,complaint,FEEDBACK,10
+882,can you help me write a comment for your products?,otro,review,FEEDBACK,10
+883,I need to lodge a consumer claim against your business,queja,complaint,FEEDBACK,10
+884,i want assisyance to see how soon can i expect my product,fecha_entrega,delivery_period,DELIVERY,12
+885,how can I check how long it takes for my parcel to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+886,what do I have to do to lodge a complaint?,queja,complaint,FEEDBACK,10
+887,"I need to see when will my parcel arrive, how to do it?",fecha_entrega,delivery_period,DELIVERY,13
+888,creating gold account,otro,create_account,ACCOUNT,3
+889,i need assistance to check purchase {{Order Number}} status,estatus_orden,track_order,ORDER,9
+890,I want help contacting a person,contactar_ejecutivo,contact_human_agent,CONTACT,6
+891,can I close a {{Account Type}} account?,otro,delete_account,ACCOUNT,7
+892,I have an issue setting the secondary delivery address up,otro,set_up_shipping_address,SHIPPING,10
+893,i need assistance checking how soon can i expect my product,fecha_entrega,delivery_period,DELIVERY,11
+894,i want assistance to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+895,i cant see the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+896,could you help me retrieve the password of my user account?,otro,recover_password,ACCOUNT,11
+897,i cant see the status of order {{Order Number}},estatus_orden,track_order,ORDER,9
+898,I need to see the current status of the compensation,otro,track_refund,REFUND,10
+899,I cannot see purchase {{Order Number}} goddamn current status,estatus_orden,track_order,ORDER,9
+900,how to talk to customer assisance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+901,want help to see how soon can i expect the package,fecha_entrega,delivery_period,DELIVERY,11
+902,i want assistance reporfting an error with signup,otro,registration_problems,ACCOUNT,8
+903,can uhelpp me filing a reclamation against ur business,queja,complaint,FEEDBACK,9
+904,where can i check what hours i can contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,11
+905,can I talk to somebody?,contactar_ejecutivo,contact_human_agent,CONTACT,5
+906,I want to lodge a reclamation against your company,queja,complaint,FEEDBACK,9
+907,"I ain't happy with your service, I want help filing a claim",queja,complaint,FEEDBACK,12
+908,can uhelp me talk with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,6
+909,I want to check when my delivery is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+910,I have to see how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+911,where to see when my order is gonna arrive,fecha_entrega,delivery_period,DELIVERY,9
+912,"I ain't happy with your work, I need to make a claim",queja,complaint,FEEDBACK,12
+913,i do not know how to download the bill #37777,otro,get_invoice,INVOICE,10
+914,help me to list ur available payment options,otro,check_payment_methods,PAYMENT,8
+915,"I have to talk to customer assistance, I need help",contactar_ejecutivo,contact_customer_service,CONTACT,10
+916,I can't check the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+917,help me contact aperson,contactar_ejecutivo,contact_human_agent,CONTACT,4
+918,I don't know how I can check your refund policy,otro,check_refund_policy,REFUND,10
+919,help me to check the current status of the compensation,otro,track_refund,REFUND,10
+920,can you help me file a consumer claim against your business?,queja,complaint,FEEDBACK,11
+921,can i make a consumer reclamation,queja,complaint,FEEDBACK,6
+922,I have a question about opening standard accounts,otro,create_account,ACCOUNT,8
+923,i dont know how i can see the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,14
+924,how can i see how long the shipping takes,fecha_entrega,delivery_period,DELIVERY,9
+925,I try to contact a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+926,where tofile a consumer claim against ur company,queja,complaint,FEEDBACK,8
+927,want assistance to see order {{Order Number}} syatus,estatus_orden,track_order,ORDER,8
+928,I'm calling to see when my delivery is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+929,what is the delivery period for this order,fecha_entrega,delivery_period,DELIVERY,8
+930,help me making a consumer complaint against ur business,queja,complaint,FEEDBACK,9
+931,wanna see inwhich cases can i ask to be refunded i need help,otro,check_refund_policy,REFUND,13
+932,would it be possible to check what shipping options I have?,otro,delivery_options,DELIVERY,11
+933,I want help trying to edit my addreds,otro,change_shipping_address,SHIPPING,8
+934,I don't know how I can file a claim against your business,queja,complaint,FEEDBACK,12
+935,how to speak to someone?,contactar_ejecutivo,contact_human_agent,CONTACT,5
+936,I'm tying to see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+937,i dont know what to do to chat with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,12
+938,i want assistance to get my invoice #37777,otro,get_invoice,INVOICE,8
+939,I want to call damn customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,7
+940,how to see when my package is going to arrive?,fecha_entrega,delivery_period,DELIVERY,10
+941,"the experience with you was too bad, make a bloody claim",queja,complaint,FEEDBACK,11
+942,need to unsubscribe from the newsletter,otro,newsletter_subscription,SUBSCRIPTION,6
+943,need to check wwhen my shipment is gonna arrive can uhelp me,fecha_entrega,delivery_period,DELIVERY,12
+944,can you show me how long the shipping takes?,fecha_entrega,delivery_period,DELIVERY,9
+945,where to see how soon can I expect my product?,fecha_entrega,delivery_period,DELIVERY,10
+946,filing customer complaint against ur company,queja,complaint,FEEDBACK,6
+947,"I would like to make a complaint, I need assistance",queja,complaint,FEEDBACK,10
+948,can you help me make a clain against your business?,queja,complaint,FEEDBACK,10
+949,where to see how soon can I expect my order?,fecha_entrega,delivery_period,DELIVERY,10
+950,help me to file a customer claim against your business,queja,complaint,FEEDBACK,10
+951,where can I get information about the shipping period?,fecha_entrega,delivery_period,DELIVERY,9
+952,I want to check at what time I can reach customer serfvice,contactar_ejecutivo,contact_customer_service,CONTACT,12
+953,"I want to submit my feedback for your products, help me",otro,review,FEEDBACK,11
+954,I want help talking with a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+955,help filing a customer complant against ur business,queja,complaint,FEEDBACK,8
+956,I have to check what shipment methods are there,otro,delivery_options,DELIVERY,9
+957,help me lodging a customer complaint against your business,queja,complaint,FEEDBACK,9
+958,ucstomer service mail address,contactar_ejecutivo,contact_customer_service,CONTACT,4
+959,"you are not helpful, how to chat with an agent?",contactar_ejecutivo,contact_human_agent,CONTACT,10
+960,help filing a cosnumer reclamation against ur company,queja,complaint,FEEDBACK,8
+961,"I want to speak to customer service, can you help me?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+962,can you help me check the ETA of the purchase {{Order Number}}?,estatus_orden,track_order,ORDER,12
+963,I have got to check how soon can I expect my shipment,fecha_entrega,delivery_period,DELIVERY,12
+964,"I can't understand you, I need to speak with a live agent",contactar_ejecutivo,contact_human_agent,CONTACT,12
+965,can I get the bills from {{Person Name}}?,otro,get_invoice,INVOICE,8
+966,help cancelling my company newsletter subscription,otro,newsletter_subscription,SUBSCRIPTION,6
+967,can you help me see when will my product arrive?,fecha_entrega,delivery_period,DELIVERY,10
+968,i dont know how i can check the eta of my last delivery,estatus_orden,track_order,ORDER,13
+969,I do not know how to speak to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,10
+970,I need to see how long it takes for the shipment to arrive,fecha_entrega,delivery_period,DELIVERY,13
+971,i try to check how long the shipment atkes,fecha_entrega,delivery_period,DELIVERY,9
+972,can you help me make a customer claim?,queja,complaint,FEEDBACK,8
+973,I need to get in touch with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,9
+974,help me see how soon can i expect the parcel,fecha_entrega,delivery_period,DELIVERY,10
+975,I need to lodge a goddamn conplaint against your business,queja,complaint,FEEDBACK,10
+976,i want help seeing the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,10
+977,I don't know how to chat with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,9
+978,help me unsubscribe from ur corporate newsletter,otro,newsletter_subscription,SUBSCRIPTION,7
+979,where to lodge a customer reclamation?,queja,complaint,FEEDBACK,6
+980,could uhlep me to check how soon can i expect the damn order,fecha_entrega,delivery_period,DELIVERY,13
+981,i need help seeing the goddamn eta of purchae {{Order Number}},estatus_orden,track_order,ORDER,11
+982,need to speak with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,5
+983,"I have got to file a bloody reclamation, will you help me?",queja,complaint,FEEDBACK,12
+984,check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+985,i need help speaking to an agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+986,i want help to check the current status of order {{Order Number}},estatus_orden,track_order,ORDER,12
+987,can you help me track order {{Order Number}}?,estatus_orden,track_order,ORDER,8
+988,I'm unhzppy with ur work make a reclamation,queja,complaint,FEEDBACK,8
+989,"I have to see how soon can I expect the delivery, help me",fecha_entrega,delivery_period,DELIVERY,13
+990,i do not know how i can see the ETA of purcyase {{Order Number}},estatus_orden,track_order,ORDER,14
+991,i do not know what to do to talk with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,12
+992,what do I need to do tofile a consumer claim?,queja,complaint,FEEDBACK,10
+993,where could I see what hours I can reach customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+994,I cannotcheck your money back policy,otro,check_refund_policy,REFUND,6
+995,what do I have to do to file a goddamn customer claim?,queja,complaint,FEEDBACK,12
+996,is it possible toi chat with somebody?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+997,"I ain't happy with your work, help lodging a consumer claim",queja,complaint,FEEDBACK,11
+998,how do i see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+999,need to see how soon can i expect the order could uhelp me,fecha_entrega,delivery_period,DELIVERY,13
+1000,want help to talk to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1001,I want assistance checking purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1002,how can I check the status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+1003,assistance seeing when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,9
+1004,I want information aboujt shipping periods,fecha_entrega,delivery_period,DELIVERY,6
+1005,"I need to track purchase {{Order Number}}, how to do it?",estatus_orden,track_order,ORDER,11
+1006,I do not know what to do to see the status of ordrr {{Order Number}},estatus_orden,track_order,ORDER,15
+1007,help me make a customer claim against your company,queja,complaint,FEEDBACK,9
+1008,I am trying to find the delivery periods,fecha_entrega,delivery_period,DELIVERY,8
+1009,I want to lodge a consumer reclamation against your business,queja,complaint,FEEDBACK,10
+1010,I want help seeing how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+1011,need assistance talking to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1012,could you help me notify of problems with a sign-up?,otro,registration_problems,ACCOUNT,10
+1013,there are problems trying to correct ym shipping address,otro,change_shipping_address,SHIPPING,9
+1014,where to check the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+1015,how do Ispeak with customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1016,need to speak to customere assistance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1017,I do not know what I need to do to chat with someone,contactar_ejecutivo,contact_human_agent,CONTACT,13
+1018,delete {{Account Type}} acvount,otro,delete_account,ACCOUNT,4
+1019,help checking the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+1020,help speaking with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1021,I want help speaking to a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1022,i have to check the ETA of order732201349959 i need help,estatus_orden,track_order,ORDER,11
+1023,can you help me call fucking customer sujpport?,contactar_ejecutivo,contact_customer_service,CONTACT,8
+1024,how do I see when my item is going to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+1025,I am calling to check how long the shipment takes,fecha_entrega,delivery_period,DELIVERY,10
+1026,where to inform of registration errors?,otro,registration_problems,ACCOUNT,6
+1027,help making a consumer claim against your organization,queja,complaint,FEEDBACK,8
+1028,where can i see how long the shipping takes,fecha_entrega,delivery_period,DELIVERY,9
+1029,wanna change my fucking address,otro,change_shipping_address,SHIPPING,5
+1030,I am trying to lodge a complaint against your organization,queja,complaint,FEEDBACK,10
+1031,help filing a customer reclamation against ur company,queja,complaint,FEEDBACK,8
+1032,help me check the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1033,checking invoices from {{Person Name}},otro,check_invoice,INVOICE,5
+1034,i want help to speak with customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,8
+1035,want help seeing the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1036,want help cancelling my company newsletter subscriptikon,otro,newsletter_subscription,SUBSCRIPTION,7
+1037,help seeing the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,8
+1038,need assistance checking order {{Order Number}} status,estatus_orden,track_order,ORDER,7
+1039,I am trying to make a fucking consumer complaint,queja,complaint,FEEDBACK,9
+1040,track order {{Order Number}},estatus_orden,track_order,ORDER,4
+1041,"I have to see how soon can I expect the article, help me",fecha_entrega,delivery_period,DELIVERY,13
+1042,I don't know how I can see when will my item arrive,fecha_entrega,delivery_period,DELIVERY,12
+1043,would it be possible to comtact an agent?,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1044,were can I see how long it takes for my package to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1045,how can I retrieve the PIN of my profile?,otro,recover_password,ACCOUNT,9
+1046,"I haven't signed up yet, help me to create a pro account",otro,create_account,ACCOUNT,12
+1047,how do I speak with customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1048,I need assistance to chat with a fucking human agent,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1049,want assistance chatting with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1050,wanna see order {{Order Number}} damn current status help me,estatus_orden,track_order,ORDER,10
+1051,how soon can I expect my article?,fecha_entrega,delivery_period,DELIVERY,7
+1052,I don't know what I have to do to buy some of your article,otro,place_order,ORDER,14
+1053,i need help to ese what hours i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1054,I call to lodge a fucking claim,queja,complaint,FEEDBACK,7
+1055,help to lodge a consumer complaint against your orgqnization,queja,complaint,FEEDBACK,9
+1056,help lodging a customer complaint,queja,complaint,FEEDBACK,5
+1057,can i make a customer reclamation against ur company,queja,complaint,FEEDBACK,9
+1058,I need help to notiyf of a registration problem,otro,registration_problems,ACCOUNT,9
+1059,wanna see how soon can i expect the package how to do it,fecha_entrega,delivery_period,DELIVERY,13
+1060,i do not understand anything ya say direct tome someone,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1061,how to file a customer reclamation?,queja,complaint,FEEDBACK,6
+1062,file complaint against your business,queja,complaint,FEEDBACK,5
+1063,want assistance to see how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,11
+1064,I am trying to see how soon can I expect my fucking product,fecha_entrega,delivery_period,DELIVERY,13
+1065,I don't know hwat to do to earn several items,otro,place_order,ORDER,10
+1066,I need to demand my money back,otro,get_refund,REFUND,7
+1067,can you help me filing an reclamation against your company?,queja,complaint,FEEDBACK,10
+1068,help me checking the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1069,"I have to talk to an assistant, help me",contactar_ejecutivo,contact_human_agent,CONTACT,9
+1070,I want help to contact an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1071,I want help speaking to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1072,how do i retrieve the pin code of myaccount,otro,recover_password,ACCOUNT,9
+1073,can ya help me to see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,12
+1074,I need to file a customer complaint against your company,queja,complaint,FEEDBACK,10
+1075,i do not know how to speak with sommeone,contactar_ejecutivo,contact_human_agent,CONTACT,9
+1076,I try to see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1077,i want help talking with an assistat,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1078,"I want to see the ETA of the purchase {{Order Number}}, I need help",estatus_orden,track_order,ORDER,14
+1079,I want assistance checking the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1080,see at what time i can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1081,"I want to see how soon can I expect my order, how to do it?",fecha_entrega,delivery_period,DELIVERY,15
+1082,assistance to see how soon can I expect my shipment,fecha_entrega,delivery_period,DELIVERY,10
+1083,I want help speaking with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1084,I do not know what to do to talk with someone,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1085,i need help to file a consumer complaint,queja,complaint,FEEDBACK,8
+1086,see at what time I can contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1087,need assistance to talk with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1088,how to see how long it takes for my shipment to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1089,what do I need to do to chat with somebody?,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1090,help talking with someone,contactar_ejecutivo,contact_human_agent,CONTACT,4
+1091,ned assistance to file a claim against your business,queja,complaint,FEEDBACK,9
+1092,help me to check how soon can I expect the damn article,fecha_entrega,delivery_period,DELIVERY,12
+1093,need help checking the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1094,cancel the subscription to the corporate newsletter,otro,newsletter_subscription,SUBSCRIPTION,7
+1095,help to list your allowed payment options,otro,check_payment_methods,PAYMENT,7
+1096,I don't know what I need to do to file a consumer complaint,queja,complaint,FEEDBACK,13
+1097,want hewlp locating order {{Order Number}},estatus_orden,track_order,ORDER,6
+1098,help me chat with someone,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1099,I do not know what I need to do to locate order {{Order Number}},estatus_orden,track_order,ORDER,14
+1100,"I can't open a profile, I have to report a sign-up issue",otro,registration_problems,ACCOUNT,12
+1101,wanna see order {{Order Number}} status help me,estatus_orden,track_order,ORDER,8
+1102,I need help lodging an reclamation against your company,queja,complaint,FEEDBACK,9
+1103,i try to check the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1104,download bill #37777,otro,get_invoice,INVOICE,3
+1105,I am looking for information about the shipping period,fecha_entrega,delivery_period,DELIVERY,9
+1106,what do I have to do to inform of a registration problem?,otro,registration_problems,ACCOUNT,12
+1107,helpme speaking with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,4
+1108,can you help me to order several articles?,otro,place_order,ORDER,8
+1109,is it possible to contactr a person,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1110,check my last parcel eta,estatus_orden,track_order,ORDER,5
+1111,how to speak to a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1112,help me to see how long it takes for my delivery to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1113,i do not know what to do to contact a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,12
+1114,I have to see how long it takes for the product to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1115,give me information about the shippong periods,fecha_entrega,delivery_period,DELIVERY,7
+1116,i try to seehow long it takes for my package to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1117,how can i locate the bill ffom {{Person Name}},otro,check_invoice,INVOICE,9
+1118,help to chat with a person,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1119,how can i talk with an opertaor,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1120,"you aren't helpful at all, help me speaking to a person",contactar_ejecutivo,contact_human_agent,CONTACT,11
+1121,I can't speak to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1122,how do I check at what time I can contact customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1123,i dont know how i can see the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,13
+1124,where do I see at what time I can reach customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1125,help to make a customer complaint against your business,queja,complaint,FEEDBACK,9
+1126,I need to swap an item of purchase {{Order Number}},otro,change_order,ORDER,10
+1127,can you help me to speak to customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1128,I have to get in touch with customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1129,need help seeing how soon can i expect my package,fecha_entrega,delivery_period,DELIVERY,10
+1130,nee to locate purchase {{Order Number}} help me,estatus_orden,track_order,ORDER,8
+1131,i cannot speak with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1132,how do i talk with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1133,where to make a consumer claim?,queja,complaint,FEEDBACK,6
+1134,I need assistance notifying of a trouble with online payment,otro,payment_issue,PAYMENT,10
+1135,i want help checking order {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+1136,I want help to lodge a claim against your company,queja,complaint,FEEDBACK,10
+1137,assistance to see when my bloody item is gona arrive,fecha_entrega,delivery_period,DELIVERY,10
+1138,want helpo talking to customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1139,where to see at what time I can contact customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1140,how to check the status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,9
+1141,i have to see how long refunds take how do i do it,otro,check_refund_policy,REFUND,13
+1142,help me to see how soon can I expect the shipment,fecha_entrega,delivery_period,DELIVERY,11
+1143,I try to see the fucking restitution current status,otro,track_refund,REFUND,9
+1144,I need to see what hours I can contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1145,where do I lodge a complaint against your company?,queja,complaint,FEEDBACK,9
+1146,I am trying to see the ET of the order {{Order Number}},estatus_orden,track_order,ORDER,12
+1147,can uhelp me to recover te pwd of my user,otro,recover_password,ACCOUNT,10
+1148,I have got to check what hours customer service available is,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1149,I do not know how to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,13
+1150,I do not know what I need to do to chat with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,13
+1151,need help to make a complaint against ur company,queja,complaint,FEEDBACK,9
+1152,updating informtaion on {{Account Category}} account,otro,edit_account,ACCOUNT,6
+1153,i need help to check how long it takes for my item to arrive,fecha_entrega,delivery_period,DELIVERY,14
+1154,I have to file a customer claim,queja,complaint,FEEDBACK,7
+1155,I don't know how to lodge a consumer claim,queja,complaint,FEEDBACK,9
+1156,help to file a consumer complaint against your organization,queja,complaint,FEEDBACK,9
+1157,"I have to check purchase {{Order Number}} status, I need assistance",estatus_orden,track_order,ORDER,11
+1158,show me how long it takes for the product to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1159,need to see at what time customer assistance available is,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1160,i need assistance to chat with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1161,modifying data on premium account,otro,edit_account,ACCOUNT,5
+1162,assistance to talk with bloody customer supprt,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1163,can ya help me see how soon can i expect my item,fecha_entrega,delivery_period,DELIVERY,12
+1164,could you help me speak to somebody?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1165,want assistance lodging a consumer claim against yur company,queja,complaint,FEEDBACK,9
+1166,check purchase {{Order Number}} goddamn status,estatus_orden,track_order,ORDER,6
+1167,where do i see at what time i can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1168,I try to inform of a trouble with online payment,otro,payment_issue,PAYMENT,10
+1169,i dont know what to do to make a complaint,queja,complaint,FEEDBACK,10
+1170,where do i check what hours i can contact customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1171,I want help to talk to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1172,I call to download bill #00108,otro,get_invoice,INVOICE,6
+1173,is it possible to lodge an complaint against ur business,queja,complaint,FEEDBACK,10
+1174,where can i track order {{Order Number}},estatus_orden,track_order,ORDER,7
+1175,i want assistance to track order {{Order Number}},estatus_orden,track_order,ORDER,8
+1176,need to make a consumer reclamation against ur organization,queja,complaint,FEEDBACK,9
+1177,help me to use the standard profile,otro,switch_account,ACCOUNT,7
+1178,can you help me to talk to a human agent?,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1179,"I paid {{Currency Symbol}}{{Refund Amount}} for these items, help receiving a compensation",otro,get_refund,REFUND,12
+1180,how long does it take for a damn article to arrive?,fecha_entrega,delivery_period,DELIVERY,11
+1181,where do I check how soon can I expect the delivery ?,fecha_entrega,delivery_period,DELIVERY,12
+1182,can you help me check my restitution status?,otro,track_refund,REFUND,8
+1183,I need assistance to talk tl an agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1184,I don't know how I can request a rebate,otro,get_refund,REFUND,9
+1185,need assistance to check purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1186,I have to lodge a reclamation,queja,complaint,FEEDBACK,6
+1187,I don't know how to check when my aprcel is going to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1188,I try to check the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+1189,I don't know how I could file a claim,queja,complaint,FEEDBACK,9
+1190,how do I buy some articles?,otro,place_order,ORDER,6
+1191,I have got to download the invoice from {{Person Name}},otro,get_invoice,INVOICE,10
+1192,need help to request rebates of my money,otro,get_refund,REFUND,8
+1193,"I have got to track purchase {{Order Number}}, how can I do it?",estatus_orden,track_order,ORDER,13
+1194,I want to make a customer reclamation against your business,queja,complaint,FEEDBACK,10
+1195,deleting item from order {{Order Number}},otro,change_order,ORDER,6
+1196,"I want to order a few of your item, can I get some help?",otro,place_order,ORDER,14
+1197,how do I see at what time I can call customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1198,I want help tosee the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1199,"I want to write a comment, I need assistance",otro,review,FEEDBACK,9
+1200,I need assistance to see when my article is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1201,I need assistance speaking with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1202,is it possible to see when my product is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1203,I need help to cancel purchase370795561790,otro,cancel_order,ORDER,6
+1204,uare not helpful could uhelp me talk to a damn agent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1205,can I talk to a person?,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1206,wanna see how long it takes for my purchase to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1207,help me to see what hours customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1208,I am trying to restore the pwd of my user profile,otro,recover_password,ACCOUNT,11
+1209,"I have to check when will my item arrive, I need assistance",fecha_entrega,delivery_period,DELIVERY,12
+1210,want help filing a customer claim against ur organization,queja,complaint,FEEDBACK,9
+1211,I have a trouble changing my delivery address,otro,change_shipping_address,SHIPPING,8
+1212,need assistance to file a consumer cclaim,queja,complaint,FEEDBACK,7
+1213,I want assistance to order a damn product,otro,place_order,ORDER,8
+1214,how can i speakto customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1215,i want help checking the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1216,how to see the status of order {{Order Number}},estatus_orden,track_order,ORDER,9
+1217,I need assistance to chat with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1218,I do not know how to check how soon can I expect the parcel,fecha_entrega,delivery_period,DELIVERY,14
+1219,how do I chat with a fucking person?,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1220,i have got to se how long the shipment takes how to do it,fecha_entrega,delivery_period,DELIVERY,14
+1221,need assistanmce checking how soon can I expect the package,fecha_entrega,delivery_period,DELIVERY,10
+1222,where do i make a complaint,queja,complaint,FEEDBACK,6
+1223,can you help me to retrieve my account pwd?,otro,recover_password,ACCOUNT,9
+1224,i have got to track purchase {{Order Number}} help me,estatus_orden,track_order,ORDER,10
+1225,I want to see in what cases can Iask to be refunded,otro,check_refund_policy,REFUND,12
+1226,can ya help me making a claim against ur business,queja,complaint,FEEDBACK,10
+1227,I need assistance to see when my product is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1228,can you help me to see how long the delivery takes?,fecha_entrega,delivery_period,DELIVERY,11
+1229,how to see the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,10
+1230,I can't see the damn status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1231,assistyance to file a damn claim against ur organization,queja,complaint,FEEDBACK,9
+1232,I want help checking when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1233,i have got to locte order {{Order Number}},estatus_orden,track_order,ORDER,8
+1234,how do i check the eta of order00123842,estatus_orden,track_order,ORDER,8
+1235,report issue with payment,otro,payment_issue,PAYMENT,4
+1236,checking ETA of order {{Order Number}},estatus_orden,track_order,ORDER,6
+1237,what do i have to do to sign up to the newsletter,otro,newsletter_subscription,SUBSCRIPTION,12
+1238,I can't find the early exit penalty,otro,check_cancellation_fee,CANCEL,7
+1239,what do i have to do to check when will my parcel arrive,fecha_entrega,delivery_period,DELIVERY,13
+1240,I am trying to find the shipping perod,fecha_entrega,delivery_period,DELIVERY,8
+1241,help to see what hours I can reach customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1242,I can't locate order {{Order Number}},estatus_orden,track_order,ORDER,6
+1243,could I restore the access key of my profile?,otro,recover_password,ACCOUNT,9
+1244,contact a fucking live agent,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1245,"I want to see when will my product arrive, I need help",fecha_entrega,delivery_period,DELIVERY,12
+1246,ned to locate order {{Order Number}} how could i do it,estatus_orden,track_order,ORDER,11
+1247,help checking the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1248,I'm trying to find the shipping period,fecha_entrega,delivery_period,DELIVERY,7
+1249,could I see when will my article arrive?,fecha_entrega,delivery_period,DELIVERY,8
+1250,can you help me write a comment about your products?,otro,review,FEEDBACK,10
+1251,help me see if there are any updates on my reimbursement,otro,track_refund,REFUND,11
+1252,i want help downloading my invoice from {{Person Name}},otro,get_invoice,INVOICE,9
+1253,can you help me to notify of a trouble with payment?,otro,payment_issue,PAYMENT,11
+1254,where can i lodge a reclamation against ur business,queja,complaint,FEEDBACK,9
+1255,can you help me report an error with payments?,otro,payment_issue,PAYMENT,9
+1256,help me lodge a claim against your business,queja,complaint,FEEDBACK,8
+1257,making customer claim,queja,complaint,FEEDBACK,3
+1258,I try to retrieve my profile access key,otro,recover_password,ACCOUNT,8
+1259,can you help me seeing how soon can I expect my order?,fecha_entrega,delivery_period,DELIVERY,12
+1260,help seeing at what time I can reach customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1261,I am calling to see when will my product arirve,fecha_entrega,delivery_period,DELIVERY,10
+1262,want help to see how long it takes fo the article to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1263,I need information about the removal of a gold account,otro,delete_account,ACCOUNT,10
+1264,"I have got to locate purchase {{Order Number}}, I need help",estatus_orden,track_order,ORDER,11
+1265,want assistance checking your available payment modalities,otro,check_payment_methods,PAYMENT,7
+1266,what do I need to do to speak with someone?,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1267,can I talk with an assistant?,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1268,can I check how soon can I expect my package?,fecha_entrega,delivery_period,DELIVERY,10
+1269,I call to see how long it takes for my package to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1270,assistance to file a reclamation,queja,complaint,FEEDBACK,5
+1271,want help checking how sooncan i expect my article,fecha_entrega,delivery_period,DELIVERY,9
+1272,i dont khow what i need to do to change to the {{Account Type}} account,otro,switch_account,ACCOUNT,15
+1273,"I have to see order {{Order Number}} current status, help me",estatus_orden,track_order,ORDER,11
+1274,i have to make a reclamation,queja,complaint,FEEDBACK,6
+1275,I don't know how to get in touch with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1276,i want assistance talking with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1277,what do i have to do to see when my order is gonna arrive,fecha_entrega,delivery_period,DELIVERY,14
+1278,need help checking how soon can I expect my item,fecha_entrega,delivery_period,DELIVERY,10
+1279,need help to see how long it takes for my parcel to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1280,can uhelp me lodge a claim against ur business,queja,complaint,FEEDBACK,9
+1281,assistance checking purchase {{Order Number}} bloody current status,estatus_orden,track_order,ORDER,8
+1282,help me to create a premium account,otro,create_account,ACCOUNT,7
+1283,I would like to sign up to the corporate newsletter,otro,newsletter_subscription,SUBSCRIPTION,10
+1284,how do I shop some products?,otro,place_order,ORDER,6
+1285,can I see the current status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+1286,I don't know what I need to do to talk to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,13
+1287,I want help to see how long it takes for the order to arrive,fecha_entrega,delivery_period,DELIVERY,14
+1288,i try to check whathours customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1289,where to see the ETA of order {{Order Number}}?,estatus_orden,track_order,ORDER,9
+1290,i have to check at what time i can contact custome support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1291,is it possible to make a complaint against your company?,queja,complaint,FEEDBACK,10
+1292,I expect a rebate of {{Refund Amount}} dollars,otro,track_refund,REFUND,8
+1293,where can I check how soon can I expect the item?,fecha_entrega,delivery_period,DELIVERY,11
+1294,is there a method to send some feedback for ur products,otro,review,FEEDBACK,11
+1295,assistance to make a customer reclamation,queja,complaint,FEEDBACK,6
+1296,can you help me see when my article is goong to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1297,can you help me checking when my order is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1298,I have to file a consumer complaint,queja,complaint,FEEDBACK,7
+1299,i dont know how to file a consumer reclamation,queja,complaint,FEEDBACK,9
+1300,where can i see purchaes {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1301,where do I check what hours I can reach customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1302,I need help to see how long the delivery takes,fecha_entrega,delivery_period,DELIVERY,10
+1303,show me at what time I can reach customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1304,assistance to submit feedback for ur company,otro,review,FEEDBACK,7
+1305,have a problem with platinum account deletions,otro,delete_account,ACCOUNT,7
+1306,want help to make a complaint,queja,complaint,FEEDBACK,6
+1307,need to check how long it takes for the parcel to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1308,contact someone,contactar_ejecutivo,contact_human_agent,CONTACT,2
+1309,update info on platinum account,otro,edit_account,ACCOUNT,5
+1310,wanna see how soon can i expect my parcel how can i do it,fecha_entrega,delivery_period,DELIVERY,14
+1311,I want assistance switching to the standard account,otro,switch_account,ACCOUNT,8
+1312,how can I make a customer complaint against your company?,queja,complaint,FEEDBACK,10
+1313,I don't know how to see how soon can I expect my parcel,fecha_entrega,delivery_period,DELIVERY,13
+1314,want help to see the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1315,is it possible to check when my purchase is going to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1316,I am looking for information about dselivery period,fecha_entrega,delivery_period,DELIVERY,8
+1317,I try to see when my delivery is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1318,see order {{Order Number}} status,estatus_orden,track_order,ORDER,5
+1319,i want assistance to track purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+1320,where is order {{Order Number}} ?,estatus_orden,track_order,ORDER,6
+1321,how to speak with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1322,how to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+1323,I need help to make a complaint against your business,queja,complaint,FEEDBACK,10
+1324,how do I make a reclamation against your organization?,queja,complaint,FEEDBACK,9
+1325,I'm calling ot check when my parcel is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+1326,I do not know what I need to do to change to the {{Account Type}} account,otro,switch_account,ACCOUNT,16
+1327,i have got to cancel the company newsletter subscription,otro,newsletter_subscription,SUBSCRIPTION,9
+1328,I want help lodging an claim,queja,complaint,FEEDBACK,6
+1329,I have to check how soon can I expect the order,fecha_entrega,delivery_period,DELIVERY,11
+1330,help me see in what situations can i request to be refunded,otro,check_refund_policy,REFUND,12
+1331,could i check when my package is gonna arive,fecha_entrega,delivery_period,DELIVERY,9
+1332,"I don't understand you, I need to talk to a liev agent",contactar_ejecutivo,contact_human_agent,CONTACT,12
+1333,"I have to see my bill, help me",otro,check_invoice,INVOICE,8
+1334,how can I see order {{Order Number}} current status?,estatus_orden,track_order,ORDER,9
+1335,how soon can I expect my delivery?,fecha_entrega,delivery_period,DELIVERY,7
+1336,i do not know what to do to see how long the shipping takes,fecha_entrega,delivery_period,DELIVERY,14
+1337,assistance to see when will my product arrive,fecha_entrega,delivery_period,DELIVERY,8
+1338,show me how long it takes for the article to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1339,help seeing when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,7
+1340,"I need to leave my feedback, can you help me?",otro,review,FEEDBACK,10
+1341,can you help me make a customer complaint?,queja,complaint,FEEDBACK,8
+1342,open new {{Account Type}} account for daughter,otro,create_account,ACCOUNT,7
+1343,assistance to check how long it takes for my item to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1344,how to make an reclamation against your company?,queja,complaint,FEEDBACK,8
+1345,how long does the shipping take,fecha_entrega,delivery_period,DELIVERY,6
+1346,what do I have to do to see the status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,14
+1347,showing me estimated time of arrival of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1348,help me checking the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1349,chat with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1350,I need assistance speaking to a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1351,help me making a customer complaint,queja,complaint,FEEDBACK,6
+1352,need help to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+1353,I have got to speak to a person,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1354,can ya help me speak wih customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,8
+1355,could you tell me about shipping periods?,fecha_entrega,delivery_period,DELIVERY,7
+1356,want assistance to file a reclamation against your business,queja,complaint,FEEDBACK,9
+1357,I want help buying some of your product,otro,place_order,ORDER,8
+1358,I need assistance to see what methods for delivery you offer,otro,delivery_options,DELIVERY,11
+1359,I need assistance seeing purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1360,I can't talk with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1361,"I forgot my user account access key, help me recover it",otro,recover_password,ACCOUNT,11
+1362,how to see how long it takes for my order to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1363,what do I have to do to unsubscribe to your newsletter?,otro,newsletter_subscription,SUBSCRIPTION,11
+1364,how to make a bloody customer claim against your company?,queja,complaint,FEEDBACK,10
+1365,tell me what hours i can get in touch wit customer service,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1366,I do not know how I could speak with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1367,I do not know what I have to do to make a customer lcaim,queja,complaint,FEEDBACK,14
+1368,what do i need to do to see order {{Order Number}} status,estatus_orden,track_order,ORDER,12
+1369,I have got to make a complaint against your company,queja,complaint,FEEDBACK,10
+1370,"I need to correct the address, can you help me?",otro,change_shipping_address,SHIPPING,10
+1371,can you help me checking when will my product arrive?,fecha_entrega,delivery_period,DELIVERY,10
+1372,check the current status of my compensation,otro,track_refund,REFUND,7
+1373,can ushow me the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1374,I want somebody,contactar_ejecutivo,contact_human_agent,CONTACT,3
+1375,I want assistanc to see when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1376,i cant see order {{Order Number}} goddamn current satus,estatus_orden,track_order,ORDER,9
+1377,"I want to track purchase {{Order Number}}, how could I do it?",estatus_orden,track_order,ORDER,12
+1378,wanna track purchase {{Order Number}},estatus_orden,track_order,ORDER,5
+1379,I have to file a customer claim against your organization,queja,complaint,FEEDBACK,10
+1380,I need to make a customer complaint against your company,queja,complaint,FEEDBACK,10
+1381,need assistance to see the eta of purcase {{Order Number}},estatus_orden,track_order,ORDER,10
+1382,see status of purchase {{Order Number}},estatus_orden,track_order,ORDER,6
+1383,I need assistance checking how soon can I expect the package,fecha_entrega,delivery_period,DELIVERY,11
+1384,I call to see when my package is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1385,how can I lodge a consumer claim against your business?,queja,complaint,FEEDBACK,10
+1386,i cant see the current status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1387,i want assistance to contact somebody,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1388,hlw do i check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1389,help me make a claim against ur company,queja,complaint,FEEDBACK,8
+1390,"I have got to see when will my item arrive, can you help me?",fecha_entrega,delivery_period,DELIVERY,14
+1391,I try to see the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1392,I try to file a claim,queja,complaint,FEEDBACK,6
+1393,i dont know what to do to talk to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1394,I don't know how I can see how soon can I expect my item,fecha_entrega,delivery_period,DELIVERY,14
+1395,i have a problem setting a delivery address up,otro,set_up_shipping_address,SHIPPING,9
+1396,want help to make a customer complaint against your business,queja,complaint,FEEDBACK,10
+1397,check estimated time of arrival of order {{Order Number}},estatus_orden,track_order,ORDER,9
+1398,I don't know what to do to locate order {{Order Number}},estatus_orden,track_order,ORDER,11
+1399,how can i download the bill from {{Person Name}},otro,get_invoice,INVOICE,9
+1400,i have a problem with cancelling order {{Order Number}},otro,cancel_order,ORDER,9
+1401,I try to see what hours I can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1402,I want to chat with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1403,how to talk to a fucking person?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1404,need help to see how long it takes for my shipment to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1405,I have got to see when will my aprcel arrive,fecha_entrega,delivery_period,DELIVERY,10
+1406,I need help to make a claim,queja,complaint,FEEDBACK,7
+1407,i try to chrck the current status of order {{Order Number}},estatus_orden,track_order,ORDER,11
+1408,I'm calling to make a claim against ur company,queja,complaint,FEEDBACK,9
+1409,I need to lodge a claim against your organization,queja,complaint,FEEDBACK,9
+1410,can ushow me the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1411,help me seeing how soon can i expect the product,fecha_entrega,delivery_period,DELIVERY,10
+1412,I do not know what I need to do to talk to a humaqn agent,contactar_ejecutivo,contact_human_agent,CONTACT,15
+1413,I don't know how to see when my item is going to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1414,"I have to see the early exit fee, I need help",otro,check_cancellation_fee,CANCEL,11
+1415,i have to speak to a eprson,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1416,i do not know how i can speak to someone,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1417,i call to file a consumer claim against ur company,queja,complaint,FEEDBACK,10
+1418,how can I check how soon can I expect my item?,fecha_entrega,delivery_period,DELIVERY,11
+1419,I need to check the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1420,I am trying to check my compensation current status,otro,track_refund,REFUND,9
+1421,I want help checking how soon can I expect the delivery,fecha_entrega,delivery_period,DELIVERY,11
+1422,wanna locate order {{Order Number}} how can i do it,estatus_orden,track_order,ORDER,10
+1423,assistance to file a customer complaint,queja,complaint,FEEDBACK,6
+1424,can you show me the ETA of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+1425,I don't know how I can ask for a rebate of money,otro,get_refund,REFUND,12
+1426,want assistance asking for refunds of money,otro,get_refund,REFUND,7
+1427,I want to receive a reimbursement of my money,otro,get_refund,REFUND,9
+1428,help to make a consumer claim against your company,queja,complaint,FEEDBACK,9
+1429,how can i see order {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1430,I want assistance to contact an operator,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1431,help me to speak with a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1432,want help notifying of a registration issue,otro,registration_problems,ACCOUNT,7
+1433,i want assistance to check the invoices from {{Person Name}},otro,check_invoice,INVOICE,10
+1434,I do not know how to lodge a claim against your business,queja,complaint,FEEDBACK,12
+1435,assistance to talk to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1436,I have to see purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+1437,I do not know how I could check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,14
+1438,I odn't know how I could speak to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1439,"I have to see how soon can I expect my shipment, I need help",fecha_entrega,delivery_period,DELIVERY,14
+1440,I want assistance to restore my user access key,otro,recover_password,ACCOUNT,9
+1441,i have got to get bill #37777 how to do it,otro,get_invoice,INVOICE,11
+1442,"I want to see how soon can I expect my parcel, how to do it?",fecha_entrega,delivery_period,DELIVERY,15
+1443,"I want to file a customer reclamation, can I get some help?",queja,complaint,FEEDBACK,12
+1444,can youshow me what hours I can contact customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1445,I want assistance seeing when will my item arrive,fecha_entrega,delivery_period,DELIVERY,9
+1446,I have to check how sion can I expect the package,fecha_entrega,delivery_period,DELIVERY,11
+1447,can i check how soon can i expect my delivery,fecha_entrega,delivery_period,DELIVERY,10
+1448,could i file a customer complaint,queja,complaint,FEEDBACK,6
+1449,help me seeing your money back guarantee,otro,check_refund_policy,REFUND,7
+1450,"I need to see purchase {{Order Number}} status, how to do it?",estatus_orden,track_order,ORDER,12
+1451,where to make a customer complaint against ur company,queja,complaint,FEEDBACK,9
+1452,"I am trying to find the shipping period, I need help",fecha_entrega,delivery_period,DELIVERY,11
+1453,wanna speak to customer support how can i do it,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1454,need help to check how soon can I expect my parcel,fecha_entrega,delivery_period,DELIVERY,11
+1455,icall to file a complaint against ur company,queja,complaint,FEEDBACK,8
+1456,want assistance to lodge a claimn against ur organization,queja,complaint,FEEDBACK,9
+1457,I want assistance to see the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,12
+1458,show me order {{Order Number}} status,estatus_orden,track_order,ORDER,6
+1459,when will purchase {{Order Number}} arrive,estatus_orden,track_order,ORDER,6
+1460,I'm trying to close my {{Account Category}} account,otro,delete_account,ACCOUNT,8
+1461,i want help leaving an opinion about ur services,otro,review,FEEDBACK,9
+1462,can I make a consumer reclamation against your organization?,queja,complaint,FEEDBACK,9
+1463,can you help me reporting a payment problem?,otro,payment_issue,PAYMENT,8
+1464,can you help me tracking order {{Order Number}}?,estatus_orden,track_order,ORDER,8
+1465,wann locate order {{Order Number}},estatus_orden,track_order,ORDER,5
+1466,I need help checking how long the shipment takes,fecha_entrega,delivery_period,DELIVERY,9
+1467,I don't know how to check how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,13
+1468,need assistance to see how soon can I expect my article,fecha_entrega,delivery_period,DELIVERY,11
+1469,I have to see the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+1470,check purchase {{Order Number}} statsu,estatus_orden,track_order,ORDER,5
+1471,I would like to make a customer claim against your business,queja,complaint,FEEDBACK,11
+1472,help me to lodge a complaint against your business,queja,complaint,FEEDBACK,9
+1473,see in what situations can I request my money back,otro,check_refund_policy,REFUND,10
+1474,want help to see when my parcel is gonna arrive,fecha_entrega,delivery_period,DELIVERY,10
+1475,need assistance to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+1476,where to check what hours i can contact customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1477,can I check purchase {{Order Number}} current status?,estatus_orden,track_order,ORDER,8
+1478,can I file a consumer claim against your organization?,queja,complaint,FEEDBACK,9
+1479,I want assistance checking when my order is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1480,how can i see how long it takes for my purchase to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1481,what do I need to do to call customer service?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1482,I cannot check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+1483,where can i lodge a bloody consumer claim against ur company,queja,complaint,FEEDBACK,11
+1484,can I check order {{Order Number}} current status?,estatus_orden,track_order,ORDER,8
+1485,I do not know how I could chat with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1486,"I have got to talk with customer assistance, how to do it?",contactar_ejecutivo,contact_customer_service,CONTACT,12
+1487,help me check the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+1488,want assistanmce checking how soon can I expect the shipment,fecha_entrega,delivery_period,DELIVERY,10
+1489,what do I have to do to see when will my article arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1490,help me checking how soon can I expect my order,fecha_entrega,delivery_period,DELIVERY,10
+1491,"I have to speak to customer service , can I get some help?",contactar_ejecutivo,contact_customer_service,CONTACT,13
+1492,I want toleave an opinion for a service,otro,review,FEEDBACK,8
+1493,i have to make a claim against ur business,queja,complaint,FEEDBACK,9
+1494,want help checking how soon can I expect myy product,fecha_entrega,delivery_period,DELIVERY,10
+1495,I am trying to see when will my item arrive,fecha_entrega,delivery_period,DELIVERY,10
+1496,can uhelp me locating order {{Order Number}},estatus_orden,track_order,ORDER,7
+1497,have a problem with the removal of my {{Account Category}} account,otro,delete_account,ACCOUNT,11
+1498,is it possible to make a reclamation against your business?,queja,complaint,FEEDBACK,10
+1499,can you help me speak to a live agent?,contactar_ejecutivo,contact_human_agent,CONTACT,9
+1500,where do i check how soon can i expect my purchase,fecha_entrega,delivery_period,DELIVERY,11
+1501,want help to make a complaint against your business,queja,complaint,FEEDBACK,9
+1502,I need help seeing what hours I can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1503,i need information about editing the shipping address,otro,change_shipping_address,SHIPPING,8
+1504,"I am unhappy with your services, help filing a complaint",queja,complaint,FEEDBACK,10
+1505,help checking the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,8
+1506,I need assistance to check when will my package arrive,fecha_entrega,delivery_period,DELIVERY,10
+1507,I don't know how to check how soon can I expect the product,fecha_entrega,delivery_period,DELIVERY,13
+1508,I need to see how long it takes for the purchase to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1509,my experience with ur brand was awful make a claim,queja,complaint,FEEDBACK,10
+1510,need help to speak with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1511,I want asistance to acquire a product,otro,place_order,ORDER,7
+1512,question about the deletion of my freemium account,otro,delete_account,ACCOUNT,8
+1513,i want help speaking to someone,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1514,"I want to talk to customer assistance, will you help me?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+1515,I need help to check how soon can I expect my article,fecha_entrega,delivery_period,DELIVERY,12
+1516,i do not know how to unsubscribe to ur corporate newslegter,otro,newsletter_subscription,SUBSCRIPTION,11
+1517,assistance to see the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,9
+1518,could you help me speaking to a live agent?,contactar_ejecutivo,contact_human_agent,CONTACT,9
+1519,see your available payment options,otro,check_payment_methods,PAYMENT,5
+1520,help me checking the current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1521,help me to see when my purchase is gonn arrive,fecha_entrega,delivery_period,DELIVERY,10
+1522,want help reporting errors with sign-up,otro,registration_problems,ACCOUNT,6
+1523,I try to see how soon can I expect my parcel,fecha_entrega,delivery_period,DELIVERY,11
+1524,i want help checking how soon can i expect the order,fecha_entrega,delivery_period,DELIVERY,11
+1525,wanna check the status of order {{Order Number}},estatus_orden,track_order,ORDER,8
+1526,need help to see when my parcel is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1527,assistance to see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,7
+1528,i dont know how i can talk with someone,contactar_ejecutivo,contact_human_agent,CONTACT,9
+1529,i need help trackng order {{Order Number}},estatus_orden,track_order,ORDER,7
+1530,I have to see what hours I can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1531,I want to check what hours I can contact customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1532,i have to see the goddamn ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+1533,uarent helpful can i chat with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1534,I try to check when will my article arrive,fecha_entrega,delivery_period,DELIVERY,9
+1535,what do I need to do to file a consumer claim?,queja,complaint,FEEDBACK,11
+1536,I want assistance to check when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,10
+1537,customer complaint against your business,queja,complaint,FEEDBACK,5
+1538,i have to see the ETA of purchase {{Order Number}} cn uhelp me,estatus_orden,track_order,ORDER,13
+1539,I want assistance to check how soon can I expect the package,fecha_entrega,delivery_period,DELIVERY,12
+1540,could uhelp me check the damn eta of order {{Order Number}},estatus_orden,track_order,ORDER,11
+1541,"I have to see order {{Order Number}} current status, I need help",estatus_orden,track_order,ORDER,12
+1542,how can I lodge a customer claim?,queja,complaint,FEEDBACK,7
+1543,I want help seeing how soon can I expect the parcel,fecha_entrega,delivery_period,DELIVERY,11
+1544,i try to check how soon can i expect the product,fecha_entrega,delivery_period,DELIVERY,11
+1545,i dont know what to do to chat with a fucking assistant,contactar_ejecutivo,contact_human_agent,CONTACT,12
+1546,"the damn address changed, I would like to edit it",otro,change_shipping_address,SHIPPING,10
+1547,where to check when my product is going to arrive?,fecha_entrega,delivery_period,DELIVERY,10
+1548,how to check the current status of purchase {{Order Number}}?,estatus_orden,track_order,ORDER,10
+1549,I want to oldge a claim against your business,queja,complaint,FEEDBACK,9
+1550,I need help locatin purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+1551,I need assistance to chat with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1552,how can i check how logn it takes for the package to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1553,I am trying to check how soon can I expect the damn shipment,fecha_entrega,delivery_period,DELIVERY,13
+1554,give me information about the deletion of my standardaccount,otro,delete_account,ACCOUNT,9
+1555,i dont know what to do to track purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+1556,"I want to see the ETA of order {{Order Number}}, how do I do it?",estatus_orden,track_order,ORDER,15
+1557,assistance to cancel purchased {{Order Number}},otro,cancel_order,ORDER,6
+1558,i cannot see tge eta of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1559,where do I file a customer complaint againwt your company?,queja,complaint,FEEDBACK,10
+1560,i have got to contact customer support how can i do it,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1561,i cannot pseak to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1562,want help reporting bloody troubles with payments,otro,payment_issue,PAYMENT,7
+1563,"I need t see the accepted payment options, will you help me?",otro,check_payment_methods,PAYMENT,12
+1564,I need help filing a claim,queja,complaint,FEEDBACK,6
+1565,I want to know about the shipping periods,fecha_entrega,delivery_period,DELIVERY,8
+1566,"I need to see when will my package arrive, how can I do it?",fecha_entrega,delivery_period,DELIVERY,14
+1567,what do i have to do to make a consumer claim,queja,complaint,FEEDBACK,11
+1568,help to speak with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1569,help me checking how long it takes for the product to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1570,I'm trying to find the deliveey periods,fecha_entrega,delivery_period,DELIVERY,7
+1571,can you help me make a customer claim against your company?,queja,complaint,FEEDBACK,11
+1572,I am calling to lodge a customer claim,queja,complaint,FEEDBACK,8
+1573,I have to check the ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+1574,check whatr hours I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,8
+1575,hwat do i need to do to contact an operator,contactar_ejecutivo,contact_human_agent,CONTACT,10
+1576,want assistance to check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1577,I want help filing an customer claim,queja,complaint,FEEDBACK,7
+1578,i need assistance filing a consumer claim against ur company,queja,complaint,FEEDBACK,10
+1579,I try to make a customer claim against your company,queja,complaint,FEEDBACK,10
+1580,I don't know what I need to do to file a customer claim,queja,complaint,FEEDBACK,13
+1581,where do i see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1582,want assistance to make a reclamation against ur business,queja,complaint,FEEDBACK,9
+1583,i have to see how soon can i expect the shipmrnt i need help,fecha_entrega,delivery_period,DELIVERY,14
+1584,help to check the ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1585,"I don't understand you, can you help me talk with an agent?",contactar_ejecutivo,contact_human_agent,CONTACT,12
+1586,modify data on freemium account,otro,edit_account,ACCOUNT,5
+1587,can you help me to check how soon can I expect the package?,fecha_entrega,delivery_period,DELIVERY,13
+1588,I do not know what to do to speak with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,12
+1589,need help notifying of an error with payment,otro,payment_issue,PAYMENT,8
+1590,I want assistance to see how soon can I expect my purchase,fecha_entrega,delivery_period,DELIVERY,12
+1591,I need help making a claim against your business,queja,complaint,FEEDBACK,9
+1592,I need help to check purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+1593,is it possible to set a different shipping address up?,otro,set_up_shipping_address,SHIPPING,10
+1594,help me to check the current status of order {{Order Number}},estatus_orden,track_order,ORDER,11
+1595,I call to makle a customer claim against your business,queja,complaint,FEEDBACK,10
+1596,I call to check how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,11
+1597,what do i have to do to file a consumer claim,queja,complaint,FEEDBACK,11
+1598,i do not know what to do to download my invoice #12588,otro,get_invoice,INVOICE,12
+1599,can uhelp me check how soon can i expect my article,fecha_entrega,delivery_period,DELIVERY,11
+1600,I want assistance to lodge a customer reclamation,queja,complaint,FEEDBACK,8
+1601,i want help talkingh to a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1602,checking purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+1603,I need assistance to make an consumer complaint,queja,complaint,FEEDBACK,8
+1604,where to check at wnat time customer assistance available is,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1605,I have to spak to someone,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1606,file complaint,queja,complaint,FEEDBACK,2
+1607,how could i see the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+1608,I need help to file a damn reclamation against your company,queja,complaint,FEEDBACK,11
+1609,I have to check in what cases can I ask for refunds,otro,check_refund_policy,REFUND,12
+1610,help me to check at what tiem I can call customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1611,check at what time i can reach ucstomer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1612,I need assistance to locate order {{Order Number}},estatus_orden,track_order,ORDER,8
+1613,can you help me see how soon can I expect the product?,fecha_entrega,delivery_period,DELIVERY,12
+1614,"I forgot the PIN of my user, I need help to retrieve it",otro,recover_password,ACCOUNT,13
+1615,I have to see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1616,need to lodge a reclamation,queja,complaint,FEEDBACK,5
+1617,how to file a goddamn reclamation against your business?,queja,complaint,FEEDBACK,9
+1618,help to check purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+1619,I do not know what I need to do to make a reclamation,queja,complaint,FEEDBACK,13
+1620,help to see thje ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1621,I don't know how I can lodge an consumer complaint,queja,complaint,FEEDBACK,10
+1622,want help receiving ur newsletter,otro,newsletter_subscription,SUBSCRIPTION,5
+1623,i do not know how i can see how soon can i expect my delivry,fecha_entrega,delivery_period,DELIVERY,15
+1624,editing details on freemium account,otro,edit_account,ACCOUNT,5
+1625,how to set up the secondary delivery address,otro,set_up_shipping_address,SHIPPING,8
+1626,I'm trying to make a customer claim against ur company,queja,complaint,FEEDBACK,10
+1627,help me see under what circumtsances can I ask for refunds,otro,check_refund_policy,REFUND,11
+1628,help me to file a claim against ur organization,queja,complaint,FEEDBACK,9
+1629,can you show me how soon can I expect my parcel?,fecha_entrega,delivery_period,DELIVERY,11
+1630,I'm calling to lodge a compaint,queja,complaint,FEEDBACK,6
+1631,I need to chat with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1632,how to check how soon can I expect my parcel?,fecha_entrega,delivery_period,DELIVERY,10
+1633,where to see when my shipment is going to arrive?,fecha_entrega,delivery_period,DELIVERY,10
+1634,can I see how long it takes for the purchase to arrive?,fecha_entrega,delivery_period,DELIVERY,12
+1635,help me to lodge a customer claim,queja,complaint,FEEDBACK,7
+1636,i need assistance to see how soon can i expect the order,fecha_entrega,delivery_period,DELIVERY,12
+1637,"I want to check when will my product arrive, how do I do it?",fecha_entrega,delivery_period,DELIVERY,14
+1638,"I do not understand you, could I contact a person?",contactar_ejecutivo,contact_human_agent,CONTACT,10
+1639,I don't know what to do to make a reclamation,queja,complaint,FEEDBACK,10
+1640,what do I have to do to make a customer complaint?,queja,complaint,FEEDBACK,11
+1641,help to see order {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+1642,i have to see when will my article arrive,fecha_entrega,delivery_period,DELIVERY,9
+1643,where do i restore the password ofmy account,otro,recover_password,ACCOUNT,8
+1644,want help to file a claim against your organization,queja,complaint,FEEDBACK,9
+1645,uare not helpful at all help me talk to a goddamnagent,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1646,could I see in which cases can I ask to be refunded?,otro,check_refund_policy,REFUND,12
+1647,help me see the allowed payment options,otro,check_payment_methods,PAYMENT,7
+1648,show me purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,7
+1649,I need to make a customer reclamation against your business,queja,complaint,FEEDBACK,10
+1650,help seeing how soon can I expect my product,fecha_entrega,delivery_period,DELIVERY,9
+1651,help speaking with customer support,contactar_ejecutivo,contact_customer_service,CONTACT,5
+1652,I want to check what hours I can contact customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1653,i want help checking purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1654,I have got to file a reclamation,queja,complaint,FEEDBACK,7
+1655,could I speak to a live agent?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1656,where to make a consumer claim against your organization?,queja,complaint,FEEDBACK,9
+1657,I'mlooking for shipping period can uhelp me find them,fecha_entrega,delivery_period,DELIVERY,9
+1658,need to make an customer claim against ur business,queja,complaint,FEEDBACK,9
+1659,i have to contact a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1660,can you show me how long it takes for the article to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1661,help to lodge a consumer claim against your company,queja,complaint,FEEDBACK,9
+1662,i need assistance to check how long the shipping tazkes,fecha_entrega,delivery_period,DELIVERY,10
+1663,tracking order,estatus_orden,track_order,ORDER,2
+1664,wanna contact an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,4
+1665,"I can't pay, I need help to inform of problems with payment",otro,payment_issue,PAYMENT,12
+1666,I do not know how I can check when will my package arrive,fecha_entrega,delivery_period,DELIVERY,13
+1667,I call to make a consumer claim against your business,queja,complaint,FEEDBACK,10
+1668,I do not know how I can see when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,13
+1669,"the payment failed, where do I notify of errors?",otro,payment_issue,PAYMENT,9
+1670,want assistance to file a complaint against ur company,queja,complaint,FEEDBACK,9
+1671,chek order {{Order Number}} status,estatus_orden,track_order,ORDER,5
+1672,i do not know what to do to talk to a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,13
+1673,I try to lodge a customer complaint,queja,complaint,FEEDBACK,7
+1674,contcat an agent,contactar_ejecutivo,contact_human_agent,CONTACT,3
+1675,how do I make a consumer complaint against your businrss?,queja,complaint,FEEDBACK,10
+1676,I want assistance obtaining a reimbursement of my money,otro,get_refund,REFUND,9
+1677,can I open a gold account?,otro,create_account,ACCOUNT,6
+1678,need help chatting with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1679,where to see the bloody ETA of the order {{Order Number}},estatus_orden,track_order,ORDER,11
+1680,how do I see the ETA of the order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+1681,I try to lodge a consumer claim against your organization,queja,complaint,FEEDBACK,10
+1682,I want to make a customer claim,queja,complaint,FEEDBACK,7
+1683,seeing order {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+1684,could you help me file a customer reclamation?,queja,complaint,FEEDBACK,8
+1685,assistance to check when will my product arrive,fecha_entrega,delivery_period,DELIVERY,8
+1686,help seeing the ETA of the purchase00123842,estatus_orden,track_order,ORDER,7
+1687,I'm calling to lodge a customer reclamation,queja,complaint,FEEDBACK,7
+1688,I need help checking how soon can I expect my shipment,fecha_entrega,delivery_period,DELIVERY,11
+1689,I do not know what to do to chat with someone,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1690,help me lodge a customer reclamation against ur company,queja,complaint,FEEDBACK,9
+1691,I have got to make a customer reclamation,queja,complaint,FEEDBACK,8
+1692,"I have got to see the ETA of order {{Order Number}}, I need help",estatus_orden,track_order,ORDER,14
+1693,I want to see how long it takes for my item to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1694,I do not know what to do to lodge an customer reclamation,queja,complaint,FEEDBACK,12
+1695,help me to see the status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1696,I do not know how I can recover my user key,otro,recover_password,ACCOUNT,11
+1697,checking order {{Order Number}} status,estatus_orden,track_order,ORDER,5
+1698,could I use the {{Account Category}} profile?,otro,switch_account,ACCOUNT,7
+1699,I want help to see what hours I can call customer support,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1700,where could I get information about shipping period?,fecha_entrega,delivery_period,DELIVERY,8
+1701,want help seeing ur accepted payment metjods,otro,check_payment_methods,PAYMENT,7
+1702,help me to see the ETA of the purchase {{Order Number}},estatus_orden,track_order,ORDER,11
+1703,want hep to speak with a live agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1704,help seeing the current status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1705,i cant open a rpofile want help notifying of a signup error,otro,registration_problems,ACCOUNT,12
+1706,I have to see how soon can I expect my package,fecha_entrega,delivery_period,DELIVERY,11
+1707,I have got to contact customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1708,help me to file a claim,queja,complaint,FEEDBACK,6
+1709,want help to chck how soon can i expect my order,fecha_entrega,delivery_period,DELIVERY,11
+1710,need help to speqk with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1711,I cannot talk to somebody,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1712,lodging customer claim against ur company,queja,complaint,FEEDBACK,6
+1713,wanna track purchase {{Order Number}} will ya help me,estatus_orden,track_order,ORDER,9
+1714,how do I speak with a fucking operator?,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1715,where do I acquire some items?,otro,place_order,ORDER,6
+1716,want assistance talking to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1717,I want assistance deleting my standard account,otro,delete_account,ACCOUNT,7
+1718,i have to check how soon can i expect tne article,fecha_entrega,delivery_period,DELIVERY,11
+1719,help me to see what hours I can reach customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1720,icannot switch to the bloody standard account,otro,switch_account,ACCOUNT,7
+1721,"my experience with you has been bad, make a customer claim",queja,complaint,FEEDBACK,11
+1722,how to file a bloody customer complaint?,queja,complaint,FEEDBACK,7
+1723,help me to file a customer claim,queja,complaint,FEEDBACK,7
+1724,how do I lodge a damn consumer reclamation?,queja,complaint,FEEDBACK,8
+1725,I have to see how long it takes for my product to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1726,where to file a customer reclamation against ur company,queja,complaint,FEEDBACK,9
+1727,check the status of my corporate newsletter subscription,otro,newsletter_subscription,SUBSCRIPTION,8
+1728,can i check what hours i can contact customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1729,cann I lodge a consumer reclamation against your business?,queja,complaint,FEEDBACK,9
+1730,"I am trying to find the shipping periods, can you help me?",fecha_entrega,delivery_period,DELIVERY,12
+1731,help me to earn some of ur item,otro,place_order,ORDER,8
+1732,help checking what hours I can call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1733,i try to track purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+1734,see what hours I can contact customer support,contactar_ejecutivo,contact_customer_service,CONTACT,8
+1735,i need assistance talking with an agent,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1736,I need assistance to check order {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+1737,I try to make a reclamation against your organization,queja,complaint,FEEDBACK,9
+1738,where could I see how soon can I expect the product ?,fecha_entrega,delivery_period,DELIVERY,12
+1739,I do not know what I need to do to make a consumer claim,queja,complaint,FEEDBACK,14
+1740,I need assistance to file a claim against your business,queja,complaint,FEEDBACK,10
+1741,assistance to make a claim,queja,complaint,FEEDBACK,5
+1742,want help asking for reimbursements,otro,get_refund,REFUND,5
+1743,"I have paid {{Currency Symbol}}{{Refund Amount}} for this order, where to get a rebate?",otro,get_refund,REFUND,14
+1744,how to see the cancellation penalty?,otro,check_cancellation_fee,CANCEL,6
+1745,help me earn several of your item,otro,place_order,ORDER,7
+1746,I want help filing a consumer reclamation,queja,complaint,FEEDBACK,7
+1747,can ya help me check order {{Order Number}} current status,estatus_orden,track_order,ORDER,10
+1748,want assistance opening a premium account,otro,create_account,ACCOUNT,6
+1749,i try to check how soon can i expect my article,fecha_entrega,delivery_period,DELIVERY,11
+1750,I'm calling to lodge a claim against ur company,queja,complaint,FEEDBACK,9
+1751,can I enter my secondary delivery address?,otro,set_up_shipping_address,SHIPPING,7
+1752,assistance to lodge a fucking consumer claim,queja,complaint,FEEDBACK,7
+1753,I'm not happy wirh ur services file a complaint,queja,complaint,FEEDBACK,9
+1754,I don't know how I can make a customer complaint,queja,complaint,FEEDBACK,10
+1755,how can I check the early exit fees?,otro,check_cancellation_fee,CANCEL,8
+1756,see order {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+1757,acn I make a consumer reclamation against your business?,queja,complaint,FEEDBACK,9
+1758,I want help to purchase some items,otro,place_order,ORDER,7
+1759,where can I lodge a fucking reclamation?,queja,complaint,FEEDBACK,7
+1760,how can I lodge a customer reclamation against your company?,queja,complaint,FEEDBACK,10
+1761,I cannot talk to an operator,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1762,I donot know how to check order {{Order Number}} status,estatus_orden,track_order,ORDER,10
+1763,i have to see what payment options are allowed,otro,check_payment_methods,PAYMENT,9
+1764,i cannotedit purchase {{Order Number}},otro,change_order,ORDER,5
+1765,I do not know what to do to locate purchase {{Order Number}},estatus_orden,track_order,ORDER,12
+1766,I want help to demand a rebate of money,otro,get_refund,REFUND,9
+1767,help seeing the allowed payment modalities,otro,check_payment_methods,PAYMENT,6
+1768,i dont know how to see when will my item arrive,fecha_entrega,delivery_period,DELIVERY,11
+1769,what do I need to do to track order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+1770,I want help checking order {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+1771,I don't know how I can delete the freemium account,otro,delete_account,ACCOUNT,10
+1772,can you help me receiving the company newsletter?,otro,newsletter_subscription,SUBSCRIPTION,8
+1773,"I have to swap some items of order {{Order Number}}, help me",otro,change_order,ORDER,12
+1774,can you help me purchasing something?,otro,place_order,ORDER,6
+1775,I want to make a customer complaint,queja,complaint,FEEDBACK,7
+1776,what do I need to do to notify of a problem with payments?,otro,payment_issue,PAYMENT,13
+1777,"I want to retrieve my user PIN, how to do it?",otro,recover_password,ACCOUNT,11
+1778,assistance ordering some of your article,otro,place_order,ORDER,6
+1779,i have got to download my bill #12588 how do i do it,otro,get_invoice,INVOICE,13
+1780,help me filing a reclamation against your business,queja,complaint,FEEDBACK,8
+1781,need assistance switching to the {{Account Type}} account,otro,switch_account,ACCOUNT,8
+1782,where can I lodge a customer claim against your business?,queja,complaint,FEEDBACK,10
+1783,wanna lodge a complaint,queja,complaint,FEEDBACK,4
+1784,can you help me make a reclamation against your company?,queja,complaint,FEEDBACK,10
+1785,help me to filea consumer reclamation,queja,complaint,FEEDBACK,6
+1786,can you help me seeing the ETA of the order {{Order Number}}?,estatus_orden,track_order,ORDER,12
+1787,i have to see the status of order {{Order Number}} can ya helo me,estatus_orden,track_order,ORDER,14
+1788,is it possible to check how long the shipment takes?,fecha_entrega,delivery_period,DELIVERY,10
+1789,help to lodge a claim against your business,queja,complaint,FEEDBACK,8
+1790,will ya shwo me the eta of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1791,could you help me see the status of order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+1792,what is order {{Order Number}} current status?,estatus_orden,track_order,ORDER,7
+1793,i have to see how long it takes for my delivery to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1794,help me open a {{Account Category}} account for my dad,otro,create_account,ACCOUNT,10
+1795,making customer complaint against your company,queja,complaint,FEEDBACK,6
+1796,how can I see how long the shipping takes?,fecha_entrega,delivery_period,DELIVERY,9
+1797,assistance to check the eta of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1798,what is the shpiping period?,fecha_entrega,delivery_period,DELIVERY,5
+1799,assistance to see order {{Order Number}} current status,estatus_orden,track_order,ORDER,8
+1800,i dont know how i could see when my shipment is gonna arrive,fecha_entrega,delivery_period,DELIVERY,13
+1801,help me lodge a consumer complaint against your busness,queja,complaint,FEEDBACK,9
+1802,can uhelp me checking the eta of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1803,where can i lodge a claim against ur company,queja,complaint,FEEDBACK,9
+1804,what do I have to do to set up the new shipping addeess?,otro,set_up_shipping_address,SHIPPING,13
+1805,i need help seeing purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1806,how can I file a customer claim against your organization?,queja,complaint,FEEDBACK,10
+1807,want assistance to speak with someone,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1808,want help to see how soon can I expect the purchase,fecha_entrega,delivery_period,DELIVERY,11
+1809,help me see the eta of the purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1810,where to ask for reimbursements of money ?,otro,get_refund,REFUND,8
+1811,wanna see pjrchase {{Order Number}} damn current status,estatus_orden,track_order,ORDER,8
+1812,help me see how soon can I expect the article,fecha_entrega,delivery_period,DELIVERY,10
+1813,I need assistance to reset my user profile key,otro,recover_password,ACCOUNT,9
+1814,I'd like to make a customer reclamation against ur business,queja,complaint,FEEDBACK,10
+1815,i want help ordering some articles,otro,place_order,ORDER,6
+1816,can you show me how long it takes for my delivery to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1817,i cant make a payment where can i notify of an error,otro,payment_issue,PAYMENT,12
+1818,I would like to see when my delivery is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1819,I do not know how I can speak to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1820,will you tell me what hours I can call customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1821,help to see purchase {{Order Number}} damn status,estatus_orden,track_order,ORDER,8
+1822,I have got to check how soon can I expect my package,fecha_entrega,delivery_period,DELIVERY,12
+1823,could you tell me what hours customer support available is?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1824,can i see tye eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1825,I don't know what I need to do to make a claim,queja,complaint,FEEDBACK,12
+1826,uhave a method to submit feedback for ur services,otro,review,FEEDBACK,9
+1827,could you help me to see how soon can I expect the product?,fecha_entrega,delivery_period,DELIVERY,13
+1828,I'm very unhappyt with ur service i need to file a complaint,queja,complaint,FEEDBACK,12
+1829,where can i check the bloody eta of order {{Order Number}},estatus_orden,track_order,ORDER,11
+1830,help making a customer complaint against your business,queja,complaint,FEEDBACK,8
+1831,"I have to see the ETA of the order {{Order Number}}, help me",estatus_orden,track_order,ORDER,13
+1832,help me make a customer complaint against your business,queja,complaint,FEEDBACK,9
+1833,show me how soon can I expect my shipment,fecha_entrega,delivery_period,DELIVERY,9
+1834,could you help me notifying of problems with a signup?,otro,registration_problems,ACCOUNT,10
+1835,ETA of purchase {{Order Number}},estatus_orden,track_order,ORDER,5
+1836,i cannot see the eta of the order {{Order Number}},estatus_orden,track_order,ORDER,10
+1837,I have got to contact customre support,contactar_ejecutivo,contact_customer_service,CONTACT,7
+1838,i want assistance checking how soon can i expect the item,fecha_entrega,delivery_period,DELIVERY,11
+1839,where could I file a consumer claim against your company?,queja,complaint,FEEDBACK,10
+1840,problem entering the seocndary shipping address,otro,set_up_shipping_address,SHIPPING,6
+1841,help me seeing the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,9
+1842,I need help seeing purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,9
+1843,want assistance seeinhg how long the shipment takes,fecha_entrega,delivery_period,DELIVERY,8
+1844,could you help me to see how soon can I expect the article?,fecha_entrega,delivery_period,DELIVERY,13
+1845,wanna check when will my parcel arrive can i get some help,fecha_entrega,delivery_period,DELIVERY,12
+1846,can you show me the current status of order {{Order Number}}?,estatus_orden,track_order,ORDER,11
+1847,"I have got to call customer service, how to do it?",contactar_ejecutivo,contact_customer_service,CONTACT,11
+1848,I try to see what hours I can reach customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1849,where can i check how soon cn i expect my shipment,fecha_entrega,delivery_period,DELIVERY,11
+1850,can iu talk to customer support,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1851,can I see how soon can I expect the fucking item?,fecha_entrega,delivery_period,DELIVERY,11
+1852,"I want to speak with customer service, helpme",contactar_ejecutivo,contact_customer_service,CONTACT,8
+1853,take a quick look at the invoice #12588,otro,check_invoice,INVOICE,8
+1854,"I am unhappy with your service, I have to file a reclamation",queja,complaint,FEEDBACK,12
+1855,i need help speaking to a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1856,I want assistance to speak to somebody,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1857,needto locate order {{Order Number}} how can i do it,estatus_orden,track_order,ORDER,10
+1858,how do I make a complaint against your business?,queja,complaint,FEEDBACK,9
+1859,I'm trying to see at what time customer support available is,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1860,can ushow me order {{Order Number}} status,estatus_orden,track_order,ORDER,7
+1861,what do I need to do to edit order {{Order Number}}?,otro,change_order,ORDER,11
+1862,I need assistance to check when will my article arrive,fecha_entrega,delivery_period,DELIVERY,10
+1863,can you hsow me how long it takes for the article to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1864,i want assistance trying to change ym shipping address,otro,change_shipping_address,SHIPPING,9
+1865,help me see the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,9
+1866,I want to check when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,9
+1867,I want assistance demanding rebates of my money,otro,get_refund,REFUND,8
+1868,could uhelp me see the eta of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1869,I want help to lodge an complaint against your company,queja,complaint,FEEDBACK,10
+1870,"you are not helpful at all, help to speak with an assistant",contactar_ejecutivo,contact_human_agent,CONTACT,12
+1871,"I ain't happy with your work, I need to make a reclamation",queja,complaint,FEEDBACK,12
+1872,how to speak with somebody,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1873,need assistance seeing when will my parcel arrive,fecha_entrega,delivery_period,DELIVERY,8
+1874,want assistance checking ohw soon can i expect my parcel,fecha_entrega,delivery_period,DELIVERY,10
+1875,check ETA of order {{Order Number}},estatus_orden,track_order,ORDER,6
+1876,can i speak with someone,contactar_ejecutivo,contact_human_agent,CONTACT,5
+1877,i do not know what to do to speak with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,13
+1878,i need help seeing the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1879,I don't know what I have to do to talk to an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,13
+1880,what is order {{Order Number}} current status,estatus_orden,track_order,ORDER,7
+1881,how could I see how soon can I expect my order?,fecha_entrega,delivery_period,DELIVERY,11
+1882,help me seeing how long it takes for the delivery to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1883,how do I chat with an operator?,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1884,i have got to file a customer reclamation againstur company,queja,complaint,FEEDBACK,10
+1885,is it possible to check the ETA oif order {{Order Number}},estatus_orden,track_order,ORDER,11
+1886,I would like to lodge a consumer complaint,queja,complaint,FEEDBACK,8
+1887,can i speak to customer service,contactar_ejecutivo,contact_customer_service,CONTACT,6
+1888,where can I make a customer claim against your organization?,queja,complaint,FEEDBACK,10
+1889,where to check when my order is going to arrive?,fecha_entrega,delivery_period,DELIVERY,10
+1890,I need help to find my damn invoice from {{Person Name}},otro,check_invoice,INVOICE,11
+1891,"I would like to make a bloody complaint, could you help me?",queja,complaint,FEEDBACK,12
+1892,I need help modifying order {{Order Number}},otro,change_order,ORDER,7
+1893,help to see order {{Order Number}} status,estatus_orden,track_order,ORDER,7
+1894,how to lodge a claim against your company?,queja,complaint,FEEDBACK,8
+1895,I do not know how to see when will my item arrive,fecha_entrega,delivery_period,DELIVERY,12
+1896,consumer reclamation against your organization,queja,complaint,FEEDBACK,5
+1897,can uhelp me check at what time i can reach customer service,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1898,I don't know how I can see when will my parcel arrive,fecha_entrega,delivery_period,DELIVERY,12
+1899,I don't know what I need to do to speak with a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,14
+1900,do you have a free phone number to call customer support?,contactar_ejecutivo,contact_customer_service,CONTACT,11
+1901,want help checking ur money back policy,otro,check_refund_policy,REFUND,7
+1902,i cannot track purchase {{Order Number}},estatus_orden,track_order,ORDER,6
+1903,tracking order {{Order Number}},estatus_orden,track_order,ORDER,4
+1904,what is order {{Order Number}} crrent status,estatus_orden,track_order,ORDER,7
+1905,i dont know how i could inform of a problem with a sign-up,otro,registration_problems,ACCOUNT,13
+1906,can you help me making a complaint?,queja,complaint,FEEDBACK,7
+1907,I do not know what to do to file a customer reclamtion,queja,complaint,FEEDBACK,12
+1908,help seeing when will my article arrive,fecha_entrega,delivery_period,DELIVERY,7
+1909,"I have to see purchase {{Order Number}} status, how can I do it?",estatus_orden,track_order,ORDER,13
+1910,find my bill from {{Person Name}},otro,check_invoice,INVOICE,6
+1911,I want assitsance to see when my package is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1912,help me to check when will my article arrive,fecha_entrega,delivery_period,DELIVERY,9
+1913,I have to inform of errors with online payments,otro,payment_issue,PAYMENT,9
+1914,I'm dissatisfied with ur services help to file a reclamation,queja,complaint,FEEDBACK,10
+1915,i cant make payments notify of issujes,otro,payment_issue,PAYMENT,7
+1916,how could I check how long it takes for my parcel to arrive?,fecha_entrega,delivery_period,DELIVERY,13
+1917,I need assistance to contact a human agent,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1918,want help to check what hours i cancall customer service,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1919,where to see the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,9
+1920,assistance to check the current status of order {{Order Number}},estatus_orden,track_order,ORDER,10
+1921,wanna use the {{Account Type}} profile help me,otro,switch_account,ACCOUNT,8
+1922,i do not know what i need to do to earn some of ur article,otro,place_order,ORDER,15
+1923,I have to file a customer claim against your business,queja,complaint,FEEDBACK,10
+1924,i dont khow how to cancel order {{Order Number}},otro,cancel_order,ORDER,9
+1925,I need assistance to talk with an operator,contactar_ejecutivo,contact_human_agent,CONTACT,8
+1926,I have problems correcting my address,otro,change_shipping_address,SHIPPING,6
+1927,need to see how long it usually take for the item to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1928,how could I check purchase {{Order Number}} status?,estatus_orden,track_order,ORDER,8
+1929,cancel subscription to ur newsletter,otro,newsletter_subscription,SUBSCRIPTION,5
+1930,need to check the eta of the purchase {{Order Number}} help me,estatus_orden,track_order,ORDER,12
+1931,I want to talk with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1932,contacting agent,contactar_ejecutivo,contact_human_agent,CONTACT,2
+1933,how do I get in touch with customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1934,check purchase {{Order Number}} current status,estatus_orden,track_order,ORDER,6
+1935,is it possible to get in touch with customer assistance?,contactar_ejecutivo,contact_customer_service,CONTACT,10
+1936,"I would like to set the shipping address up, I need help",otro,set_up_shipping_address,SHIPPING,12
+1937,what do I have to do to chat with an operator?,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1938,need assistance checking how soon can I expect the shipment,fecha_entrega,delivery_period,DELIVERY,10
+1939,I need help to contact a person,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1940,I need help tracking purchase {{Order Number}},estatus_orden,track_order,ORDER,7
+1941,help filing a consumer complaint against your organization,queja,complaint,FEEDBACK,8
+1942,I don't know how I can reset my user PIN code,otro,recover_password,ACCOUNT,11
+1943,I want to see how long it takes for the dewlivery to arrive,fecha_entrega,delivery_period,DELIVERY,13
+1944,i try to check the termination epnalties,otro,check_cancellation_fee,CANCEL,7
+1945,I want to see when will my product arrive,fecha_entrega,delivery_period,DELIVERY,9
+1946,update purchase00004587345,otro,change_order,ORDER,2
+1947,report a trouble wuth payments,otro,payment_issue,PAYMENT,5
+1948,need help to file a customer claim against your organization,queja,complaint,FEEDBACK,10
+1949,help locating purchase {{Order Number}},estatus_orden,track_order,ORDER,5
+1950,I do not know how to lodge a customer claim,queja,complaint,FEEDBACK,10
+1951,i wqant assistance checking purchase {{Order Number}} status,estatus_orden,track_order,ORDER,8
+1952,how can i get information about the delivery period,fecha_entrega,delivery_period,DELIVERY,9
+1953,"I cannot understand you, I have got to speak with someone",contactar_ejecutivo,contact_human_agent,CONTACT,11
+1954,I do not know how I can make a reclamation,queja,complaint,FEEDBACK,10
+1955,ned to see when will my package arrive,fecha_entrega,delivery_period,DELIVERY,8
+1956,how do i check the status of purchase {{Order Number}},estatus_orden,track_order,ORDER,10
+1957,i need help to delete something from order {{Order Number}},otro,change_order,ORDER,10
+1958,where do I lodge a custmoer reclamation?,queja,complaint,FEEDBACK,7
+1959,how to see order {{Order Number}} current status?,estatus_orden,track_order,ORDER,8
+1960,I want to check when will my product arrive,fecha_entrega,delivery_period,DELIVERY,9
+1961,I do not know how I can see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,12
+1962,wanna open a gold account,otro,create_account,ACCOUNT,5
+1963,"I am looking for shipping period, will you help me?",fecha_entrega,delivery_period,DELIVERY,10
+1964,assistance seeing the ETA of order {{Order Number}},estatus_orden,track_order,ORDER,8
+1965,how do i see at what time i can recah customer service,contactar_ejecutivo,contact_customer_service,CONTACT,12
+1966,help seeing what hours I can contact customer assistance,contactar_ejecutivo,contact_customer_service,CONTACT,9
+1967,help me list your available payment methods,otro,check_payment_methods,PAYMENT,7
+1968,"I want to locate order {{Order Number}}, could I get some help?",estatus_orden,track_order,ORDER,12
+1969,want assistance checking how soon can i expect the delivery,fecha_entrega,delivery_period,DELIVERY,10
+1970,I don't know what to do to chat with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,11
+1971,I call to see when my parcel is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1972,how do I give a quick look at my invoice #00108?,otro,check_invoice,INVOICE,11
+1973,I want to speak with someone,contactar_ejecutivo,contact_human_agent,CONTACT,6
+1974,how can I get information about damn delivery period?,fecha_entrega,delivery_period,DELIVERY,9
+1975,I can't see if there is anything new on the compensation,otro,track_refund,REFUND,11
+1976,give me information aout editing order {{Order Number}},otro,change_order,ORDER,8
+1977,how do i cyat with a person,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1978,"I need to see the ETA of the purchase {{Order Number}}, help me",estatus_orden,track_order,ORDER,13
+1979,I want assistance seeing the withdrawal fee,otro,check_cancellation_fee,CANCEL,7
+1980,can you help me to lodge a customer reclamation?,queja,complaint,FEEDBACK,9
+1981,I try to chat with an assistant,contactar_ejecutivo,contact_human_agent,CONTACT,7
+1982,help me filing a reclamation against ur business,queja,complaint,FEEDBACK,8
+1983,I have got to see when my package is going to arrive,fecha_entrega,delivery_period,DELIVERY,12
+1984,i need assistance to check how soon can i expect my delivery,fecha_entrega,delivery_period,DELIVERY,12
+1985,i want help to check the current status of my compensation,otro,track_refund,REFUND,11
+1986,need to call customer service,contactar_ejecutivo,contact_customer_service,CONTACT,5
+1987,is it possible to see the available pyment options,otro,check_payment_methods,PAYMENT,9
+1988,"I need to talk to customer support, how do I do it?",contactar_ejecutivo,contact_customer_service,CONTACT,12
+1989,i dont know what i have to do to switch to the {{Account Type}} acfcount,otro,switch_account,ACCOUNT,15
+1990,I don't know how I could see purchase {{Order Number}} status,estatus_orden,track_order,ORDER,11
+1991,I don't know what I need to do to talk to somebody,contactar_ejecutivo,contact_human_agent,CONTACT,12
+1992,i do not know what to do to file a complaint,queja,complaint,FEEDBACK,11
+1993,I don't know how to check when will my purchase arrive,fecha_entrega,delivery_period,DELIVERY,11
+1994,need help filing a claim against your organization,queja,complaint,FEEDBACK,8
+1995,I want to see when my purchase is going to arrive,fecha_entrega,delivery_period,DELIVERY,11
+1996,I want to see how soon can I expect the goddamn package,fecha_entrega,delivery_period,DELIVERY,12
+1997,where do I get reimbursements of my money?,otro,get_refund,REFUND,8
+1998,I call to check when will my product arrive,fecha_entrega,delivery_period,DELIVERY,9
+1999,where do I restore my user pass?,otro,recover_password,ACCOUNT,7
+2000,delivery period,fecha_entrega,delivery_period,DELIVERY,2

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CAB · Asistente de órdenes</title>
+  <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">CAB</span>
+      <div>
+        <h1>Asistente de órdenes</h1>
+        <p>Componentes Automotrices del Bajío · prototipo con datos simulados</p>
+      </div>
+    </div>
+    <div class="controles">
+      <label for="cliente">Cliente</label>
+      <select id="cliente"></select>
+      <span id="salud" class="pildora" title="Estado de la API">conectando…</span>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <section class="chat" aria-label="Conversación">
+      <div id="mensajes" class="mensajes" aria-live="polite"></div>
+      <div id="opciones" class="opciones"></div>
+      <form id="formulario" class="entrada" autocomplete="off">
+        <input id="texto" type="text" maxlength="1000" placeholder="Escribe tu pregunta, por ejemplo: ¿cuándo llega la OC 4500127991?" required>
+        <button type="submit" id="enviar">Enviar</button>
+      </form>
+      <div class="ejemplos" id="ejemplos"></div>
+    </section>
+
+    <aside class="panel">
+      <section>
+        <h2>Órdenes abiertas</h2>
+        <p class="nota">Vienen de <code>GET /api/ordenes</code>. Toca una para preguntar por ella.</p>
+        <div id="ordenes" class="chips"></div>
+      </section>
+      <section>
+        <h2>Detalle técnico</h2>
+        <p class="nota">Respuesta de <code>POST /api/chat</code>: lo que decidió cada componente.</p>
+        <div id="detalle" class="detalle"><p class="nota">Aún no hay mensajes.</p></div>
+      </section>
+      <section class="enlaces">
+        <a href="/docs" target="_blank" rel="noopener">Documentación de la API (Swagger)</a>
+        <a href="/api/salud" target="_blank" rel="noopener">/api/salud</a>
+      </section>
+    </aside>
+  </main>
+
+  <script src="static/config.js"></script>
+  <script src="static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+# Ejecución local de la solución completa en dos contenedores:
+#   web (nginx, frontend)  →  http://localhost:8080
+#   api (FastAPI, modelos) →  http://localhost:8000/docs
+# Uso:  docker compose up --build        (detener: docker compose down)
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        MODELO_ROUTER: ${MODELO_ROUTER:-gagarang/router-intencion-cab-mdeberta}
+        MODELO_REVISION: ${MODELO_REVISION:-model-v1.0.0}
+        GIT_COMMIT: ${GIT_COMMIT:-desconocido}
+    image: cab-chatbot-api:1.0.0
+    container_name: cab-api
+    env_file:
+      - path: .env
+        required: false   # si no existe .env se usan los valores por defecto
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./bitacora:/app/bitacora   # bitácora de conversaciones (riesgo R09) fuera del contenedor
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    image: cab-chatbot-web:1.0.0
+    container_name: cab-web
+    ports:
+      - "8080:8080"
+    depends_on:
+      api:
+        condition: service_healthy   # el chat abre cuando la API ya cargó los modelos
+    restart: unless-stopped

@@ -1,0 +1,51 @@
+id,mensaje,intencion,idioma
+1,where is my order?,estatus_orden,en
+2,can you track my order 4500123987?,estatus_orden,en
+3,has my order shipped yet?,estatus_orden,en
+4,what's the status of my purchase order?,estatus_orden,en
+5,i want to know where my shipment is right now,estatus_orden,en
+6,is my order already on the way?,estatus_orden,en
+7,check the status of PO 4500998812 please,estatus_orden,en
+8,"my order still says processing, what is happening with it?",estatus_orden,en
+9,when will my order arrive?,fecha_entrega,en
+10,what is the delivery date for PO 4500123987?,fecha_entrega,en
+11,how many days until my parts get here?,fecha_entrega,en
+12,will the shipment be here before friday?,fecha_entrega,en
+13,when can i expect the delivery?,fecha_entrega,en
+14,what's the ETA for the brake pads we ordered?,fecha_entrega,en
+15,how long does shipping take to queretaro?,fecha_entrega,en
+16,is the delivery still scheduled for next week?,fecha_entrega,en
+17,your last delivery arrived damaged and i am very upset,queja,en
+18,"this is the third late shipment, i want to file a complaint",queja,en
+19,"terrible service, nobody answers my emails",queja,en
+20,"the parts you sent are the wrong ones, unacceptable",queja,en
+21,i'm not happy with how my order was handled,queja,en
+22,i want to report a problem with your driver,queja,en
+23,"the quality of the last batch was awful, i am filing a complaint",queja,en
+24,i am disappointed with your customer service,queja,en
+25,can i speak with my account executive?,contactar_ejecutivo,en
+26,i need to talk to a human,contactar_ejecutivo,en
+27,please have someone call me back,contactar_ejecutivo,en
+28,connect me with a sales representative,contactar_ejecutivo,en
+29,is there a phone number to reach an agent?,contactar_ejecutivo,en
+30,i'd rather talk to a real person than a bot,contactar_ejecutivo,en
+31,transfer me to customer service,contactar_ejecutivo,en
+32,put me through to an operator please,contactar_ejecutivo,en
+33,i need a copy of the invoice for PO 4500123987,otro,en
+34,how do i change my billing address?,otro,en
+35,can i pay with bank transfer?,otro,en
+36,i want to cancel my order,otro,en
+37,how do i reset my password?,otro,en
+38,do you offer a discount for bulk orders?,otro,en
+39,how do i request a refund?,otro,en
+40,add another item to my order,otro,en
+41,¿dónde está mi pedido?,estatus_orden,es
+42,¿cuál es el estatus de la OC 4500123987?,estatus_orden,es
+43,¿cuándo llega mi pedido?,fecha_entrega,es
+44,¿qué fecha de entrega tiene la OC 4500998812?,fecha_entrega,es
+45,"quiero poner una queja, llegaron piezas dañadas",queja,es
+46,"pésimo servicio, el embarque llegó tarde otra vez",queja,es
+47,quiero hablar con mi ejecutivo de cuenta,contactar_ejecutivo,es
+48,"comuníquenme con una persona, por favor",contactar_ejecutivo,es
+49,necesito la factura de mi último pedido,otro,es
+50,¿cómo cambio mi dirección de envío?,otro,es

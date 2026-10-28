@@ -1,0 +1,17 @@
+flowchart LR
+    U["Cliente B2B<br/>(navegador)"] -->|"HTTP :8080"| W["Contenedor web<br/>nginx + chat HTML/JS"]
+    W -->|"proxy /api/*"| A["Contenedor api<br/>FastAPI :8000"]
+    subgraph API["Contenedor api"]
+      A --> R["Router de intención<br/>mDeBERTa-v3 ajustado"]
+      R --> P{"Política<br/>de decisión"}
+      P -->|"automática"| S[("SAP simulado<br/>solo lectura,<br/>filtro por cliente")]
+      S --> E["Modelo de ETA (rango)<br/>+ riesgo de retraso"]
+      E --> T["Plantillas ES/EN"]
+      P -->|"aclarar / escalar /<br/>canalizar"| T
+    end
+    T --> A
+    A -.-> B[("Bitácora JSON")]
+    HF[("Hugging Face Hub<br/>model-v1.0.0")] -.->|"docker build"| R
+    style API fill:#f3f8f6,stroke:#0e5c4a
+    classDef verde fill:#e6f2ee,stroke:#0e5c4a,color:#1d2421
+    class W,A,R,E,T verde

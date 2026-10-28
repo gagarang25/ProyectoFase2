@@ -1,0 +1,401 @@
+id,mensaje,intencion,idioma,fuente,plantilla
+1,help to call customer assistance,contactar_ejecutivo,en,bitext_a4,
+2,i have to check the ETA of order732201349959 i need help,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+3,help seeing at what time I can reach customer service regarding PO 4515145751,contactar_ejecutivo,en,bitext_a4,
+4,I would like to lodge a consumer complaint,queja,en,bitext_a4,
+5,i don't want to talk to a bot,contactar_ejecutivo,en,cab_simulado,i don't want to talk to a bot
+6,"otra vez lo mismo, el empaque venia roto de antemano gracias",queja,es,cab_simulado,"otra vez lo mismo, {problema}"
+7,"hey, our line stopped because of your delay on oc-4574732090, i want to report it",queja,en,cab_simulado,"{problema} on {oc}, i want to report it"
+8,modifying data on premium account regarding 4531168067,otro,en,bitext_a4,
+9,wanna see pjrchase order 4551369075 damn current status,estatus_orden,en,bitext_a4,
+10,¿me comunican con el area comercial? es urgente,contactar_ejecutivo,es,cab_simulado,¿me comunican con el área comercial?
+11,saludos. ¿quién es mi ejecutivo asignado? necesito contactarlo es rugente,contactar_ejecutivo,es,cab_simulado,¿quién es mi ejecutivo asignado? necesito contactarlo
+12,help me seeing how soon can i expect my article,fecha_entrega,en,bitext_a4,
+13,¿dónde viene el embarque de la 4510346606? porfa,estatus_orden,es,cab_simulado,¿dónde viene el embarque de la {oc}?
+14,can uhelp me to check the fucking eta of the order PO 4535630292,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+15,how can I see how soon can I expect my order?,fecha_entrega,en,bitext_a4,
+16,can you show me how long the shipping takes regarding 4524220459,fecha_entrega,en,bitext_a4,
+17,I don't know what I have to do to speak with a person,contactar_ejecutivo,en,bitext_a4,
+18,"Buen día, ¿cómo contacto a servicio al cliente?",contactar_ejecutivo,es,cab_simulado,¿cómo contacto a servicio al cliente?
+19,how can I make a consumer reclamation against your business?,queja,en,bitext_a4,
+20,"Hi, when is PO-4525995114 due at our plant? asap",fecha_entrega,en,cab_simulado,when is {oc} due at our plant?
+21,I do not know what to do to locate order #4590517271,estatus_orden,en,bitext_a4,
+22,¿en qué etapa está mi pedido orden 4559268093? quedo atento,estatus_orden,es,cab_simulado,¿en qué etapa está mi pedido {oc}?
+23,¿hacen descuentos por pronto pago? saludos,otro,es,cab_simulado,¿hacen descuentos por pronto pago?
+24,help me to uby several products,otro,en,bitext_a4,
+25,"Hola, necesito saber si la #4552990697 ya salió de planta de antemano gracias",estatus_orden,es,cab_simulado,necesito saber si la {oc} ya salió de planta
+26,help me filing a reclamation against ur business,queja,en,bitext_a4,
+27,need help to see how long it takes for my shipment to arrive,fecha_entrega,en,bitext_a4,
+28,"muy mal servicio con la OC4578600648, llegó menos cantidad de la que pedimos de antemano gracias",queja,es,cab_simulado,"muy mal servicio con la {oc}, {problema}"
+29,Buenos dias. quiero hablar con mi ejecutivo de cuenta gracias!,contactar_ejecutivo,es,cab_simulado,quiero hablar con mi ejecutivo de cuenta
+30,can I see the current status of purchase OC-4551157708?,estatus_orden,en,bitext_a4,
+31,"hi team, what's the status of po#4581103559 please",estatus_orden,en,cab_simulado,what's the status of {oc}?
+32,need help checking the damn ETA of purchase order 4535520201,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+33,can you help me to file a customer reclamation?,queja,en,bitext_a4,
+34,"Hola equipo CAB, ¿a qué fecha se movió la entrega de la #4570887697?",fecha_entrega,es,cab_simulado,¿a qué fecha se movió la entrega de la {oc}?
+35,update purchase00004587345,otro,en,bitext_a4,
+36,¿como va mi pedido? quedo atento,estatus_orden,es,cab_simulado,¿cómo va mi pedido?
+37,"hi, pls have my sales rep call me",contactar_ejecutivo,en,cab_simulado,please have my sales rep call me
+38,"Hola equipo CAB, cuándo nos llegan los otrnillería de la OC4537653656 gracias",fecha_entrega,es,cab_simulado,¿cuándo nos llegan los {prod} de la {oc}?
+39,can youshow me what hours I can contact customer support on OC-4544589439,contactar_ejecutivo,en,bitext_a4,
+40,buenos dias. ¿me pueden pasar con un asesor?,contactar_ejecutivo,es,cab_simulado,¿me pueden pasar con un asesor?
+41,¿como me registro como nuevo cliente? quedo atento,otro,es,cab_simulado,¿cómo me registro como nuevo cliente?
+42,i do not know what i need to do to earn some of ur article,otro,en,bitext_a4,
+43,"Buenas tardes, ya está lista la producción de la orden 4578876916 quedo atento",estatus_orden,es,cab_simulado,¿ya está lista la producción de la {oc}?
+44,show me in which situations can i request refunds,otro,en,bitext_a4,
+45,"Qué tal, ¿mi pedido de molduras ya va en camino?",estatus_orden,es,cab_simulado,¿mi pedido de {prod} ya va en camino?
+46,"I am trying to find the shipping periods, can you help me on PO-4596675408",fecha_entrega,en,bitext_a4,
+47,saludos. ¿qué día me entregan la oc-4538939164? porfa,fecha_entrega,es,cab_simulado,¿qué día me entregan la {oc}?
+48,quiero levantar una queja formal porque nadie contesta mis correos gracias!,queja,es,cab_simulado,quiero levantar una queja formal porque {problema}
+49,"buen día, necesito levantar una reclamación, las piezas venían sin certificado de calidad",queja,es,cab_simulado,"necesito levantar una reclamación, {problema}"
+50,contact a fucking live agent,contactar_ejecutivo,en,bitext_a4,
+51,"hola buenas, quiero hablar con mi ejecutivo de cuenta",contactar_ejecutivo,es,cab_simulado,quiero hablar con mi ejecutivo de cuenta
+52,"necesito levantar una reclamación, el embarque llegó tarde otra vez gracias",queja,es,cab_simulado,"necesito levantar una reclamación, {problema}"
+53,"Hola, ¿pueden enviarme el certificado de calidad del NP 5040-B86? porfa",otro,es,cab_simulado,¿pueden enviarme el certificado de calidad del {np}?
+54,expected arrival date for 4598695414?,fecha_entrega,en,cab_simulado,expected arrival date for {oc}?
+55,"Buen día, ¿cuánto tarda en llegar la orden 4503808371? quedo atento",fecha_entrega,es,cab_simulado,¿cuánto tarda en llegar la {oc}?
+56,¿en qué etapa está mi pedido #4542339783?,estatus_orden,es,cab_simulado,¿en qué etapa está mi pedido {oc}?
+57,I need assistance to see when my article is going to arrive,fecha_entrega,en,bitext_a4,
+58,want assistance checking how soon can i expect the delivery regarding PO 4508994192,fecha_entrega,en,bitext_a4,
+59,¿la entreag de estampados sigue pa el el 15? grax,fecha_entrega,es,cab_simulado,¿la entrega de {prod} sigue para el {dia}?
+60,where do i make a complaint,queja,en,bitext_a4,
+61,i need assistance to chat with somebody,contactar_ejecutivo,en,bitext_a4,
+62,I want to make a customer claim against your business on PO#4543622663,queja,en,bitext_a4,
+63,need assistance talking to customer service for order 4543306792,contactar_ejecutivo,en,bitext_a4,
+64,"Buenas tardes, ¿hay un teléfono para hablar con un humano? quedo atento",contactar_ejecutivo,es,cab_simulado,¿hay un teléfono para hablar con un humano?
+65,"hola, ya salió el camión con la po 4509519256 gracias!",estatus_orden,es,cab_simulado,¿ya salió el camión con la {oc}?
+66,where can i check how soon can i expect my item,fecha_entrega,en,bitext_a4,
+67,showing me purchase #4578458327 current status,estatus_orden,en,bitext_a4,
+68,¿la orden 4585215820 llega antes del jueves? es urgente,fecha_entrega,es,cab_simulado,¿la {oc} llega antes del {dia}?
+69,where can I check how soon can I expect the item on 4507734153,fecha_entrega,en,bitext_a4,
+70,wanna oldge a claim against ur company will uhelp me,queja,en,bitext_a4,
+71,"Hola buenas, ¿el transportista ya recogió la PO 4574825240? gracias",estatus_orden,es,cab_simulado,¿el transportista ya recogió la {oc}?
+72,want assistance seeing the status of order PO 4501297845,estatus_orden,en,bitext_a4,
+73,I don't know what I need to do to contact a live agent on order 4580014570,contactar_ejecutivo,en,bitext_a4,
+74,necesito una nota de crédito de la 4539733158 por fvaor,otro,es,cab_simulado,necesito una nota de crédito de la {oc}
+75,assistance seeing the ETA of order #4505727862,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+76,I don't know what to do to chat with an assistant,contactar_ejecutivo,en,bitext_a4,
+77,where to file a customer reclamation against ur company for OC-4574204255,queja,en,bitext_a4,
+78,could you help me retrieve the password of my user account?,otro,en,bitext_a4,
+79,help to lodge a claim against your business on 4560693413,queja,en,bitext_a4,
+80,"buenas tardes, ¿en cuántos días recibimos la orden 4598436935? grax!",fecha_entrega,es,cab_simulado,¿en cuántos días recibimos la {oc}?
+81,could you help me unsubscribe from your bloody newsletter on PO#4543936531,otro,en,bitext_a4,
+82,I need to make a customer complaint against your company,queja,en,bitext_a4,
+83,can you help me checking when will my product arrive?,fecha_entrega,en,bitext_a4,
+84,this is the third time the shipment was late again regards,queja,en,cab_simulado,this is the third time {problema}
+85,i want assistance seeing when my parcel is gonna arrive for PO-4521516757,fecha_entrega,en,bitext_a4,
+86,"Buen día, ya está lista la producción de la OC4591846715 es urgente",estatus_orden,es,cab_simulado,¿ya está lista la producción de la {oc}?
+87,"Hey, when do we get the injection molded parts? asap",fecha_entrega,en,cab_simulado,when do we get the {prod}?
+88,"Hola equipo CAB, necesito que mi ejecutivo me llame por favor",contactar_ejecutivo,es,cab_simulado,necesito que mi ejecutivo me llame
+89,where do I acquire some items?,otro,en,bitext_a4,
+90,"I have to see my bill, help me for PO#4544273769",otro,en,bitext_a4,
+91,"hola equipo cab, ¿en donde esta mi orden de estampados?",estatus_orden,es,cab_simulado,¿en dónde está mi orden de {prod}?
+92,I need assistance to make a complaint,queja,en,bitext_a4,
+93,"buen día, no quiero hablar con un bot saludos",contactar_ejecutivo,es,cab_simulado,no quiero hablar con un bot
+94,"buenas tardes, quiero agregar piezas a la #4579690750 porfa",otro,es,cab_simulado,quiero agregar piezas a la {oc}
+95,I'm very unhappyt with ur service i need to file a complaint regarding PO-4567430081,queja,en,bitext_a4,
+96,can you help me see when will my product arrive?,fecha_entrega,en,bitext_a4,
+97,I do not know what to do to lodge an customer reclamation,queja,en,bitext_a4,
+98,¿hay un teléfono para hablar con un humano?,contactar_ejecutivo,es,cab_simulado,¿hay un teléfono para hablar con un humano?
+99,"Hey, track order 4541148878 please regards",estatus_orden,en,cab_simulado,track {oc} please
+100,necesito la fecha estimada de llegada de la PO 4552511111 a Puebla gracais,fecha_entrega,es,cab_simulado,necesito la fecha estimada de llegada de la {oc} a {planta}
+101,is it possible to set a different shipping address up?,otro,en,bitext_a4,
+102,¿mantienen la fecah compromiso de la OC-4507971455? de antemano gracias,fecha_entrega,es,cab_simulado,¿mantienen la fecha compromiso de la {oc}?
+103,i have got to file a customer claim regarding 4592363534,queja,en,bitext_a4,
+104,ya salió el camión con la PO 4595746835 saludos,estatus_orden,es,cab_simulado,¿ya salió el camión con la {oc}?
+105,quiero reportar un problema: las piezas venían sin certificado de calidad,queja,es,cab_simulado,quiero reportar un problema: {problema}
+106,need help to check the eta of purchase PO 4551830338,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+107,"Buen día, fecha de entrega de la OC 4570801688 por favor",fecha_entrega,es,cab_simulado,fecha de entrega de la {oc}
+108,help me to file a consumer claim,queja,en,bitext_a4,
+109,is it possible to check the ETA oif order OC-4511908603,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+110,"Hola buenas, ¿me dan seguimineto a la #4533122766? de antemano gracias",estatus_orden,es,cab_simulado,¿me dan seguimiento a la {oc}?
+111,i need assistance checking how soon can i expect my package for 4553051354,fecha_entrega,en,bitext_a4,
+112,quiero agregar piezas a la OC4576783086,otro,es,cab_simulado,quiero agregar piezas a la {oc}
+113,"Hola equipo CAB, ¿ya salio el camion con la OC 4557179047? pofra",estatus_orden,es,cab_simulado,¿ya salió el camión con la {oc}?
+114,mi pedido de molduras ya va en camino quedo atento,estatus_orden,es,cab_simulado,¿mi pedido de {prod} ya va en camino?
+115,"Buenas tardes, faltaron piezas en la entrega, esto es inaceptable porfa",queja,es,cab_simulado,"{problema}, esto es inaceptable"
+116,I don't know how I can check your refund policy on PO-4573284724,otro,en,bitext_a4,
+117,"Hola, ¿hacen descuentos por pronto pago? es urgente",otro,es,cab_simulado,¿hacen descuentos por pronto pago?
+118,how do I see the goddamn ETA of order order 4537962005?,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+119,have a questoon about creating user profiles on OC-4590968005,otro,en,bitext_a4,
+120,I try to see what hours I can reach customer assistance on PO-4572762732,contactar_ejecutivo,en,bitext_a4,
+121,I want help making a complaint against your company on OC-4589913412,queja,en,bitext_a4,
+122,how to locate order order 4514366125?,estatus_orden,en,bitext_a4,
+123,I want assistance to download my bill #85632 for order 4533101783,otro,en,bitext_a4,
+124,can you help me make a customer complaint?,queja,en,bitext_a4,
+125,¿me confirman si la oc 4504569008 ya está en tránsito? de antemano gracias,estatus_orden,es,cab_simulado,¿me confirman si la {oc} ya está en tránsito?
+126,Buenos días. pásenme con alguien de logística saludos,contactar_ejecutivo,es,cab_simulado,pásenme con alguien de logística
+127,"i'm very upset, parts were missing from the delivery",queja,en,cab_simulado,"i'm very upset, {problema}"
+128,"buenas tardes, ¿ya esta lista la produccion de la oc-4552680236? gracias!",estatus_orden,es,cab_simulado,¿ya está lista la producción de la {oc}?
+129,Saludos. ¿quién es mi ejecutivo asignado? necesito cotnactarlo,contactar_ejecutivo,es,cab_simulado,¿quién es mi ejecutivo asignado? necesito contactarlo
+130,saludos. ¿qué día llegna las piezas de la oc 4567066159?,fecha_entrega,es,cab_simulado,¿qué día llegan las piezas de la {oc}?
+131,Saludos. ¿cuáles son sus térmnios de pago? gracias,otro,es,cab_simulado,¿cuáles son sus términos de pago?
+132,"you sent the wrong part number on PO-4586651529, i want to report it",queja,en,cab_simulado,"{problema} on {oc}, i want to report it"
+133,cuando llega mi pedido por favor,fecha_entrega,es,cab_simulado,¿cuándo llega mi pedido?
+134,"i'm very upset, the material arrived rusty thank you",queja,en,cab_simulado,"i'm very upset, {problema}"
+135,could i change something of purchase OC-4534788100,otro,en,bitext_a4,
+136,"Saludos. pésimo servicio, el embarque llegó tarde otra vez gracias",queja,es,cab_simulado,"pésimo servicio, {problema}"
+137,I cannot see the current status of order PO#4575694715,estatus_orden,en,bitext_a4,
+138,"Hola buenas, quiero reportar un problema: faltaron piezas en la entrega quedo atento",queja,es,cab_simulado,quiero reportar un problema: {problema}
+139,i need help seeing purchase PO 4544499873 status,estatus_orden,en,bitext_a4,
+140,give me information about the deletion of my standardaccount,otro,en,bitext_a4,
+141,I don't know how to see how soon can I expect my parcel,fecha_entrega,en,bitext_a4,
+142,¿me envían el complemento de pago de la #4507435952? de antemano gracias,otro,es,cab_simulado,¿me envían el complemento de pago de la {oc}?
+143,i want assistance checking how soon can i expect the item regarding OC-4507503932,fecha_entrega,en,bitext_a4,
+144,I need assistance to locate order #4598104023,estatus_orden,en,bitext_a4,
+145,i dont know how to check purchase PO#4506927215 status,estatus_orden,en,bitext_a4,
+146,wanna see orer #4512448136 current status can ya help me,estatus_orden,en,bitext_a4,
+147,"que tal, no quiero hablar con un bot saludos",contactar_ejecutivo,es,cab_simulado,no quiero hablar con un bot
+148,fecha de entrega de la OC 4546777508 es urgente,fecha_entrega,es,cab_simulado,fecha de entrega de la {oc}
+149,can you help me write a comment about your products for #4572109613,otro,en,bitext_a4,
+150,can you help me check the ETA of the purchase PO-4549790013?,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+151,"Buenas tardes, necesito una nota de crédito de la PO 4583293187 porfa",otro,es,cab_simulado,necesito una nota de crédito de la {oc}
+152,can i get a credit note for 4555338168,otro,en,cab_simulado,can i get a credit note for {oc}?
+153,"hola buenas, eta oc 4594573720",fecha_entrega,es,cab_simulado,ETA {oc}
+154,connect me with a person please please,contactar_ejecutivo,en,cab_simulado,connect me with a person please
+155,saludos. ¿mi odren ya se procesó? por favor,estatus_orden,es,cab_simulado,¿mi orden ya se procesó?
+156,can i get a credit note for po#4538710048,otro,en,cab_simulado,can i get a credit note for {oc}?
+157,where do I file a customer claim against your business regarding PO#4571690398,queja,en,bitext_a4,
+158,how do I see when my item is going to arrive for OC-4586094462,fecha_entrega,en,bitext_a4,
+159,"hi, i forgot my portal password thank you",otro,en,cab_simulado,i forgot my portal password
+160,¿cuales son sus terminos de pago? asludos,otro,es,cab_simulado,¿cuáles son sus términos de pago?
+161,¿me envían el complemento de pago de la oc4501398806?,otro,es,cab_simulado,¿me envían el complemento de pago de la {oc}?
+162,i want help acquiring an article,otro,en,bitext_a4,
+163,"Hi team, parts were missing from the delivery, this is unacceptable regards",queja,en,cab_simulado,"{problema}, this is unacceptable"
+164,"hello, will po-4518991345 be late? please",fecha_entrega,en,cab_simulado,will {oc} be late?
+165,I try to lodge a customer complaint,queja,en,bitext_a4,
+166,"hola equipo cab, pésimo servicio, nadie cotnesta mis correos",queja,es,cab_simulado,"pésimo servicio, {problema}"
+167,need to check order PO-4521127115 current status how do i do it,estatus_orden,en,bitext_a4,
+168,¿me pueden pasar con un asesor? gracias!,contactar_ejecutivo,es,cab_simulado,¿me pueden pasar con un asesor?
+169,necesito que mi ejecutivo me llame,contactar_ejecutivo,es,cab_simulado,necesito que mi ejecutivo me llame
+170,"good morning, connect me with a person please",contactar_ejecutivo,en,cab_simulado,connect me with a person please
+171,where do i check how soon can i expect my purchase,fecha_entrega,en,bitext_a4,
+172,"que tal, ¿como va la oc 4520421134?",estatus_orden,es,cab_simulado,¿cómo va la {oc}?
+173,help me to file a claim for PO#4595012811,queja,en,bitext_a4,
+174,"hi team, connect me with a person please",contactar_ejecutivo,en,cab_simulado,connect me with a person please
+175,I want to check the ETA of purchase PO#4596809144,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+176,"I want to see when will my item arrive, how do I do it?",fecha_entrega,en,bitext_a4,
+177,"Hola, pasenme con alguien de logistica quedo atento",contactar_ejecutivo,es,cab_simulado,pásenme con alguien de logística
+178,i have to check the status of order OC-4529801436,estatus_orden,en,bitext_a4,
+179,hacen descuentos por pronto pago quedo atento,otro,es,cab_simulado,¿hacen descuentos por pronto pago?
+180,¿mantienen la fecha compromiso de la #4572317772? grax!,fecha_entrega,es,cab_simulado,¿mantienen la fecha compromiso de la {oc}?
+181,showing me estimated time of arrival of purchase order 4583303777,estatus_orden,en,bitext_a4,
+182,i need to talk to someone about PO 4578844260 thanks,contactar_ejecutivo,en,cab_simulado,i need to talk to someone about {oc}
+183,necesito la fecha estimada de llegada de la OC-4588498728 a nuestra planta de Silao gracias,fecha_entrega,es,cab_simulado,necesito la fecha estimada de llegada de la {oc} a {planta}
+184,I have to get in touch with customer service on PO#4525805259,contactar_ejecutivo,en,bitext_a4,
+185,expected arrival date for PO-4581575137?,fecha_entrega,en,cab_simulado,expected arrival date for {oc}?
+186,"qué tal, ¿cómo va mi pedido?",estatus_orden,es,cab_simulado,¿cómo va mi pedido?
+187,did the carrier pick up 4550857535,estatus_orden,en,cab_simulado,did the carrier pick up {oc}?
+188,"Buenas tardes, muy mal servicio con la OC-4504832588, llegaron piezas danadas gracias!",queja,es,cab_simulado,"muy mal servicio con la {oc}, {problema}"
+189,¿dónde viene el embarque de la #4588673262? quedo atento,estatus_orden,es,cab_simulado,¿dónde viene el embarque de la {oc}?
+190,where can I check when my package is going to arrive for PO-4526054020,fecha_entrega,en,bitext_a4,
+191,no es posible q nadie cnotesta mis correos,queja,es,cab_simulado,no es posible que {problema}
+192,I don't know how I could change to the premium account for PO 4563280554,otro,en,bitext_a4,
+193,"hola, ¿me pueden decir cómo va el pedido de soportes de motor?",estatus_orden,es,cab_simulado,¿me pueden decir cómo va el pedido de {prod}?
+194,"otra vez lo mismo, nadei contesta mis correos gracias!",queja,es,cab_simulado,"otra vez lo mismo, {problema}"
+195,want assistance seeing the fucking ETA of order #4540264926,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+196,"hola buenas, eta #4576857173",fecha_entrega,es,cab_simulado,ETA {oc}
+197,I don't know what I need to do to talk to somebody on PO#4592679187,contactar_ejecutivo,en,bitext_a4,
+198,"hola, me peude atender un ejecutivo",contactar_ejecutivo,es,cab_simulado,¿me puede atender un ejecutivo?
+199,"hola, ¿me reenvían el xml de la factura? gracias",otro,es,cab_simulado,¿me reenvían el XML de la factura?
+200,comuníquenme con una persona xfa,contactar_ejecutivo,es,cab_simulado,comuníquenme con una persona
+201,I need help making a claim against your business regarding PO-4539276764,queja,en,bitext_a4,
+202,I have to list your damn allowed payment modalities,otro,en,bitext_a4,
+203,"Hola buenas, consulta de estatus de la #4574834795 xfa",estatus_orden,es,cab_simulado,consulta de estatus de la {oc}
+204,need help to check the ETA of the order 4508113477,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+205,did the carrier pick up PO#4564165645? regards,estatus_orden,en,cab_simulado,did the carrier pick up {oc}?
+206,"I am unhappy with your service, help me to make a claim",queja,en,bitext_a4,
+207,"Hola buenas, necesito la ficha técnica de los molduras gracias",otro,es,cab_simulado,necesito la ficha técnica de los {prod}
+208,no quiero hablar con un bot de antemano gracias,contactar_ejecutivo,es,cab_simulado,no quiero hablar con un bot
+209,what's the status of #4509638979? regards,estatus_orden,en,cab_simulado,what's the status of {oc}?
+210,"hi, can you quote bushings asap",otro,en,cab_simulado,can you quote {prod}?
+211,¿hay avance en la PO 4510316277?,estatus_orden,es,cab_simulado,¿hay avance en la {oc}?
+212,saludos. prefiero hablar con alguien de servicio al cliente quedo atento,contactar_ejecutivo,es,cab_simulado,prefiero hablar con alguien de servicio al cliente
+213,"Que tal, quiero poner una queja, nos pararon la lniea por su retraso",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+214,could you help me to see how soon can I expect the article?,fecha_entrega,en,bitext_a4,
+215,what do i need to do to see order 4561605634 status,estatus_orden,en,bitext_a4,
+216,"Buenas tardes, ¿cuando recibiremos los estampados?",fecha_entrega,es,cab_simulado,¿cuándo recibiremos los {prod}?
+217,can utell me about the delivery periods,fecha_entrega,en,bitext_a4,
+218,I do not know how to see how soon can I expect the product,fecha_entrega,en,bitext_a4,
+219,"Hola, quiero reportar un problema: nos mandaron un número de parte equivocado",queja,es,cab_simulado,quiero reportar un problema: {problema}
+220,opneing new business account for daughter on PO-4502799319,otro,en,bitext_a4,
+221,consumer reclamation against your organization,queja,en,bitext_a4,
+222,"Buen día, estatus orden 4587034430",estatus_orden,es,cab_simulado,estatus {oc}
+223,help me check what hours i can call customer service,contactar_ejecutivo,en,bitext_a4,
+224,how do i update my tax info regards,otro,en,cab_simulado,how do i update my tax info?
+225,ened help with cancelling purchase 4541870192,otro,en,bitext_a4,
+226,"buenas tardes, quiero hablar con alguien sobre la oc4550582687 quedo atento",contactar_ejecutivo,es,cab_simulado,quiero hablar con alguien sobre la {oc}
+227,"hola buenas, quiero un reembolso de la orden 4544918084 de antemano gracias",otro,es,cab_simulado,quiero un reembolso de la {oc}
+228,"I have got to talk with customer assistance, how to do it for order 4588261798",contactar_ejecutivo,en,bitext_a4,
+229,"I ain't happy with your work, I need to make a claim",queja,en,bitext_a4,
+230,"hola equipo cab, ¿ya está lista la producción de la orden 4518026223?",estatus_orden,es,cab_simulado,¿ya está lista la producción de la {oc}?
+231,"q tal, ¿como cambio la direccion de entrega? quedo atento",otro,es,cab_simulado,¿cómo cambio la dirección de entrega?
+232,"Hola, quiero hablar con alguien sobre la #4585604856 saludos",contactar_ejecutivo,es,cab_simulado,quiero hablar con alguien sobre la {oc}
+233,wanna check in what cases can i request a refund regarding OC-4500744212,otro,en,bitext_a4,
+234,buenos días. ¿me evnían el complemento de pago de la oc-4571189253? quedo atento,otro,es,cab_simulado,¿me envían el complemento de pago de la {oc}?
+235,necesito la ficha técnica de los soportes de motor,otro,es,cab_simulado,necesito la ficha técnica de los {prod}
+236,help seeing how long it takes for my item to arrive,fecha_entrega,en,bitext_a4,
+237,cual es su cuenta para transferencia,otro,es,cab_simulado,¿cuál es su cuenta para transferencia?
+238,I want to see when my purchase is going to arrive,fecha_entrega,en,bitext_a4,
+239,how to speak to someone?,contactar_ejecutivo,en,bitext_a4,
+240,how could i see the eta of the order order 4537342819,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+241,I have issues changing my shipping address,otro,en,bitext_a4,
+242,need to call customer service regarding 4565174087,contactar_ejecutivo,en,bitext_a4,
+243,can I talk to a person?,contactar_ejecutivo,en,bitext_a4,
+244,need help checking the ETA of the purchase order 4565746104,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+245,i cant make payments notify of issujes,otro,en,bitext_a4,
+246,I need assistance to talk tl an agent,contactar_ejecutivo,en,bitext_a4,
+247,es la tercera vez que llegaron piezas danadas,queja,es,cab_simulado,es la tercera vez que {problema}
+248,how to see the status of order OC-4529314711,estatus_orden,en,bitext_a4,
+249,help to see order order 4511989814 current status,estatus_orden,en,bitext_a4,
+250,I do not know how I can see purchase PO#4560269093 status,estatus_orden,en,bitext_a4,
+251,"buenos dias. el chofer no respeto el horario de recibo, esto es inaceptable",queja,es,cab_simulado,"{problema}, esto es inaceptable"
+252,ETA OC4568747232 es urgente,fecha_entrega,es,cab_simulado,ETA {oc}
+253,where to check the eta of the order PO#4536836194,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+254,"Hi, i want to file a complaint, the packaging was broken please",queja,en,cab_simulado,"i want to file a complaint, {problema}"
+255,I am trying to check how soon can I expect the damn shipment,fecha_entrega,en,bitext_a4,
+256,"Qué tal, nos pararon la línea por su rteraso en la OC-4510281598, quiero reportarlo",queja,es,cab_simulado,"{problema} en la {oc}, quiero reportarlo"
+257,"ubenas tardes, necesito una nota de credito de la oc-4502845714 saludos",otro,es,cab_simulado,necesito una nota de crédito de la {oc}
+258,¿cómo cancelo la oc4576924129? es urgente,otro,es,cab_simulado,¿cómo cancelo la {oc}?
+259,what do I need to do tofile a consumer claim for PO-4508824561,queja,en,bitext_a4,
+260,I want assistance to download the invoices from Carlos Méndez,otro,en,bitext_a4,
+261,help checking the ETA of the purchase OC-4588824290,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+262,i want assistance filing a complaint against ur business,queja,en,bitext_a4,
+263,"hola buenas, ya surtieron la oc-4555707438",estatus_orden,es,cab_simulado,¿ya surtieron la {oc}?
+264,I have troubles submittng the shipping address,otro,en,bitext_a4,
+265,could you help me set up the new shipping address?,otro,en,bitext_a4,
+266,"Hola buenas, ¿me comunican con el área comercial?",contactar_ejecutivo,es,cab_simulado,¿me comunican con el área comercial?
+267,"hola, llegó menos cantidad de la que pedimos en la oc 4533229057, quiero reportarlo",queja,es,cab_simulado,"{problema} en la {oc}, quiero reportarlo"
+268,I want to call damn customer assistance,contactar_ejecutivo,en,bitext_a4,
+269,quiero hablar con mi ejecutivo de cuenta por favor,contactar_ejecutivo,es,cab_simulado,quiero hablar con mi ejecutivo de cuenta
+270,help me to see what hours customer support available is,contactar_ejecutivo,en,bitext_a4,
+271,"Buenas tardes, necesito que mi ejecutivo me llame",contactar_ejecutivo,es,cab_simulado,necesito que mi ejecutivo me llame
+272,"I have got to call customer service, how to do it?",contactar_ejecutivo,en,bitext_a4,
+273,"Qué tal, quiero cambiar la cantidad de piezas de la OC 4538832971",otro,es,cab_simulado,quiero cambiar la cantidad de piezas de la {oc}
+274,Saludos. ¿cuándo llega la #4589393218?,fecha_entrega,es,cab_simulado,¿cuándo llega la {oc}?
+275,"Hi team, has PO 4509863721 shipped yet?",estatus_orden,en,cab_simulado,has {oc} shipped yet?
+276,I want assistance to lodge a customer reclamation,queja,en,bitext_a4,
+277,i need assistance to check how soon can i expect my delivery on PO-4571891508,fecha_entrega,en,bitext_a4,
+278,"Qué tal, ¿cómo va la 4556640491? de antemano gracisa",estatus_orden,es,cab_simulado,¿cómo va la {oc}?
+279,how to contact a human agent,contactar_ejecutivo,en,bitext_a4,
+280,"I cannot understand you, I have got to speak with someone",contactar_ejecutivo,en,bitext_a4,
+281,"Good morning, expected arrival date for order 4535843604?",fecha_entrega,en,cab_simulado,expected arrival date for {oc}?
+282,"I forgot my user password, help me to reset it",otro,en,bitext_a4,
+283,"hola buenas, qiuero poner una queja, las piezas venían sin certificado de calidad es urgente",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+284,me reenvían el xml de la factura gracias,otro,es,cab_simulado,¿me reenvían el XML de la factura?
+285,see what hours i can reach customer support,contactar_ejecutivo,en,bitext_a4,
+286,buenos dias. ¿hay avnace en la #4552924755? gracias,estatus_orden,es,cab_simulado,¿hay avance en la {oc}?
+287,i do not know what to do to contact a human agent,contactar_ejecutivo,en,bitext_a4,
+288,I am calling to lodge a customer claim,queja,en,bitext_a4,
+289,help me talk to a agent,contactar_ejecutivo,en,bitext_a4,
+290,do you have a free number to talk to customer assistance?,contactar_ejecutivo,en,bitext_a4,
+291,help me make a claim against ur company for PO#4578790652,queja,en,bitext_a4,
+292,"hola buenas, cómo cancelo la oc4528122623",otro,es,cab_simulado,¿cómo cancelo la {oc}?
+293,help me open a supplier account for my dad for PO#4517544302,otro,en,bitext_a4,
+294,Buenos días. ¿quién es mi ejecutivo asignado? necesito contactarlo gracias,contactar_ejecutivo,es,cab_simulado,¿quién es mi ejecutivo asignado? necesito contactarlo
+295,transfer me to customer service regards,contactar_ejecutivo,en,cab_simulado,transfer me to customer service
+296,"Buenos días. necesito levantar una reclamación, el empaque venía roto de antemano grax",queja,es,cab_simulado,"necesito levantar una reclamación, {problema}"
+297,"Hi team, when is PO 4516216350 due at our plant?",fecha_entrega,en,cab_simulado,when is {oc} due at our plant?
+298,I have to file a customer claim against your organization,queja,en,bitext_a4,
+299,can i speak to a human? thanks,contactar_ejecutivo,en,cab_simulado,can i speak to a human?
+300,"hola, quiero poner una queja, el material llego oxidado es urgente",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+301,i do not know what to do to talk with an operator,contactar_ejecutivo,en,bitext_a4,
+302,i want help checking order PO-4596860153 current status,estatus_orden,en,bitext_a4,
+303,"good morning, this is the third time the packaging was broken",queja,en,cab_simulado,this is the third time {problema}
+304,I have to see how long it takes for my product to arrive,fecha_entrega,en,bitext_a4,
+305,how to file a bloody customer complaint regarding PO 4500344739,queja,en,bitext_a4,
+306,i want assistance to see the status of purchase PO 4508429833,estatus_orden,en,bitext_a4,
+307,I do not know what to do to chat with someone regarding OC-4567249653,contactar_ejecutivo,en,bitext_a4,
+308,Buenos días. trasnfiéranme con un agente,contactar_ejecutivo,es,cab_simulado,transfiéranme con un agente
+309,"hello, do u offer volume discounts pls",otro,en,cab_simulado,do you offer volume discounts?
+310,I do not know what to do to locate purchase 4579442904,estatus_orden,en,bitext_a4,
+311,"Buenas tardes, quiero poner una queja, llego menos cantidad de la que pedimos",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+312,"hi, any update on po#4511413833? regadrs",estatus_orden,en,cab_simulado,any update on {oc}?
+313,buenos días. necesito la factura de la oc-4542200544 saludos,otro,es,cab_simulado,necesito la factura de la {oc}
+314,check the ETA of purchase order 4593981837,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+315,"Hola buenas, ¿me pueden dar la fecha estimada de la 4556987832?",fecha_entrega,es,cab_simulado,¿me pueden dar la fecha estimada de la {oc}?
+316,"hola, en cuántos días recibimos la po 4502512414 gracias",fecha_entrega,es,cab_simulado,¿en cuántos días recibimos la {oc}?
+317,checking purchase #4590762665 current status,estatus_orden,en,bitext_a4,
+318,"I want to check when will my product arrive, how do I do it?",fecha_entrega,en,bitext_a4,
+319,I want assistance contacting someone,contactar_ejecutivo,en,bitext_a4,
+320,how do I see the ETA of the order OC-4523188838?,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+321,"que tal, ¿me dan seguimiento a la 4593333735? es urgente",estatus_orden,es,cab_simulado,¿me dan seguimiento a la {oc}?
+322,I'm trying to see the current status of order 4502735359,estatus_orden,en,bitext_a4,
+323,I'm calling ot check when my parcel is gonna arrive,fecha_entrega,en,bitext_a4,
+324,"hola buenas, ¿mantienen la fecha compromiso de la oc 4502137730?",fecha_entrega,es,cab_simulado,¿mantienen la fecha compromiso de la {oc}?
+325,"hola equipo cab, quiero hablar con mi ejecutivo de cuenta saludos",contactar_ejecutivo,es,cab_simulado,quiero hablar con mi ejecutivo de cuenta
+326,"Buenas tardes, faltaron piezas en la entrega en la PO 4503018823, quiero reportarlo",queja,es,cab_simulado,"{problema} en la {oc}, quiero reportarlo"
+327,buenos días. cuándo nos llegan los soportes de motor de la #4573227680,fecha_entrega,es,cab_simulado,¿cuándo nos llegan los {prod} de la {oc}?
+328,help me lodge a customer reclamation against your business,queja,en,bitext_a4,
+329,"Que tal, ¿cual es su cuenta para transferencia? saludos",otro,es,cab_simulado,¿cuál es su cuenta para transferencia?
+330,"buen día, ¿cuál es el eta de la oc 4596897236? quedo atento",fecha_entrega,es,cab_simulado,¿cuál es el ETA de la {oc}?
+331,need help to check how soon can I expect my parcel,fecha_entrega,en,bitext_a4,
+332,where can i track order #4570372842,estatus_orden,en,bitext_a4,
+333,i try to check whathours customer support available is,contactar_ejecutivo,en,bitext_a4,
+334,I don't know how I can talk with customer assistance,contactar_ejecutivo,en,bitext_a4,
+335,can you help me to lodge a consumer claim on order 4541946203,queja,en,bitext_a4,
+336,I need to see how long it takes for the purchase to arrive regarding #4593517982,fecha_entrega,en,bitext_a4,
+337,contcat an agent,contactar_ejecutivo,en,bitext_a4,
+338,"I want to see how soon can I expect my parcel, how to do it?",fecha_entrega,en,bitext_a4,
+339,"Buenas tardes, me reenvían el XML de la factura",otro,es,cab_simulado,¿me reenvían el XML de la factura?
+340,"hola buenas, ¿me peuden dar la fecha estimada de la oc-4566478665? gracias",fecha_entrega,es,cab_simulado,¿me pueden dar la fecha estimada de la {oc}?
+341,wanna know about delivery periods give me some informtion,fecha_entrega,en,bitext_a4,
+342,need help seeing what hours i can contact customer service,contactar_ejecutivo,en,bitext_a4,
+343,"buen día, ¿hacen descuentos por pronto pago? porfa",otro,es,cab_simulado,¿hacen descuentos por pronto pago?
+344,buenos dias. quiero levantar una queja formal porque el transportista dejo el material en otra planta saludos,queja,es,cab_simulado,quiero levantar una queja formal porque {problema}
+345,¿cuando nos llegan los sopotres de motor de la #4591177092?,fecha_entrega,es,cab_simulado,¿cuándo nos llegan los {prod} de la {oc}?
+346,Saludos. no es posible que nos mandaron un número de parte equivocado de antemano gracias,queja,es,cab_simulado,no es posible que {problema}
+347,"I want to file a customer reclamation, how do I do it for order 4590774633",queja,en,bitext_a4,
+348,help me to lodge a complaint against your business regarding order 4520688754,queja,en,bitext_a4,
+349,I'm trying to check the eta of purchase PO-4570166708,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+350,"I want to submit my feedback for your products, help me",otro,en,bitext_a4,
+351,i do not know what i need to do to get my invoice #37777,otro,en,bitext_a4,
+352,"Hola equipo CAB, ¿cuando recibiremos los arneses? gracias",fecha_entrega,es,cab_simulado,¿cuándo recibiremos los {prod}?
+353,"Hola equipo CAB, ¿en qué etapa está mi pedido #4551489930? porfa",estatus_orden,es,cab_simulado,¿en qué etapa está mi pedido {oc}?
+354,help seeing how soon can I expect the product,fecha_entrega,en,bitext_a4,
+355,"buenas tardes, quién es mi ejecutivo asignado necesito contactarlo por favro",contactar_ejecutivo,es,cab_simulado,¿quién es mi ejecutivo asignado? necesito contactarlo
+356,"buenas tardes, hacen descuentos por prnoto pago",otro,es,cab_simulado,¿hacen descuentos por pronto pago?
+357,help me make a customer complaint against your business,queja,en,bitext_a4,
+358,"hola buenas, pásenme con alguien de logística es urgente",contactar_ejecutivo,es,cab_simulado,pásenme con alguien de logística
+359,buenos días. ¿mi orden ya se procesó? es urgente,estatus_orden,es,cab_simulado,¿mi orden ya se procesó?
+360,i try to check the termination epnalties,otro,en,bitext_a4,
+361,where to check at wnat time customer assistance available is,contactar_ejecutivo,en,bitext_a4,
+362,could you help me shop a few of your article?,otro,en,bitext_a4,
+363,could I make a customer complaint against your business for PO#4508815720,queja,en,bitext_a4,
+364,buenos dias. que me marquen por favor porfa,contactar_ejecutivo,es,cab_simulado,que me marquen por favor
+365,I have to inform of errors with online payments,otro,en,bitext_a4,
+366,I am trying to locate order PO#4554634663,estatus_orden,en,bitext_a4,
+367,editting details on standard account,otro,en,bitext_a4,
+368,"hola buenas, para cuándo tienen la oc4596844485",fecha_entrega,es,cab_simulado,¿para cuándo tienen la {oc}?
+369,¿cuando nos llegan los brackets de la oc-4599798657? saludos,fecha_entrega,es,cab_simulado,¿cuándo nos llegan los {prod} de la {oc}?
+370,"Buen día, ¿me reenvían el XML de la factura? quedo atento",otro,es,cab_simulado,¿me reenvían el XML de la factura?
+371,I'm not happy with ur service need help to file a complaint regarding order 4540181935,queja,en,bitext_a4,
+372,"hola, quiero levantar una queja formal porque llegaron piezas dañadas es urgente",queja,es,cab_simulado,quiero levantar una queja formal porque {problema}
+373,can you help me make a clain against your business on #4547183837,queja,en,bitext_a4,
+374,what do I need to do to call customer service?,contactar_ejecutivo,en,bitext_a4,
+375,"I would like to locate order PO-4588842638, I need help",estatus_orden,en,bitext_a4,
+376,"muy mal servicio con la 4528300963, el embarque llegó tarde otra vez gracias!",queja,es,cab_simulado,"muy mal servicio con la {oc}, {problema}"
+377,I want to check at what time I can reach customer serfvice,contactar_ejecutivo,en,bitext_a4,
+378,i do not kow how i could delete the goddamn standard account for PO#4583955206,otro,en,bitext_a4,
+379,quiero un reembolso de la orden 4554786586 gracias!,otro,es,cab_simulado,quiero un reembolso de la {oc}
+380,"quiero poner una queja, el empaque venía roto de antemano grax",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+381,"hello, can you check the status of our injection molded parts order regards",estatus_orden,en,cab_simulado,can you check the status of our {prod} order?
+382,I don't know hwat to do to earn several items,otro,en,bitext_a4,
+383,"muy mal servicio con la 4570825861, el chofer no respetó el horario de recibo quedo atento",queja,es,cab_simulado,"muy mal servicio con la {oc}, {problema}"
+384,"hello, how many days nutil po-4558918324 gets here",fecha_entrega,en,cab_simulado,how many days until {oc} gets here?
+385,"Hola equipo CAB, quiero poner una queja, el transportista dejo el material en otra planta saludos",queja,es,cab_simulado,"quiero poner una queja, {problema}"
+386,"Hey, i forgot my portal password thank you",otro,en,cab_simulado,i forgot my portal password
+387,buenos dias. ¿me confirman la fecha de arribo de la 4530056261?,fecha_entrega,es,cab_simulado,¿me confirman la fecha de arribo de la {oc}?
+388,I need to contact someone,contactar_ejecutivo,en,bitext_a4,
+389,i want help to get in touch with customer service,contactar_ejecutivo,en,bitext_a4,
+390,need help chatting with an agent regarding PO-4556487347,contactar_ejecutivo,en,bitext_a4,
+391,"buenas tardes, como contacto a servicio al cliente",contactar_ejecutivo,es,cab_simulado,¿cómo contacto a servicio al cliente?
+392,"buenas tardes, ¿en qué fecha llega el material a puebla?",fecha_entrega,es,cab_simulado,¿en qué fecha llega el material a {planta}?
+393,I do not know how I can list the allowed payment options,otro,en,bitext_a4,
+394,how do I shop some products on order 4586344420,otro,en,bitext_a4,
+395,"Hola, llegó menos cantidad de la que pedimos, esto es inaceptable de antemano gracias",queja,es,cab_simulado,"{problema}, esto es inaceptable"
+396,I try to check the ETA of the purchase PO-4500916723,fecha_entrega,en,bitext_a4,reetiquetado: ETA = fecha en CAB
+397,"I have to see purchase order 4564791834 status, how can I do it?",estatus_orden,en,bitext_a4,
+398,how to swap a product of order order 4509528530?,otro,en,bitext_a4,
+399,lodge reclamation against your company on 4578183110,queja,en,bitext_a4,
+400,"Hello, can i get a credit note for 4531992349?",otro,en,cab_simulado,can i get a credit note for {oc}?
