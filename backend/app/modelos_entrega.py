@@ -112,6 +112,10 @@ class ModelosEntrega:
             est.fecha_estimada = fecha_pedido + timedelta(days=eta_dias)
             est.fecha_min = fecha_pedido + timedelta(days=eta_min)
             est.fecha_max = fecha_pedido + timedelta(days=eta_max)
+            if hoy and est.fecha_min <= hoy:
+                # Una orden que no ha llegado no puede llegar antes de mañana: el rango no empieza en el pasado.
+                est.fecha_min = hoy + timedelta(days=1)
+                est.fecha_max = max(est.fecha_max, est.fecha_min)
             if hoy and est.fecha_estimada <= hoy:
                 # El modelo esperaba que ya hubiera llegado: no se informa una fecha pasada.
                 est.vencida = True

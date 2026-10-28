@@ -100,7 +100,16 @@ def test_fecha_no_inventa_fechas(api, sap):
     assert en_texto and en_texto <= permitidas
     assert est["eta_min_dias"] <= est["eta_dias"] <= est["eta_max_dias"]
     assert est["fecha_estimada"] > "2026-10-28"  # nunca una fecha estimada en el pasado
+    assert est["fecha_min"] > "2026-10-28"  # ni un rango que empiece en el pasado (defecto visto en el chat)
     assert "estimación" in r["respuesta"]
+
+
+def test_rango_nunca_empieza_en_el_pasado(api, sap):
+    """Para todas las órdenes abiertas de los 5 clientes, el rango informado empieza después de hoy."""
+    for token in ("demo-arm01", "demo-arm03", "demo-arm04", "demo-arm07", "demo-tier02"):
+        for o in api.get("/api/ordenes?solo_abiertas=true", headers={"Authorization": f"Bearer {token}"}).json()["ordenes"]:
+            r = api.get(f"/api/ordenes/{o['oc']}/eta", headers={"Authorization": f"Bearer {token}"}).json()
+            assert "2026-10-28" < r["fecha_min"] <= r["fecha_estimada"] <= r["fecha_max"], (o["oc"], r)
 
 
 def test_orden_entregada_da_fecha_real(api, sap):
