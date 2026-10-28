@@ -1,0 +1,47 @@
+Salud: 200 · ok · router model-v1.0.0 · commit 70fa349
+[PASA] F01   La API responde y el router está cargado (3 ms) 
+[PASA] F02   El frontend se sirve (5 ms) 
+[PASA] F03   La documentación OpenAPI está disponible (27 ms) 
+[PASA] F04   Estatus de una OC abierta (español) (220 ms) 
+[PASA] F05   Fecha de entrega de una OC abierta (español) (168 ms) 
+[PASA] F06   Fecha de entrega en inglés (157 ms) 
+[PASA] F07   Orden ya entregada: informa la fecha real (130 ms) 
+[PASA] F08   Queja: escala a un ejecutivo con folio (131 ms) 
+[PASA] F09   Pide hablar con una persona: escala (137 ms) 
+[PASA] F10   Tema fuera de alcance (factura): canaliza (134 ms) 
+[PASA] F11   Sin número de OC: pide el dato o aclara (130 ms) 
+[PASA] F12   Seguimiento con la OC del contexto de la conversación (149 ms) 
+[PASA] F13   Respuesta a la pregunta de aclaración (botón) (35 ms) 
+[PASA] F14   Lista de órdenes del cliente (22 ms) 
+[PASA] F15   ETA de una OC por endpoint directo (32 ms) 
+[PASA] E01   OC de otro cliente: no revela que existe (R04) (143 ms) 
+[PASA] E02   OC inexistente (124 ms) 
+[PASA] E03   Consulta directa a una OC ajena: 404 (4 ms) 
+[PASA] E04   Sin token de cliente: 401 (28 ms) 
+[PASA] E05   Token falso: 401 (4 ms) 
+[PASA] E06   Mensaje vacío: 422 (4 ms) 
+[PASA] E07   Mensaje solo con espacios: 422 (4 ms) 
+[PASA] E08   Mensaje de 1,001 caracteres: 422 (4 ms) 
+[PASA] E09   JSON mal formado: 422 (4 ms) 
+[PASA] E10   Solo un emoji: no responde con datos (114 ms) 
+[PASA] E11   Inyección de instrucciones para ver datos de otro cliente (142 ms) 
+[PASA] E12   Texto con apariencia de inyección SQL (122 ms) 
+[PASA] E13   ETA con valor imposible (carga de planta 250 %): 422 (4 ms) 
+[PASA] E14   ETA con valores nunca vistos: responde con advertencias (52 ms) 
+[PASA] E15   ETA sin datos: usa valores por defecto (40 ms) 
+[PASA] E16   Spanglish: pregunta por el ETA (169 ms) 
+[PASA] E17   Formato de OC distinto (PO#) (164 ms) 
+[PASA] E18   Solo el número de OC (ambiguo) (147 ms) 
+[PASA] E19   Método no permitido (GET en /api/chat): 405 (4 ms) 
+[PASA] E20   Ruta inexistente: 404 (4 ms) 
+# Resultados de pruebas funcionales · 28/10/2026 15:52
+
+- URL probada: http://localhost:8001
+- Commit desplegado: 70fa349
+- Router: model-v1.0.0 (umbral 0.9)
+- Casos funcionales y extremos: **35/35 pasan**
+- Prueba externa (160 mensajes) vía API: accuracy en mensajes claros 0.964; respondidos en automático 0.412; automáticas erróneas 6
+- Coincidencia con Colab: 160/160
+- Latencia /api/chat (100 solicitudes): mediana 160 ms, p95 184 ms, máximo 213 ms
+
+Archivos en C:\Users\gabga\OneDrive\Documents\Master\Fase2_GAGA\ProyectoFase2\pruebas\resultados\20261028_1551

@@ -1,0 +1,25 @@
+{
+  "estado": "ok",
+  "version_app": "app-v1.0.0",
+  "git_commit": "70fa349",
+  "inicio_utc": "2026-10-28T21:51:23+00:00",
+  "fecha_referencia_sap": "2026-10-28",
+  "ordenes_sap_simulado": 406,
+  "router": {
+    "cargado": true,
+    "modelo_base": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    "version": "model-v1.0.0",
+    "version_datos": "data-v3.0.0",
+    "git_commit_entrenamiento": "082d216dab11ca738add440bfd7b9d4ee45bab64",
+    "umbral_confianza": 0.9,
+    "temperatura": 0.5902,
+    "segundos_carga": 2.94
+  },
+  "modelos_entrega": {
+    "version": "model-v1.0.0",
+    "datos": "data-v1.0.0 (Actividad 6)",
+    "eta_mae_prueba": 1.05,
+    "riesgo_auc_prueba": 0.818,
+    "umbral_riesgo": 0.17
+  }
+}

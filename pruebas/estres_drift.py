@@ -223,7 +223,7 @@ def main() -> None:
     for i, v in enumerate(causas.values):
         ax.text(v + 0.01, i, f"{v:.0%}", va="center")
     ax.set_xlim(0, max(causas.values) + 0.15)
-    ax.set_title(f"Causa más probable de los {len(fn)} retrasos no anticipados")
+    ax.set_title(f"Causas de los {len(fn)} retrasos no anticipados")
     ax.set_xlabel("Proporción de falsos negativos")
     fig.tight_layout()
     fig.savefig(SALIDA / "figuras" / "causas_falsos_negativos.png", dpi=160)

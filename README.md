@@ -66,7 +66,7 @@ ProyectoFase2/
 ## Requisitos
 
 - Docker Desktop 4.x (Windows/macOS) o Docker Engine 24+ con Compose v2 (Linux).
-- 4 GB de RAM libres para Docker y unos 5 GB de disco (la imagen de la API pesa alrededor de 1.8 GB).
+- 4 GB de RAM para Docker y unos 10 GB de disco (la imagen de la API descarga 1.5 GB y ocupa 4.4 GB descomprimida).
 - Conexión a internet la primera vez (descarga de la imagen base, PyTorch y el modelo).
 - Opcional, para las pruebas funcionales: Python 3.10 o superior (solo librería estándar).
 
@@ -143,13 +143,30 @@ Los resultados se guardan en `pruebas/resultados/` y `resultados/`. El análisis
 
 ## Despliegue en la nube
 
-El paso a paso, los requerimientos y la estrategia (contenedores sobre PaaS) están en
-`docs/Fase2_Manual_Despliegue_GAGA.pdf`. Demo pública en Hugging Face Spaces:
+El paso a paso, los requerimientos y la estrategia (contenedores sobre un PaaS) están en
+`docs/Fase2_Manual_Despliegue_GAGA.pdf`. La plataforma principal es **AWS Elastic Beanstalk** (la del tutorial del
+Tema 16), con Google Cloud Run y Azure Container Apps como alternativas. Todas usan la misma imagen del `Dockerfile`:
 
 ```bash
-pip install huggingface_hub && hf auth login
-python despliegue/publicar_space.py --space gagarang/cab-chatbot-fase2 --modelo gagarang/router-intencion-cab-mdeberta
+# Simulación del PaaS: la imagen sola, sin nginx ni compose (el chat queda en http://localhost:8001)
+docker run -d --name cab-nube -p 8001:8000 cab-chatbot-api:1.0.0
+python pruebas/pruebas_funcionales.py --url http://localhost:8001
+
+# AWS Elastic Beanstalk (requiere cuenta de AWS; instancia de 4 GB porque la API usa 1.8 GB)
+pip install awsebcli
+eb init -p docker cab-chatbot --region us-east-1
+eb create cab-chatbot-env --instance_type t3.medium --single
+eb open
 ```
+
+`despliegue/publicar_space.py` publica la misma imagen en Hugging Face Spaces, pero durante el proyecto la plataforma
+empezó a exigir suscripción PRO para los Spaces con Docker (error 402), por eso no hay demo pública.
+
+## Documentos
+
+- `docs/Fase2_Manual_Despliegue_GAGA.pdf`: manual de despliegue (estructura de la plantilla ISO/IEC 23053 del Tema 16).
+- `docs/Fase2_Validacion_Pruebas_GAGA.pdf`: pruebas funcionales, casos extremos, drift y resultados.
+- `docs/evidencias/` y `docs/capturas/`: salidas de Docker, pytest, pruebas funcionales y capturas.
 
 ## Limitaciones
 

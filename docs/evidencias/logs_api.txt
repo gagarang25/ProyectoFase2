@@ -1,0 +1,50 @@
+cab-api  | 2026-10-28 21:51:02,120 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 215.98, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39550 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:02,284 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 151.66, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39564 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:02,466 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 151.97, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39580 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:02,639 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 166.11, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39582 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:02,795 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 149.9, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39594 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:02,951 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 149.59, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:02+00:00"}
+cab-api  | INFO:     172.18.0.3:39598 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,105 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 147.09, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39610 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,276 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 164.41, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39614 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,450 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 157.07, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39628 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,614 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 157.72, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39638 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,783 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 147.79, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39640 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:03,958 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 152.45, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:03+00:00"}
+cab-api  | INFO:     172.18.0.3:39648 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,132 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 156.33, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39662 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,280 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 142.29, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39678 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,463 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 161.55, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39684 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,651 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 163.24, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39698 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,820 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 158.29, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39710 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:04,990 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 145.69, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:04+00:00"}
+cab-api  | INFO:     172.18.0.3:39718 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:05,153 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 155.81, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:05+00:00"}
+cab-api  | INFO:     172.18.0.3:39732 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:05,326 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 156.5, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:05+00:00"}
+cab-api  | INFO:     172.18.0.3:39734 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:05,511 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 154.29, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:05+00:00"}
+cab-api  | INFO:     172.18.0.3:39742 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:05,676 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 158.41, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:05+00:00"}
+cab-api  | INFO:     172.18.0.3:39756 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:05,840 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 156.48, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:05+00:00"}
+cab-api  | INFO:     172.18.0.3:39760 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:06,002 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 156.21, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:06+00:00"}
+cab-api  | INFO:     172.18.0.3:39766 - "POST /api/chat HTTP/1.0" 200 OK
+cab-api  | 2026-10-28 21:51:06,165 INFO cab.bitacora: {"cliente": "ARM-01", "intencion": "fecha_entrega", "confianza": 0.9966, "accion": "automatica", "oc": "4500128350", "idioma": "es", "largo_mensaje": 31, "folio": null, "ms_total": 156.34, "router": "model-v1.0.0", "ts": "2026-10-28T21:51:06+00:00"}
+cab-api  | INFO:     172.18.0.3:39774 - "POST /api/chat HTTP/1.0" 200 OK

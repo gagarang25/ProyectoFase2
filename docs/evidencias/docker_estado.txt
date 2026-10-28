@@ -1,0 +1,14 @@
+## docker compose ps  (2026-10-28T15:52:08-06:00)
+NAME      IMAGE                   COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+cab-api   cab-chatbot-api:1.0.0   "sh -c 'uvicorn app.…"   api       3 minutes ago   Up 2 minutes (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+cab-web   cab-chatbot-web:1.0.0   "/docker-entrypoint.…"   web       2 minutes ago   Up 2 minutes (healthy)   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+
+## docker images | grep cab-chatbot
+cab-chatbot-api:1.0.0             31bf6f15c06a       4.37GB         1.51GB   U    
+cab-chatbot-web:1.0.0             cf16fd1904c5       73.7MB           21MB   U    
+
+## docker stats --no-stream
+CONTAINER ID   NAME       CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O         PIDS
+0640d1555809   cab-nube   0.12%     1.685GiB / 15.54GiB   10.84%    199kB / 406kB   57.3kB / 0B       47
+24f587b0aba6   cab-web    0.00%     14.91MiB / 15.54GiB   0.09%     571kB / 598kB   3.91MB / 8.19kB   17
+854094d0d151   cab-api    0.14%     1.863GiB / 15.54GiB   11.99%    216kB / 394kB   311MB / 20.5kB    47

@@ -1,0 +1,47 @@
+id,categoria,descripcion,status,accion,intencion,confianza,ms,resultado,detalle,respuesta
+F01,funcional,La API responde y el router está cargado,200,,,,3.2,PASA,ok,
+F02,funcional,El frontend se sirve,200,,,,4.9,PASA,ok,"<!doctype html>
+<html lang=""es"">
+<head>
+  <meta charset=""utf-8"">
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+  <title>CAB · Asistente de órdenes</title>
+  <link rel=""stylesheet"" href=""static/estilos.css"">
+</head>
+<body>
+  <header class=""barra"">
+    <div class=""marca"">
+    "
+F03,funcional,La documentación OpenAPI está disponible,200,,,,27.3,PASA,ok,
+F04,funcional,Estatus de una OC abierta (español),200,automatica,estatus_orden,0.9961,220.4,PASA,ok,"La orden 4500128350 (282 piezas de arneses) está lista para embarque desde la planta Celaya, con el transportista TR-A. La fecha estimada de entrega es el 29/10/2026."
+F05,funcional,Fecha de entrega de una OC abierta (español),200,automatica,fecha_entrega,0.9966,167.6,PASA,ok,"Estimo que la orden 4500128350 llegue el 29/10/2026, probablemente entre el 29/10/2026 y el 31/10/2026. La fecha comprometida en SAP es el 31/10/2026. Lo que más influye: condiciones normales de producción y transporte. Es una estimación, no un compromiso de entrega."
+F06,funcional,Fecha de entrega en inglés,200,automatica,fecha_entrega,0.9966,157.1,PASA,ok,"I estimate order 4500128350 will arrive on 29/10/2026, most likely between 29/10/2026 and 31/10/2026. The committed date in SAP is 31/10/2026. Main factors: normal production and transport conditions. This is an estimate, not a delivery commitment."
+F07,funcional,Orden ya entregada: informa la fecha real,200,automatica,fecha_entrega,0.9966,130.3,PASA,ok,"La orden 4500128280 (1,570 piezas de ensambles) se entregó el 28/10/2026. La fecha comprometida era el 29/10/2026."
+F08,funcional,Queja: escala a un ejecutivo con folio,200,escalar,queja,0.9968,130.9,PASA,ok,Lamento lo ocurrido. Ya pasé tu caso a un ejecutivo de servicio con el detalle de la conversación; te contactará en menos de 4 horas hábiles. Folio: CAB-71AABCBA.
+F09,funcional,Pide hablar con una persona: escala,200,escalar,contactar_ejecutivo,0.9963,136.8,PASA,ok,Claro. Te comunico con tu ejecutivo de servicio; ya tiene el contexto de la conversación. Folio: CAB-51FD54BF.
+F10,funcional,Tema fuera de alcance (factura): canaliza,200,canalizar,otro,0.9965,133.9,PASA,ok,"Ese tema está fuera de lo que puedo resolver (solo consulto estatus y fechas de entrega). Te recomiendo escribir a cuentasporcobrar@cab.example para facturación y pagos, o puedo comunicarte con tu ejecutivo."
+F11,funcional,Sin número de OC: pide el dato o aclara,200,pedir_dato,estatus_orden,0.9956,129.5,PASA,ok,"Con gusto lo reviso. ¿Me compartes el número de orden de compra? Son 10 dígitos y empiezan con 45, por ejemplo 4500127273."
+F12,funcional,Seguimiento con la OC del contexto de la conversación,200,automatica,fecha_entrega,0.9966,149.2,PASA,ok,"Estimo que la orden 4500128350 llegue el 29/10/2026, probablemente entre el 29/10/2026 y el 31/10/2026. La fecha comprometida en SAP es el 31/10/2026. Lo que más influye: condiciones normales de producción y transporte. Es una estimación, no un compromiso de entrega."
+F13,funcional,Respuesta a la pregunta de aclaración (botón),200,automatica,fecha_entrega,1.0,35.1,PASA,ok,"Estimo que la orden 4500128350 llegue el 29/10/2026, probablemente entre el 29/10/2026 y el 31/10/2026. La fecha comprometida en SAP es el 31/10/2026. Lo que más influye: condiciones normales de producción y transporte. Es una estimación, no un compromiso de entrega."
+F14,funcional,Lista de órdenes del cliente,200,,,,22.2,PASA,ok,
+F15,funcional,ETA de una OC por endpoint directo,200,,,,31.6,PASA,ok,
+E01,extremo,OC de otro cliente: no revela que existe (R04),200,oc_no_encontrada,estatus_orden,0.9961,143.5,PASA,ok,"No encontré la orden 4500128366 en tu cuenta. Revisa el número o, si prefieres, te comunico con tu ejecutivo de servicio."
+E02,extremo,OC inexistente,200,oc_no_encontrada,estatus_orden,0.9962,124.3,PASA,ok,"No encontré la orden 4599999999 en tu cuenta. Revisa el número o, si prefieres, te comunico con tu ejecutivo de servicio."
+E03,extremo,Consulta directa a una OC ajena: 404,404,,,,4.5,PASA,ok,
+E04,extremo,Sin token de cliente: 401,401,,,,28.2,PASA,ok,
+E05,extremo,Token falso: 401,401,,,,3.5,PASA,ok,
+E06,extremo,Mensaje vacío: 422,422,,,,4.2,PASA,ok,
+E07,extremo,Mensaje solo con espacios: 422,422,,,,4.0,PASA,ok,
+E08,extremo,"Mensaje de 1,001 caracteres: 422",422,,,,3.8,PASA,ok,
+E09,extremo,JSON mal formado: 422,422,,,,4.0,PASA,ok,
+E10,extremo,Solo un emoji: no responde con datos,200,escalar,estatus_orden,0.8319,114.5,PASA,ok,"No estoy seguro de haber entendido tu mensaje. Para no darte información equivocada, lo paso a un ejecutivo de servicio. Folio: CAB-A53CA629."
+E11,extremo,Inyección de instrucciones para ver datos de otro cliente,200,canalizar,otro,0.9955,142.4,PASA,ok,"Ese tema está fuera de lo que puedo resolver (solo consulto estatus y fechas de entrega). Te recomiendo escribir a cuentasporcobrar@cab.example para facturación y pagos, o puedo comunicarte con tu ejecutivo."
+E12,extremo,Texto con apariencia de inyección SQL,200,oc_no_encontrada,estatus_orden,0.9941,122.5,PASA,ok,"No encontré la orden 4500127273 en tu cuenta. Revisa el número o, si prefieres, te comunico con tu ejecutivo de servicio."
+E13,extremo,ETA con valor imposible (carga de planta 250 %): 422,422,,,,3.6,PASA,ok,
+E14,extremo,ETA con valores nunca vistos: responde con advertencias,200,,,,51.8,PASA,ok,
+E15,extremo,ETA sin datos: usa valores por defecto,200,,,,40.4,PASA,ok,
+E16,extremo,Spanglish: pregunta por el ETA,200,automatica,fecha_entrega,0.9966,168.7,PASA,ok,"Estimo que la orden 4500128350 llegue el 29/10/2026, probablemente entre el 29/10/2026 y el 31/10/2026. La fecha comprometida en SAP es el 31/10/2026. Lo que más influye: condiciones normales de producción y transporte. Es una estimación, no un compromiso de entrega."
+E17,extremo,Formato de OC distinto (PO#),200,automatica,estatus_orden,0.9959,164.3,PASA,ok,"Order 4500128350 (282 arneses parts) is ready to ship from the Celaya plant, carrier TR-A. The estimated delivery date is 29/10/2026."
+E18,extremo,Solo el número de OC (ambiguo),200,automatica,estatus_orden,0.9955,147.1,PASA,ok,"La orden 4500128350 (282 piezas de arneses) está lista para embarque desde la planta Celaya, con el transportista TR-A. La fecha estimada de entrega es el 29/10/2026."
+E19,extremo,Método no permitido (GET en /api/chat): 405,405,,,,3.8,PASA,ok,
+E20,extremo,Ruta inexistente: 404,404,,,,3.9,PASA,ok,

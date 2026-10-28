@@ -3,7 +3,9 @@
 ## app-v1.0.0 · Proyecto Fase 2
 - API REST (FastAPI) con router de intención, SAP simulado de solo lectura, modelo de ETA y riesgo de retraso.
 - Chat web (nginx) que consume la API; `docker compose` con dos contenedores.
-- `Dockerfile` único para la nube (API + chat estático); demo en Hugging Face Spaces.
+- `Dockerfile` único para la nube (API + chat estático); despliegue documentado en AWS Elastic Beanstalk y simulado con la imagen única.
+- Correcciones de la validación en contenedor (982a6e2): healthcheck de nginx por IPv4 y pruebas que no escriben en la bitácora.
+- Manual de despliegue y documento de validación y pruebas en `docs/`.
 - Pruebas: pytest (unitarias e integración), 35 casos funcionales y extremos contra el contenedor, estrés y drift.
 
 ## model-v1.0.0

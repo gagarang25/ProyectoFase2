@@ -1,0 +1,23 @@
+{
+  "url": "http://localhost:8080",
+  "casos_pasan": 35,
+  "casos_total": 35,
+  "accuracy_externa_api": 0.9642857142857143,
+  "cobertura_automatica": 0.4125,
+  "automaticas_erroneas": 6,
+  "coincidencia_colab": [
+    160,
+    160
+  ],
+  "latencia": {
+    "mediana_ms": 163.46005000013974,
+    "p95_ms": 187.99510000098962,
+    "max_ms": 222.7908999993815,
+    "solicitudes": 100
+  },
+  "variables": {
+    "OC_ABIERTA": "4500128350",
+    "OC_ENTREGADA": "4500128280",
+    "OC_AJENA": "4500128366"
+  }
+}
