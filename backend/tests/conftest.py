@@ -22,7 +22,7 @@ sys.path.insert(0, str(RAIZ_BACKEND))
 if not (RAIZ_BACKEND / "datos" / "piloto_ab_cab.csv").exists():
     os.environ.setdefault("DATOS_SAP_RUTA", str(RAIZ_REPO / "datos" / "entregas" / "piloto_ab_cab.csv"))
 os.environ.setdefault("FECHA_REFERENCIA", "2026-10-28")
-os.environ.setdefault("BITACORA_RUTA", "")
+os.environ["BITACORA_RUTA"] = ""  # las pruebas nunca escriben en la bitácora real (defecto encontrado en el contenedor)
 
 from app.politica import decidir  # noqa: E402
 

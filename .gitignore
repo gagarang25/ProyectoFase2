@@ -11,3 +11,4 @@ backend/modelo_router/
 !resultados/**/*.zip
 .ipynb_checkpoints/
 .venv/
+.venv-eb/
