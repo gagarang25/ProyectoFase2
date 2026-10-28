@@ -1,0 +1,133 @@
+{
+  "config": {
+    "nombre": "router_intencion_cab",
+    "version_modelo": "model-v1.0.0",
+    "modelo_base": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    "clases": [
+      "estatus_orden",
+      "fecha_entrega",
+      "queja",
+      "contactar_ejecutivo",
+      "otro"
+    ],
+    "temperatura": 0.5902,
+    "umbral_confianza": 0.9,
+    "umbral_minimo_validacion": 0.5,
+    "precision_objetivo": 0.98,
+    "max_len": 64,
+    "version_datos": "data-v3.0.0",
+    "sha256_datos": {
+      "entrenamiento.csv": "6e5f82aac6d39a1b5dcb6aed582b94ab08a8178b97908c873db14857c030c7cb",
+      "validacion.csv": "246d9385da9173a2938e6ecc8e6f8bb10b61ec42214d3628c600042b1c7bf5ef",
+      "prueba.csv": "f861915aa8699b5717bf2214ef8fe198a3bfe4d58f9b31299175952617acc4e9",
+      "prueba_externa_v3.csv": "fc1b47c74fbf814336deb751f0283c3c6728c8ab8029cc623da4590fdddf242d"
+    },
+    "git_commit": "082d216dab11ca738add440bfd7b9d4ee45bab64",
+    "git_limpio": true,
+    "hiperparametros": {
+      "lr": 2e-05,
+      "lote": 8,
+      "epocas": 3,
+      "weight_decay": 0.01,
+      "label_smoothing": 0.1,
+      "semilla": 42
+    },
+    "pesos": "float16",
+    "versiones": {
+      "python": "3.12.10",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.21.0",
+      "tokenizers": "0.23.3",
+      "sentencepiece": "0.2.2",
+      "datasets": "5.1.0",
+      "scikit-learn": "1.9.1"
+    },
+    "entrenado_en": "NVIDIA GeForce RTX 4060",
+    "segundos_entrenamiento": 223.2
+  },
+  "resultados": {
+    "prueba": {
+      "mensajes": 400,
+      "accuracy": 0.9925,
+      "f1_macro": 0.9921471562859269,
+      "cobertura_automatica": 0.4025,
+      "precision_automatica": 0.9813664596273292,
+      "resultados_seguros": 0.9925,
+      "respuestas_automaticas_erroneas": 3,
+      "acciones": {
+        "automatica": 161,
+        "escalar": 160,
+        "canalizar": 79
+      },
+      "accuracy_por_idioma": {
+        "en": 0.9917,
+        "es": 0.9938
+      }
+    },
+    "externa": {
+      "mensajes": 160,
+      "accuracy": 0.9642857142857143,
+      "f1_macro": 0.9645178332950138,
+      "cobertura_automatica": 0.4125,
+      "precision_automatica": 0.9090909090909091,
+      "resultados_seguros": 0.9625,
+      "respuestas_automaticas_erroneas": 6,
+      "acciones": {
+        "automatica": 66,
+        "escalar": 65,
+        "canalizar": 29
+      },
+      "accuracy_por_idioma": {
+        "en": 0.975,
+        "es": 0.9556,
+        "mix": 1.0
+      },
+      "seguros_por_tipo": {
+        "ambiguo": 0.9167,
+        "claro": 0.9846,
+        "fuera_dominio": 0.625,
+        "spanglish": 1.0
+      },
+      "ece_sin_calibrar": 0.055183840831557744,
+      "ece_calibrado": 0.025254198764381598
+    }
+  },
+  "latencia": {
+    "latencia_cpu_mediana_ms": 67.12745000004361,
+    "latencia_cpu_p95_ms": 71.8775250001272,
+    "mediciones": 150,
+    "hilos_cpu": 10
+  },
+  "historial": [
+    {
+      "eval_loss": 0.4071,
+      "eval_accuracy": 0.995,
+      "eval_f1_macro": 0.9949,
+      "eval_runtime": 0.5717,
+      "eval_samples_per_second": 699.683,
+      "eval_steps_per_second": 22.74,
+      "epoch": 1.0,
+      "step": 400
+    },
+    {
+      "eval_loss": 0.4112,
+      "eval_accuracy": 0.9925,
+      "eval_f1_macro": 0.9928,
+      "eval_runtime": 0.581,
+      "eval_samples_per_second": 688.485,
+      "eval_steps_per_second": 22.376,
+      "epoch": 2.0,
+      "step": 800
+    },
+    {
+      "eval_loss": 0.4083,
+      "eval_accuracy": 0.995,
+      "eval_f1_macro": 0.9951,
+      "eval_runtime": 0.5686,
+      "eval_samples_per_second": 703.507,
+      "eval_steps_per_second": 22.864,
+      "epoch": 3.0,
+      "step": 1200
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "alarmas": {
+    "mae_dias": 1.3,
+    "cobertura_rango": 0.85,
+    "recall": 0.75,
+    "psi": 0.2
+  },
+  "escenarios": [
+    {
+      "escenario": "Base (otra semilla)",
+      "ordenes": 3373,
+      "tasa_retraso_real": 0.2235,
+      "mae_dias": 1.0866,
+      "sesgo_dias": -0.2926,
+      "dentro_1_dia": 0.7628,
+      "cobertura_rango": 0.9102,
+      "mae_sap": 1.7557,
+      "auc": 0.8133,
+      "recall": 0.7984,
+      "precision": 0.3958,
+      "tasa_alertas": 0.4509,
+      "prob_media": 0.2266,
+      "psi_utilizacion_planta": 0.0,
+      "psi_tasa_retraso_transportista_90d": 0.0,
+      "alarmas": "ninguna"
+    },
+    {
+      "escenario": "Transportista TR-B se deteriora",
+      "ordenes": 3373,
+      "tasa_retraso_real": 0.2639,
+      "mae_dias": 1.2143,
+      "sesgo_dias": -0.4708,
+      "dentro_1_dia": 0.7281,
+      "cobertura_rango": 0.8856,
+      "mae_sap": 1.7646,
+      "auc": 0.7966,
+      "recall": 0.7831,
+      "precision": 0.4313,
+      "tasa_alertas": 0.4791,
+      "prob_media": 0.2359,
+      "psi_utilizacion_planta": 0.0,
+      "psi_tasa_retraso_transportista_90d": 1.0541,
+      "alarmas": "PSI"
+    },
+    {
+      "escenario": "Planta saturada (+10 puntos)",
+      "ordenes": 3373,
+      "tasa_retraso_real": 0.3318,
+      "mae_dias": 1.3439,
+      "sesgo_dias": -0.684,
+      "dentro_1_dia": 0.7118,
+      "cobertura_rango": 0.8915,
+      "mae_sap": 1.9469,
+      "auc": 0.8467,
+      "recall": 0.9428,
+      "precision": 0.4501,
+      "tasa_alertas": 0.6949,
+      "prob_media": 0.3417,
+      "psi_utilizacion_planta": 4.0865,
+      "psi_tasa_retraso_transportista_90d": 1.6973,
+      "alarmas": "MAE, PSI"
+    },
+    {
+      "escenario": "Aduana lenta todo el año",
+      "ordenes": 3373,
+      "tasa_retraso_real": 0.2473,
+      "mae_dias": 1.1948,
+      "sesgo_dias": -0.4406,
+      "dentro_1_dia": 0.7415,
+      "cobertura_rango": 0.893,
+      "mae_sap": 1.8091,
+      "auc": 0.7992,
+      "recall": 0.7842,
+      "precision": 0.4208,
+      "tasa_alertas": 0.4607,
+      "prob_media": 0.2289,
+      "psi_utilizacion_planta": 0.0,
+      "psi_tasa_retraso_transportista_90d": 0.2278,
+      "alarmas": "PSI"
+    },
+    {
+      "escenario": "Más eventos imprevisibles (10 %)",
+      "ordenes": 3309,
+      "tasa_retraso_real": 0.2499,
+      "mae_dias": 1.2197,
+      "sesgo_dias": -0.4376,
+      "dentro_1_dia": 0.7238,
+      "cobertura_rango": 0.8785,
+      "mae_sap": 1.8305,
+      "auc": 0.7874,
+      "recall": 0.757,
+      "precision": 0.4065,
+      "tasa_alertas": 0.4654,
+      "prob_media": 0.2348,
+      "psi_utilizacion_planta": 0.0042,
+      "psi_tasa_retraso_transportista_90d": 2.3586,
+      "alarmas": "PSI"
+    },
+    {
+      "escenario": "Combinado moderado",
+      "ordenes": 3271,
+      "tasa_retraso_real": 0.2926,
+      "mae_dias": 1.2776,
+      "sesgo_dias": -0.5188,
+      "dentro_1_dia": 0.716,
+      "cobertura_rango": 0.8872,
+      "mae_sap": 1.8138,
+      "auc": 0.8044,
+      "recall": 0.8537,
+      "precision": 0.4289,
+      "tasa_alertas": 0.5824,
+      "prob_media": 0.2826,
+      "psi_utilizacion_planta": 1.6564,
+      "psi_tasa_retraso_transportista_90d": 2.6992,
+      "alarmas": "PSI"
+    }
+  ],
+  "falsos_negativos": {
+    "falsos_negativos": 272,
+    "retraso_de_1_dia": 0.4852941176470588,
+    "con_evento_imprevisto": 0.2536764705882353,
+    "con_holgura_de_3_o_mas": 0.5330882352941176,
+    "inventario_disponible": 0.5735294117647058,
+    "prob_media": 0.10807941176470587,
+    "costo_fn_mxn": 621.76,
+    "causas": {
+      "variación de 1 día": 0.3897,
+      "otra combinación de factores": 0.3419,
+      "evento imprevisible (bloqueo, clima)": 0.2537,
+      "aduana mucho más lenta de lo normal": 0.0147
+    }
+  },
+  "segmentos_peor_mae": [
+    {
+      "variable": "transportista",
+      "valor": "TR-D",
+      "ordenes": 1475,
+      "tasa_retraso": 0.3247,
+      "mae_dias": 1.2224,
+      "cobertura_rango": 0.878,
+      "recall": 0.8455
+    },
+    {
+      "variable": "region_destino",
+      "valor": "EE.UU.",
+      "ordenes": 802,
+      "tasa_retraso": 0.2294,
+      "mae_dias": 1.1983,
+      "cobertura_rango": 0.8878,
+      "recall": 0.8043
+    },
+    {
+      "variable": "cruce_frontera",
+      "valor": 1,
+      "ordenes": 802,
+      "tasa_retraso": 0.2294,
+      "mae_dias": 1.1983,
+      "cobertura_rango": 0.8878,
+      "recall": 0.8043
+    },
+    {
+      "variable": "transportista",
+      "valor": "TR-E",
+      "ordenes": 630,
+      "tasa_retraso": 0.2333,
+      "mae_dias": 1.1952,
+      "cobertura_rango": 0.8873,
+      "recall": 0.8027
+    },
+    {
+      "variable": "region_destino",
+      "valor": "Noreste",
+      "ordenes": 847,
+      "tasa_retraso": 0.2727,
+      "mae_dias": 1.17,
+      "cobertura_rango": 0.8949,
+      "recall": 0.8052
+    }
+  ]
+}

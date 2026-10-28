@@ -1,0 +1,9 @@
+params,std_test_score,mae_cv
+"{'modelo__learning_rate': 0.05, 'modelo__max_leaf_nodes': 15, 'modelo__min_samples_leaf': 20}",0.022386615658755084,1.0920825777961634
+"{'modelo__learning_rate': 0.05, 'modelo__max_leaf_nodes': 15, 'modelo__min_samples_leaf': 50}",0.023552301840906772,1.0931466250665802
+"{'modelo__learning_rate': 0.05, 'modelo__max_leaf_nodes': 31, 'modelo__min_samples_leaf': 20}",0.023547497877837394,1.0985247500988198
+"{'modelo__learning_rate': 0.05, 'modelo__max_leaf_nodes': 31, 'modelo__min_samples_leaf': 50}",0.02156041911514092,1.0976418343488041
+"{'modelo__learning_rate': 0.1, 'modelo__max_leaf_nodes': 15, 'modelo__min_samples_leaf': 20}",0.023146463893013284,1.0958715020586802
+"{'modelo__learning_rate': 0.1, 'modelo__max_leaf_nodes': 15, 'modelo__min_samples_leaf': 50}",0.02362614789897844,1.0937087150600875
+"{'modelo__learning_rate': 0.1, 'modelo__max_leaf_nodes': 31, 'modelo__min_samples_leaf': 20}",0.02191892283769523,1.1019101554814603
+"{'modelo__learning_rate': 0.1, 'modelo__max_leaf_nodes': 31, 'modelo__min_samples_leaf': 50}",0.02271132978377313,1.1018099557766772

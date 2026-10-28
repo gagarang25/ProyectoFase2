@@ -1,0 +1,15 @@
+{
+  "falsos_negativos": 272,
+  "retraso_de_1_dia": 0.4852941176470588,
+  "con_evento_imprevisto": 0.2536764705882353,
+  "con_holgura_de_3_o_mas": 0.5330882352941176,
+  "inventario_disponible": 0.5735294117647058,
+  "prob_media": 0.10807941176470587,
+  "costo_fn_mxn": 621.76,
+  "causas": {
+    "variación de 1 día": 0.3897,
+    "otra combinación de factores": 0.3419,
+    "evento imprevisible (bloqueo, clima)": 0.2537,
+    "aduana mucho más lenta de lo normal": 0.0147
+  }
+}

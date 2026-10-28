@@ -1,0 +1,34 @@
+{
+  "eta": {
+    "mae_dias": 1.0495511049723756,
+    "mae_sin_redondeo": 1.0643944573149207,
+    "rmse_dias": 1.5689163836178557,
+    "dentro_1_dia": 0.7707182320441989,
+    "sesgo_dias": -0.25224447513812154,
+    "cobertura_rango": 0.9090124309392266,
+    "cuantiles_rango": [
+      0.1,
+      0.9
+    ],
+    "ancho_promedio_rango": 5.241367403314917,
+    "mae_linea_base_sap": 1.7178867403314917,
+    "dentro_1_dia_sap": 0.4906767955801105,
+    "mae_linea_base_nominal": 1.4152279005524862,
+    "mae_cv": 1.0920825777961634,
+    "mejora_vs_sap": 0.3890452261306533
+  },
+  "riesgo": {
+    "auc": 0.8176663468332477,
+    "recall": 0.7976190476190477,
+    "precision": 0.4212180746561886,
+    "tasa_alertas": 0.43939917127071826,
+    "falsos_negativos": 272,
+    "umbral": 0.17,
+    "referencia_A6": {
+      "auc": 0.818,
+      "recall": 0.798,
+      "precision": 0.421,
+      "falsos_negativos": 272
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "version_modelos": "model-v1.0.0",
+  "version_datos": "data-v1.0.0 (Actividad 6)",
+  "sha256_datos": "677bab165d385a5720446e215ce8729e8715cb2e4caacd9ac833cc5cb40ba103",
+  "git_commit": "082d216dab11ca738add440bfd7b9d4ee45bab64",
+  "corte_temporal": "2026-05-01",
+  "entradas": [
+    "tipo_cliente",
+    "planta",
+    "region_destino",
+    "transportista",
+    "modalidad",
+    "familia_producto",
+    "cruce_frontera",
+    "distancia_km",
+    "cantidad_piezas",
+    "peso_kg",
+    "inventario_disponible",
+    "utilizacion_planta",
+    "pedido_urgente",
+    "cambios_pedido",
+    "produccion_std_dias",
+    "transito_std_dias",
+    "dias_comprometidos",
+    "holgura_dias",
+    "mes",
+    "dia_semana",
+    "envios_previos_ruta",
+    "tasa_retraso_transportista_90d"
+  ],
+  "categoricas": {
+    "tipo_cliente": [
+      "armadora",
+      "tier1"
+    ],
+    "planta": [
+      "Celaya",
+      "Queretaro",
+      "San Juan del Rio"
+    ],
+    "region_destino": [
+      "Bajio",
+      "Centro",
+      "EE.UU.",
+      "Noreste",
+      "Norte"
+    ],
+    "transportista": [
+      "TR-A",
+      "TR-B",
+      "TR-C",
+      "TR-D",
+      "TR-E"
+    ],
+    "modalidad": [
+      "Consolidado",
+      "Dedicado",
+      "Paqueteria"
+    ],
+    "familia_producto": [
+      "Arneses",
+      "Ensambles",
+      "Estampados",
+      "Maquinados",
+      "Plasticos inyectados"
+    ]
+  },
+  "rangos_numericos_entrenamiento": {
+    "cruce_frontera": [
+      0.0,
+      1.0
+    ],
+    "distancia_km": [
+      56.0,
+      2381.0
+    ],
+    "cantidad_piezas": [
+      20.0,
+      18457.0
+    ],
+    "peso_kg": [
+      7.4,
+      45765.3
+    ],
+    "inventario_disponible": [
+      0.0,
+      1.0
+    ],
+    "utilizacion_planta": [
+      0.707,
+      0.97
+    ],
+    "pedido_urgente": [
+      0.0,
+      1.0
+    ],
+    "cambios_pedido": [
+      0.0,
+      4.0
+    ],
+    "produccion_std_dias": [
+      0.0,
+      8.0
+    ],
+    "transito_std_dias": [
+      1.0,
+      5.0
+    ],
+    "dias_comprometidos": [
+      1.0,
+      17.0
+    ],
+    "holgura_dias": [
+      -1.0,
+      4.0
+    ],
+    "mes": [
+      1.0,
+      12.0
+    ],
+    "dia_semana": [
+      0.0,
+      6.0
+    ],
+    "envios_previos_ruta": [
+      0.0,
+      801.0
+    ],
+    "tasa_retraso_transportista_90d": [
+      0.0244,
+      0.3214
+    ]
+  },
+  "eta": {
+    "algoritmo": "HistGradientBoostingRegressor (pérdida absoluta) + cuantiles 0.10 y 0.90",
+    "parametros": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20
+    },
+    "cuantiles_rango": [
+      0.1,
+      0.9
+    ],
+    "metricas_prueba": {
+      "mae_dias": 1.0495511049723756,
+      "mae_sin_redondeo": 1.0643944573149207,
+      "rmse_dias": 1.5689163836178557,
+      "dentro_1_dia": 0.7707182320441989,
+      "sesgo_dias": -0.25224447513812154,
+      "cobertura_rango": 0.9090124309392266,
+      "cuantiles_rango": [
+        0.1,
+        0.9
+      ],
+      "ancho_promedio_rango": 5.241367403314917,
+      "mae_linea_base_sap": 1.7178867403314917,
+      "dentro_1_dia_sap": 0.4906767955801105,
+      "mae_linea_base_nominal": 1.4152279005524862,
+      "mae_cv": 1.0920825777961634,
+      "mejora_vs_sap": 0.3890452261306533
+    }
+  },
+  "riesgo_retraso": {
+    "algoritmo": "HistGradientBoostingClassifier (campeón de la A6)",
+    "parametros": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 4,
+      "min_samples_leaf": 100,
+      "max_iter": 200
+    },
+    "umbral": 0.17,
+    "metricas_prueba": {
+      "auc": 0.8176663468332477,
+      "recall": 0.7976190476190477,
+      "precision": 0.4212180746561886,
+      "tasa_alertas": 0.43939917127071826,
+      "falsos_negativos": 272,
+      "umbral": 0.17,
+      "referencia_A6": {
+        "auc": 0.818,
+        "recall": 0.798,
+        "precision": 0.421,
+        "falsos_negativos": 272
+      }
+    }
+  },
+  "versiones": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "archivos": {
+    "eta_mediana.joblib": "6ba2b28abb50f0b3c9e334093be819d145f2eafc89f418c286c7b492cacaeabb",
+    "eta_rango_inferior.joblib": "ff7c9947ec8aafd4af762d6de9878f03680dde12c74445dde3d9f34c5a9d671a",
+    "eta_rango_superior.joblib": "274a962b3f3d4e11d0ab528c3dedcf2bfc09cba1f6e2a98b7181dffb304e8fd2",
+    "riesgo_retraso.joblib": "2d8d476c804e7a520a2eb103a8f4cdbd5d3217d9e3ca22ab8cd7bd1fc39be5ac"
+  }
+}
