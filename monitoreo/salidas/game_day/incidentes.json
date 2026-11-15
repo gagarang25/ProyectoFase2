@@ -1,0 +1,29 @@
+[
+  {
+    "id": "INC-20261112-01",
+    "grupo": "modelo_eta",
+    "abierto": "2026-11-12T10:40:00",
+    "severidad": "P1",
+    "reglas": [
+      "A3"
+    ],
+    "notificaciones": 2,
+    "notificaciones_suprimidas": 0,
+    "cerrado": "2026-11-12T10:50:00",
+    "acciones": []
+  },
+  {
+    "id": "INC-20261112-02",
+    "grupo": "servicio_api",
+    "abierto": "2026-11-12T11:50:00",
+    "severidad": "P1",
+    "reglas": [
+      "A1",
+      "A2"
+    ],
+    "notificaciones": 2,
+    "notificaciones_suprimidas": 2,
+    "cerrado": "2026-11-12T12:05:00",
+    "acciones": []
+  }
+]

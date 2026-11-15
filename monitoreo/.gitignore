@@ -1,0 +1,7 @@
+# Se regeneran con ejecutar_todo; el respaldo portable va en salidas/mlflow_respaldo_A8.zip (release de GitHub)
+mlflow/
+mlruns/
+salidas/mlflow_server.log
+salidas/mlflow_respaldo_A8.zip
+__pycache__/
+.pytest_cache/

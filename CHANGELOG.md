@@ -1,5 +1,12 @@
 # Registro de cambios
 
+## ops-v1.0.0 · Actividad 8 (monitoreo y respuesta a incidentes)
+- Carpeta `monitoreo/`: SLI/SLO, presupuesto de error y reglas de alerta A1–A6 en `config/monitoring_config.yaml`.
+- Motor de alertas con ventanas, quema del presupuesto, severidad P1–P3, agrupación y deduplicación.
+- Logs JSON y trazas (JSONL + MLflow Tracing); tableros operativos HTML; drift con PSI, KS, JSD y χ².
+- Runbooks RB-01 (rollback), RB-02 (drift y reentrenamiento) y RB-03 (saturación) con respuestas automatizadas.
+- Simulación de 3 incidentes registrada en MLflow (Model Registry `cab_eta_entrega` v1–v3). La API no cambió.
+
 ## app-v1.0.0 · Proyecto Fase 2
 - API REST (FastAPI) con router de intención, SAP simulado de solo lectura, modelo de ETA y riesgo de retraso.
 - Chat web (nginx) que consume la API; `docker compose` con dos contenedores.

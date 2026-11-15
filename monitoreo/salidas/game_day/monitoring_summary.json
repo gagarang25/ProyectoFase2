@@ -1,0 +1,118 @@
+{
+  "plano": "servicio",
+  "fecha": "2026-11-12",
+  "solicitudes": 40878,
+  "ventanas": 60,
+  "estado_final": "ok",
+  "incidentes": {
+    "INC-02": {
+      "titulo": "Despliegue defectuoso del modelo de ETA (v2)",
+      "id_motor": "INC-20261112-01",
+      "inicio": "2026-11-12T10:30:00",
+      "deteccion": "2026-11-12T10:40:00",
+      "mitigacion": "2026-11-12T10:40:00",
+      "recuperacion": "2026-11-12T10:40:00",
+      "mttd_min": 10.0,
+      "mttr_min": 10.0
+    },
+    "INC-03": {
+      "titulo": "Saturación por consultas en bucle del portal de ARM-01",
+      "id_motor": "INC-20261112-02",
+      "inicio": "2026-11-12T11:45:00",
+      "deteccion": "2026-11-12T11:50:00",
+      "mitigacion": "2026-11-12T11:55:00",
+      "recuperacion": "2026-11-12T11:55:00",
+      "mttd_min": 5.0,
+      "mttr_min": 10.0
+    }
+  },
+  "acciones": [
+    {
+      "accion": "despliegue",
+      "version": "2",
+      "anterior": "1",
+      "ts": "2026-11-12T10:30:00"
+    },
+    {
+      "accion": "rollback",
+      "ejecutado": true,
+      "de_version": "2",
+      "a_version": "1",
+      "ts": "2026-11-12T10:40:00",
+      "motivo": "A3: desacuerdo con sombra y ETA imposibles"
+    },
+    {
+      "accion": "escalar_replicas",
+      "ejecutado": true,
+      "de": 1,
+      "a": 3,
+      "ts": "2026-11-12T11:50:00"
+    },
+    {
+      "accion": "limite_de_tasa",
+      "ejecutado": true,
+      "detalle": "2 solicitudes/s por token",
+      "ts": "2026-11-12T12:15:00"
+    },
+    {
+      "accion": "reducir_replicas",
+      "ejecutado": true,
+      "de": 3,
+      "a": 1,
+      "ts": "2026-11-12T13:20:00"
+    }
+  ],
+  "ruido": {
+    "evaluaciones_con_condicion": 6,
+    "notificaciones_enviadas": 4,
+    "por_tipo": {
+      "pendiente": 2,
+      "disparada": 2,
+      "resuelta": 3,
+      "duplicada_suprimida": 1,
+      "agrupada": 1
+    },
+    "alertas_regla_simple_sin_ventanas": 5
+  },
+  "slo_dia": {
+    "disponibilidad": 0.845442536327609,
+    "frac_lentas": 0.16390234355888253,
+    "presupuesto_disp_restante": -2.5099999999999967,
+    "presupuesto_lat_restante": 0.6277777777777781
+  },
+  "v2": {
+    "v2_mae_validacion_offline": 1.0495511049723756,
+    "v2_mae_con_datos_correctos": 3.6669544198895028,
+    "v1_mae_prueba": 1.0495511049723756
+  },
+  "backtest_v2": {
+    "ordenes": 784,
+    "v1": {
+      "ordenes": 784,
+      "mae": 1.0471938775510203,
+      "cobertura": 0.9005102040816326,
+      "ancho_rango": 4.751275510204081,
+      "dentro_1_dia": 0.764030612244898,
+      "sesgo": -0.22066326530612246
+    },
+    "v2": {
+      "ordenes": 784,
+      "mae": 3.6364795918367347,
+      "cobertura": 0.7385204081632653,
+      "ancho_rango": 5.292091836734694,
+      "dentro_1_dia": 0.08035714285714286,
+      "sesgo": 0.0778061224489796
+    }
+  },
+  "registro": {
+    "v1": "1",
+    "v2": "2",
+    "champion_final": "1"
+  },
+  "router_reproduccion_coincidencia": 1.0,
+  "trazas": {
+    "jsonl": 550,
+    "mlflow": 93
+  },
+  "lineas_log": 62131
+}

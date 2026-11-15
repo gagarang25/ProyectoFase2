@@ -1,0 +1,107 @@
+{
+  "runbook": "RB-03",
+  "incidente": "INC-03",
+  "titulo": "Latencia alta y errores por saturación",
+  "severidad": "P1",
+  "pasos": [
+    {
+      "n": 1,
+      "ts": "2026-11-12T11:50",
+      "etapa": "identificacion",
+      "ejecuta": "motor de alertas",
+      "descripcion": "Alerta A1 (P1): quema del presupuesto de error",
+      "resultado": "disponibilidad 1.6%, p95 3000 ms, quema 1 h 147×",
+      "evidencia": "notificaciones.jsonl"
+    },
+    {
+      "n": 2,
+      "ts": "2026-11-12T11:50",
+      "etapa": "diagnostico",
+      "ejecuta": "automatización",
+      "descripcion": "Revisar saturación (CPU) y tráfico por cliente en los logs",
+      "resultado": "CPU 100%; ARM-01 (98% del tráfico); 16.4 solicitudes/s (normal 0.5)",
+      "evidencia": "monitoring_log.jsonl.gz agrupado por cliente"
+    },
+    {
+      "n": 3,
+      "ts": "2026-11-12T11:50",
+      "etapa": "accion",
+      "ejecuta": "automatización",
+      "descripcion": "Escalamiento automático de réplicas (regla: CPU ≥ 85 %)",
+      "resultado": "réplicas 1 → 3 (listas en 90 s)",
+      "evidencia": "ventanas.csv (replicas, trabajadores)"
+    },
+    {
+      "n": 4,
+      "ts": "2026-11-12T11:55",
+      "etapa": "diagnostico",
+      "ejecuta": "ingeniero de guardia",
+      "descripcion": "Revisar trazas de solicitudes lentas: ¿dónde se pierde el tiempo?",
+      "resultado": "en la ventana del pico, la espera en cola fue el 100% del tiempo; el span del router siguió en 131 ms (mediana) → falla de capacidad, no del modelo",
+      "evidencia": "traces.jsonl / MLflow Traces"
+    },
+    {
+      "n": 5,
+      "ts": "2026-11-12T11:55",
+      "etapa": "escalamiento",
+      "ejecuta": "ingeniero de guardia",
+      "descripcion": "Avisar al ejecutivo de cuenta de ARM-01 (origen del tráfico)",
+      "resultado": "se abre caso con TI de ARM-01",
+      "evidencia": "notificaciones.jsonl"
+    },
+    {
+      "n": 6,
+      "ts": "2026-11-12T12:15",
+      "etapa": "accion",
+      "ejecuta": "ingeniero de guardia",
+      "descripcion": "Aplicar límite de 2 solicitudes/s por token (configuración del gateway)",
+      "resultado": "ARM-01 recibe 429 en el exceso; los otros 4 clientes no se afectan",
+      "evidencia": "monitoring_log.jsonl.gz (status 429)"
+    },
+    {
+      "n": 7,
+      "ts": "2026-11-12T12:25",
+      "etapa": "validacion",
+      "ejecuta": "automatización",
+      "descripcion": "Confirmar 30 min (6 ventanas) dentro del SLO",
+      "resultado": "p95 < 400 ms y disponibilidad ≥ 99.5 % desde 11:55",
+      "evidencia": "ventanas.csv, tablero 05"
+    },
+    {
+      "n": 8,
+      "ts": "2026-11-12T12:40",
+      "etapa": "escalamiento",
+      "ejecuta": "ejecutivo de cuenta ARM-01",
+      "descripcion": "Ejecutivo de cuenta confirma con TI de ARM-01 la corrección del bucle del portal (consulta cada 15 min en lugar de continua)",
+      "resultado": "tráfico de ARM-01 vuelve a lo normal",
+      "evidencia": "ventanas.csv (rps)"
+    },
+    {
+      "n": 9,
+      "ts": "2026-11-12T13:20",
+      "etapa": "accion",
+      "ejecuta": "automatización",
+      "descripcion": "Regresar a 1 réplica (CPU < 50 % durante 30 min)",
+      "resultado": "réplicas 3 → 1",
+      "evidencia": "ventanas.csv"
+    },
+    {
+      "n": 10,
+      "ts": "2026-11-12T13:25",
+      "etapa": "cierre",
+      "ejecuta": "ingeniero de guardia",
+      "descripcion": "Documentar, dejar el límite de tasa como permanente y proponer autoescalado por CPU en la nube",
+      "resultado": "incidente cerrado",
+      "evidencia": "postmortem_INC-03.md"
+    }
+  ],
+  "resultado": {
+    "estado": "resuelto",
+    "mttd_min": 5.0,
+    "tiempo_mitigacion_min": 5.0,
+    "mttr_min": 10.0,
+    "escalado": true,
+    "errores_5xx": 6318,
+    "presupuesto_disp_restante": "-251%"
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "ts": "2026-11-12T10:35:00",
+    "tipo": "pendiente",
+    "alerta": "A3",
+    "nombre": "ETA: desacuerdo con el campeón en sombra / fechas imposibles",
+    "severidad": "P1",
+    "slo": "eta_sombra",
+    "valores": {
+      "eta_desacuerdo_mediana": 4.0,
+      "eta_imposibles": 0.0
+    },
+    "umbrales": {
+      "eta_desacuerdo_mediana": ">= 1.0",
+      "eta_imposibles": ">= 0.05"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-01",
+    "accion_automatica": "rollback_modelo_eta",
+    "incidente": null,
+    "detalle": "condición cumplida 1 de 2 ventanas: todavía no se notifica"
+  },
+  {
+    "ts": "2026-11-12T10:40:00",
+    "tipo": "disparada",
+    "alerta": "A3",
+    "nombre": "ETA: desacuerdo con el campeón en sombra / fechas imposibles",
+    "severidad": "P1",
+    "slo": "eta_sombra",
+    "valores": {
+      "eta_desacuerdo_mediana": 4.0,
+      "eta_imposibles": 0.0
+    },
+    "umbrales": {
+      "eta_desacuerdo_mediana": ">= 1.0",
+      "eta_imposibles": ">= 0.05"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-01",
+    "accion_automatica": "rollback_modelo_eta",
+    "incidente": "INC-20261112-01",
+    "detalle": "nuevo incidente"
+  },
+  {
+    "ts": "2026-11-12T10:50:00",
+    "tipo": "resuelta",
+    "alerta": "A3",
+    "nombre": "ETA: desacuerdo con el campeón en sombra / fechas imposibles",
+    "severidad": "P1",
+    "slo": "eta_sombra",
+    "valores": {
+      "eta_desacuerdo_mediana": 0.0,
+      "eta_imposibles": 0.0
+    },
+    "umbrales": {
+      "eta_desacuerdo_mediana": ">= 1.0",
+      "eta_imposibles": ">= 0.05"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-01",
+    "accion_automatica": "rollback_modelo_eta",
+    "incidente": "INC-20261112-01",
+    "detalle": "2 ventanas seguidas dentro del umbral"
+  },
+  {
+    "ts": "2026-11-12T11:50:00",
+    "tipo": "disparada",
+    "alerta": "A1",
+    "nombre": "Disponibilidad: quema rápida del presupuesto de error",
+    "severidad": "P1",
+    "slo": "disponibilidad",
+    "valores": {
+      "quema_disp_1h": 146.7739,
+      "quema_disp_5m": 196.8241
+    },
+    "umbrales": {
+      "quema_disp_1h": ">= 14.4",
+      "quema_disp_5m": ">= 14.4"
+    },
+    "ventanas_requeridas": 1,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": "INC-20261112-02",
+    "detalle": "nuevo incidente"
+  },
+  {
+    "ts": "2026-11-12T11:50:00",
+    "tipo": "pendiente",
+    "alerta": "A2",
+    "nombre": "Latencia: SLO en riesgo (quema sostenida)",
+    "severidad": "P2",
+    "slo": "latencia",
+    "valores": {
+      "quema_lat_30m": 17.3754,
+      "quema_lat_5m": 19.9471
+    },
+    "umbrales": {
+      "quema_lat_30m": ">= 6.0",
+      "quema_lat_5m": ">= 6.0"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": null,
+    "detalle": "condición cumplida 1 de 2 ventanas: todavía no se notifica"
+  },
+  {
+    "ts": "2026-11-12T11:55:00",
+    "tipo": "duplicada_suprimida",
+    "alerta": "A1",
+    "nombre": "Disponibilidad: quema rápida del presupuesto de error",
+    "severidad": "P1",
+    "slo": "disponibilidad",
+    "valores": {
+      "quema_disp_1h": 110.881,
+      "quema_disp_5m": 59.7063
+    },
+    "umbrales": {
+      "quema_disp_1h": ">= 14.4",
+      "quema_disp_5m": ">= 14.4"
+    },
+    "ventanas_requeridas": 1,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": "INC-20261112-02",
+    "detalle": "alerta repetida: no se notifica"
+  },
+  {
+    "ts": "2026-11-12T11:55:00",
+    "tipo": "agrupada",
+    "alerta": "A2",
+    "nombre": "Latencia: SLO en riesgo (quema sostenida)",
+    "severidad": "P2",
+    "slo": "latencia",
+    "valores": {
+      "quema_lat_30m": 12.6569,
+      "quema_lat_5m": 6.9885
+    },
+    "umbrales": {
+      "quema_lat_30m": ">= 6.0",
+      "quema_lat_5m": ">= 6.0"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": "INC-20261112-02",
+    "detalle": "se agrupa en INC-20261112-02 (misma causa probable): no se notifica de nuevo"
+  },
+  {
+    "ts": "2026-11-12T12:05:00",
+    "tipo": "resuelta",
+    "alerta": "A1",
+    "nombre": "Disponibilidad: quema rápida del presupuesto de error",
+    "severidad": "P1",
+    "slo": "disponibilidad",
+    "valores": {
+      "quema_disp_1h": 59.5953,
+      "quema_disp_5m": 0.0
+    },
+    "umbrales": {
+      "quema_disp_1h": ">= 14.4",
+      "quema_disp_5m": ">= 14.4"
+    },
+    "ventanas_requeridas": 1,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": "INC-20261112-02",
+    "detalle": "2 ventanas seguidas dentro del umbral"
+  },
+  {
+    "ts": "2026-11-12T12:05:00",
+    "tipo": "resuelta",
+    "alerta": "A2",
+    "nombre": "Latencia: SLO en riesgo (quema sostenida)",
+    "severidad": "P2",
+    "slo": "latencia",
+    "valores": {
+      "quema_lat_30m": 6.5366,
+      "quema_lat_5m": 0.0
+    },
+    "umbrales": {
+      "quema_lat_30m": ">= 6.0",
+      "quema_lat_5m": ">= 6.0"
+    },
+    "ventanas_requeridas": 2,
+    "runbook": "RB-03",
+    "accion_automatica": "escalar_replicas",
+    "incidente": "INC-20261112-02",
+    "detalle": "2 ventanas seguidas dentro del umbral"
+  }
+]

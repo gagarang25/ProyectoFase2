@@ -1,0 +1,81 @@
+{
+  "plano": "modelo",
+  "periodo": "2026-10-05 a 2026-12-27",
+  "ordenes_produccion": 3325,
+  "semanas": 12,
+  "incidente": {
+    "estado": "mitigado parcialmente (escalado)",
+    "inicio_drift": "2026-11-09",
+    "deteccion_drift_P3": "2026-11-16",
+    "deteccion_degradacion_P2": "2026-11-30",
+    "mttd_dias": 7,
+    "dias_hasta_nuevo_modelo": 1,
+    "kpi_R10_reaccion": "cumplido (≤ 10 días hábiles)"
+  },
+  "reentrenamientos": [
+    {
+      "ts": "2026-11-30T00:00:00",
+      "evento": "reentrenamiento",
+      "ordenes_entrenamiento": 29052,
+      "ordenes_validacion": 253,
+      "ordenes_produccion_usadas": 1779,
+      "desfase_rango_dias": 1,
+      "challenger": {
+        "ordenes": 253,
+        "mae": 1.4110671936758894,
+        "cobertura": 0.8774703557312253,
+        "ancho_rango": 6.980237154150197,
+        "dentro_1_dia": 0.6758893280632411,
+        "sesgo": -0.8814229249011858
+      },
+      "champion": {
+        "ordenes": 253,
+        "mae": 1.533596837944664,
+        "cobertura": 0.8853754940711462,
+        "ancho_rango": 6.225296442687747,
+        "dentro_1_dia": 0.6403162055335968,
+        "sesgo": -1.08300395256917
+      },
+      "pasa_compuerta": true,
+      "mejora_mae": 0.07989690721649478
+    }
+  ],
+  "champion_final": "3",
+  "control_falsas_alarmas_A4_sin_drift": {
+    "pct_carga_sobre_rango_por_semana": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.235,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "semanas_sobre_umbral": 1,
+    "alertas_con_regla_de_2_semanas": 0
+  },
+  "ruido": {
+    "evaluaciones_con_condicion": 14,
+    "notificaciones_enviadas": 2,
+    "por_tipo": {
+      "pendiente": 2,
+      "disparada": 1,
+      "duplicada_suprimida": 10,
+      "escalada": 1
+    }
+  },
+  "mae_final": {
+    "semana": "2026-12-21",
+    "servido": 1.7512437810945274,
+    "v1_contrafactual": 1.935323383084577,
+    "sin_drift": 1.270935960591133,
+    "v3_acumulado": 1.2069464544138928,
+    "v1_mismas_ordenes": 1.260492040520984,
+    "cobertura_v3_acumulada": 0.9507959479015919
+  }
+}

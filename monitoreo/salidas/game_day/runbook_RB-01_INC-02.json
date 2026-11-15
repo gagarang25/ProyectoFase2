@@ -1,0 +1,70 @@
+{
+  "runbook": "RB-01",
+  "incidente": "INC-02",
+  "titulo": "Despliegue defectuoso del modelo de ETA",
+  "severidad": "P1",
+  "pasos": [
+    {
+      "n": 1,
+      "ts": "2026-11-12T10:40",
+      "etapa": "identificacion",
+      "ejecuta": "motor de alertas",
+      "descripcion": "Alerta A3 (P1): desacuerdo con el campeón en sombra y fechas imposibles en 2 ventanas seguidas",
+      "resultado": "desacuerdo mediano 4.0 días; imposibles 0% (esta regla no se activó: v2 no dio fechas menores al tránsito)",
+      "evidencia": "notificaciones.jsonl, alerts.json"
+    },
+    {
+      "n": 2,
+      "ts": "2026-11-12T10:40",
+      "etapa": "diagnostico",
+      "ejecuta": "automatización",
+      "descripcion": "Correlacionar con cambios recientes: registro de despliegues",
+      "resultado": "v2 desplegada a las 10:30 (único cambio); la señal empezó en esa ventana",
+      "evidencia": "monitoring_log.jsonl.gz (evento despliegue_modelo)"
+    },
+    {
+      "n": 3,
+      "ts": "2026-11-12T10:40",
+      "etapa": "accion",
+      "ejecuta": "automatización",
+      "descripcion": "Rollback automático: mover @champion a la versión anterior y recargar",
+      "resultado": "@champion v2 → v1 (ejecutado)",
+      "evidencia": "MLflow Model Registry (alias y etiqueta estado=revertida)"
+    },
+    {
+      "n": 4,
+      "ts": "2026-11-12T10:50",
+      "etapa": "validacion",
+      "ejecuta": "automatización",
+      "descripcion": "Confirmar 2 ventanas sanas con la versión restaurada",
+      "resultado": "desacuerdo con la sombra < 1 día y 0 % de fechas imposibles con v1 desde 10:40",
+      "evidencia": "ventanas.csv, tablero 03"
+    },
+    {
+      "n": 5,
+      "ts": "2026-11-12T10:50",
+      "etapa": "validacion",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "Confirmar con etiquetas (backtest con órdenes ya entregadas)",
+      "resultado": "v2 habría tenido MAE 3.64 días y cobertura 74% vs v1 1.05 y 90%",
+      "evidencia": "backtest_v2.json"
+    },
+    {
+      "n": 6,
+      "ts": "2026-11-12T10:50",
+      "etapa": "cierre",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "Bloquear v2 (etiqueta estado=revertida), abrir defecto del ETL SAP v2.3 y agregar prueba de contrato de datos al pipeline",
+      "resultado": "incidente cerrado; postmortem sin culpables",
+      "evidencia": "postmortem_INC-02.md"
+    }
+  ],
+  "resultado": {
+    "estado": "resuelto",
+    "mttd_min": 10.0,
+    "tiempo_mitigacion_min": 0.0,
+    "mttr_min": 10.0,
+    "escalado": false,
+    "respuestas_afectadas": 46
+  }
+}

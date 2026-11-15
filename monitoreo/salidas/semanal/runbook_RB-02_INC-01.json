@@ -1,0 +1,125 @@
+{
+  "runbook": "RB-02",
+  "incidente": "INC-01",
+  "titulo": "Data drift y degradación del modelo de ETA",
+  "severidad": "P2",
+  "pasos": [
+    {
+      "n": 1,
+      "ts": "2026-11-16T00:00",
+      "etapa": "identificacion",
+      "ejecuta": "motor de alertas",
+      "descripcion": "Alerta A4 (P3): carga de planta por encima del máximo de entrenamiento 2 semanas seguidas",
+      "resultado": "100% de las órdenes con carga > 0.97; carga media 1.01 (antes ~0.80); KS 1.00",
+      "evidencia": "alerts.json, drift_por_variable.csv"
+    },
+    {
+      "n": 2,
+      "ts": "2026-11-16T00:00",
+      "etapa": "diagnostico",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "¿Es drift real o error de ingestión? Revisar nulos, esquema y contrastar la carga con el plan de producción",
+      "resultado": "0 nulos en las 22 entradas; esquema sin cambios; Planeación confirma arranque del programa de ARM-03 y temporada alta → drift real",
+      "evidencia": "monitoring_log.jsonl (nulos_entrada)"
+    },
+    {
+      "n": 3,
+      "ts": "2026-11-16T00:00",
+      "etapa": "diagnostico",
+      "ejecuta": "automatización",
+      "descripcion": "¿Cambió algo más? PSI/KS en numéricas y JSD/χ² en categóricas",
+      "resultado": "PSI máx. numéricas 0.05, JSD máx. categóricas 0.005: el cambio está aislado en la carga de planta",
+      "evidencia": "drift_por_variable.csv"
+    },
+    {
+      "n": 4,
+      "ts": "2026-11-16T00:00",
+      "etapa": "diagnostico",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "Cuantificar impacto con las etiquetas disponibles",
+      "resultado": "MAE semanal 1.07 días (SLO ≤ 1.30): todavía dentro, pero las órdenes con producción tardan más en entregarse → la degradación aparecerá con retraso",
+      "evidencia": "semanas.csv"
+    },
+    {
+      "n": 5,
+      "ts": "2026-11-16T00:00",
+      "etapa": "accion",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "Decisión P3: no reentrenar aún (faltan etiquetas); vigilar A5 y preparar datos para el challenger",
+      "resultado": "monitoreo semanal continúa",
+      "evidencia": "incidentes.json"
+    },
+    {
+      "n": 6,
+      "ts": "2026-11-30T00:00",
+      "etapa": "escalamiento",
+      "ejecuta": "motor de alertas",
+      "descripcion": "Alerta A5: MAE semanal > 1.30 dos semanas seguidas; el incidente sube a P2",
+      "resultado": "MAE 1.53 días; requiere producción 2.36 vs con inventario 0.93 → la degradación viene de la producción en planta saturada",
+      "evidencia": "notificaciones.jsonl, semanas.csv"
+    },
+    {
+      "n": 7,
+      "ts": "2026-11-30T00:00",
+      "etapa": "accion",
+      "ejecuta": "automatización (pipeline T18)",
+      "descripcion": "Reentrenamiento semiautomático del challenger (intento 1): historia + 1779 órdenes de producción con peso ×10; rango calibrado +1 día(s)",
+      "resultado": "validación (última semana, 253 entregas): MAE 1.41 vs campeón 1.53 (8% mejor); cobertura 88% → compuerta APROBADA",
+      "evidencia": "MLflow: run registro_eta_v3"
+    },
+    {
+      "n": 8,
+      "ts": "2026-12-01T10:00",
+      "etapa": "accion",
+      "ejecuta": "Especialista MLOps",
+      "descripcion": "Aprobación humana y promoción: @champion → v3 (v1 queda en sombra 7 días; rollback inmediato si la sombra muestra desacuerdo)",
+      "resultado": "órdenes nuevas desde el 02/12 se estiman con v3",
+      "evidencia": "MLflow Model Registry (alias champion)"
+    },
+    {
+      "n": 9,
+      "ts": "2026-12-14T00:00",
+      "etapa": "validacion",
+      "ejecuta": "automatización",
+      "descripcion": "Comparar v3 contra v1 (sombra) en las mismas 241 órdenes nuevas ya entregadas",
+      "resultado": "MAE v3 0.87 vs v1 0.81 (7% peor); cobertura 100% vs 97%",
+      "evidencia": "semanas.csv (mae_v3_acumulado)"
+    },
+    {
+      "n": 10,
+      "ts": "2026-12-28T00:00",
+      "etapa": "validacion",
+      "ejecuta": "automatización",
+      "descripcion": "Comparar v3 contra v1 (sombra) en las mismas 691 órdenes nuevas ya entregadas",
+      "resultado": "MAE v3 1.21 vs v1 1.26 (4% mejor); cobertura 95% vs 92%",
+      "evidencia": "semanas.csv (mae_v3_acumulado)"
+    },
+    {
+      "n": 11,
+      "ts": "2026-12-28T10:00",
+      "etapa": "escalamiento",
+      "ejecuta": "especialista MLOps → gerente de servicio",
+      "descripcion": "El MAE sigue arriba del SLO con la planta saturada: se escala al dueño del producto (Gerente de servicio al cliente) con opciones",
+      "resultado": "decisión: mantener v3, comunicar siempre rango + motivo ('planta al X % de capacidad'), confirmación humana de pedidos urgentes en planta > 0.97 (R03) y revisar el SLO por nivel de carga en la Fase 3",
+      "evidencia": "postmortem_INC-01.md"
+    },
+    {
+      "n": 12,
+      "ts": "2026-12-28T12:00",
+      "etapa": "cierre",
+      "ejecuta": "especialista MLOps",
+      "descripcion": "Cerrar el incidente técnico y abrir mejora: variable de carga proyectada y eventos de rastreo del transportista (pendiente de la Fase 2)",
+      "resultado": "incidente cerrado con mitigación parcial documentada",
+      "evidencia": "postmortem_INC-01.md"
+    }
+  ],
+  "resultado": {
+    "estado": "mitigado parcialmente (escalado)",
+    "inicio_drift": "2026-11-09",
+    "deteccion_drift_P3": "2026-11-16",
+    "deteccion_degradacion_P2": "2026-11-30",
+    "mttd_dias": 7,
+    "dias_hasta_nuevo_modelo": 1,
+    "kpi_R10_reaccion": "cumplido (≤ 10 días hábiles)"
+  }
+}

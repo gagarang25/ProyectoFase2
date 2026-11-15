@@ -1,0 +1,189 @@
+# =============================================================================
+# Configuración de monitorización y alertas · Chatbot de CAB (app-v1.0.0)
+# Actividad 8 · etiqueta ops-v1.0.0
+#
+# Un solo archivo concentra los SLI, los SLO, el presupuesto de error, las reglas
+# de alerta, la severidad, el ruteo de notificaciones y las acciones automáticas.
+# Cambiar un umbral NO requiere tocar el código (igual que la configuración de la API).
+# Cada umbral cita de dónde sale: línea base medida en la Fase 2 o KPI de la Fase 1.
+# =============================================================================
+proyecto: "Chatbot de estatus de órdenes y ETA · Componentes Automotrices del Bajío (CAB, ficticia)"
+version_config: "ops-v1.0.0"
+version_app_monitoreada: "app-v1.0.0"
+
+mlflow:
+  experimento: "CAB_Actividad8_Observabilidad"
+  modelo_registrado: "cab_eta_entrega"
+  muestreo_trazas: 0.01          # 1 % de las solicitudes normales + todas las lentas o con error
+
+# -----------------------------------------------------------------------------
+# Plano de SERVICIO (API /api/chat). Ventanas de 5 minutos.
+# -----------------------------------------------------------------------------
+servicio:
+  ventana_minutos: 5
+  game_day: {fecha: "2026-11-12", inicio: "09:00", fin: "14:00"}
+  trafico_normal_rps: 0.5        # piloto ampliado: ~150 consultas cada 5 min
+  capacidad: {replicas: 1, trabajadores_por_replica: 2, replicas_max: 4}
+  timeout_ms: 3000               # el chat web abandona la espera a los 3 s (cuenta como error)
+  volumen_mensual_estimado: 360000   # 150 por ventana × 12 × 10 h × 20 días hábiles
+
+# -----------------------------------------------------------------------------
+# Plano de MODELO (ETA y riesgo de retraso). Ventanas semanales.
+# Las etiquetas (días reales) llegan cuando la orden se entrega: la calidad se
+# mide por semana de ENTREGA y el drift de entradas por semana de PEDIDO.
+# -----------------------------------------------------------------------------
+modelo:
+  semanas: {inicio: "2026-10-05", fin: "2026-12-21"}
+  variables_drift_numericas: [distancia_km, peso_kg, cantidad_piezas, holgura_dias, dias_comprometidos]
+  variables_drift_categoricas: [transportista, region_destino, planta, familia_producto, modalidad]
+
+# -----------------------------------------------------------------------------
+# SLO (objetivos internos) y presupuesto de error.
+# No se define SLA: el proyecto no tiene un contrato real con clientes.
+# -----------------------------------------------------------------------------
+slo:
+  disponibilidad:
+    objetivo: 0.995              # Fase 1 (R11) pide ≥ 99 %; internamente se exige más margen
+    periodo_dias: 28
+    sli: "proporción de solicitudes de /api/chat sin error 5xx ni timeout de 3 s"
+  latencia:
+    objetivo: 0.95               # 95 % de las solicitudes …
+    umbral_ms: 400               # … en menos de 400 ms (p95 medido en Fase 2 = 184 ms; margen ×2)
+    periodo_dias: 28
+  eta_mae:
+    objetivo_dias: 1.30          # MAE de prueba 1.05 + 25 % de degradación tolerada (alarma de la Fase 2)
+    linea_base_dias: 1.05
+    kpi_fase1_r10: "error promedio ≤ 1 día; reacción ante alarma ≤ 10 días hábiles"
+  eta_cobertura:
+    objetivo: 0.85               # KPI de R08 (Fase 1): ≥ 85 % de entregas dentro del rango informado
+    periodo_semanas: 4
+  router_baja_confianza:
+    objetivo_max: 0.10           # KPI de R02 (Fase 1): mensajes no entendidos ≤ 10 % por idioma
+  eta_sombra:
+    desacuerdo_max_dias: 1.0     # mediana |ETA servido − ETA del campeón en sombra|
+    imposibles_max: 0.05         # ETA menor que el tránsito estándar (físicamente imposible)
+
+# -----------------------------------------------------------------------------
+# Severidades y ruteo (T20: crítica P1, alta P2, media P3, informativa)
+# -----------------------------------------------------------------------------
+severidades:
+  P1: {nombre: "Crítica", respuesta: "inmediata (24/7)", canales: [pager_guardia, slack_cab_incidentes], renotificar_min: 30}
+  P2: {nombre: "Alta", respuesta: "≤ 1 h en horario hábil", canales: [slack_cab_incidentes, ticket], renotificar_min: 120}
+  P3: {nombre: "Media", respuesta: "≤ 1 día hábil", canales: [ticket], renotificar_min: 1440}
+  INFO: {nombre: "Informativa", respuesta: "sin acción inmediata", canales: [], renotificar_min: 0}
+
+# -----------------------------------------------------------------------------
+# Reglas de alerta. Todas las condiciones de una regla deben cumplirse durante
+# `ventanas` evaluaciones consecutivas. `grupo` agrupa alertas del mismo
+# incidente (deduplicación) y `resolver_tras` evita que la alerta "parpadee".
+# -----------------------------------------------------------------------------
+alertas:
+  - id: A1
+    nombre: "Disponibilidad: quema rápida del presupuesto de error"
+    plano: servicio
+    slo: disponibilidad
+    condiciones:
+      - {metrica: quema_disp_1h, op: ">=", umbral: 14.4}   # consume 2 % del presupuesto de 28 días en 1 h
+      - {metrica: quema_disp_5m, op: ">=", umbral: 14.4}   # y sigue ocurriendo ahora (evita alertas tardías)
+    ventanas: 1
+    severidad: P1
+    grupo: servicio_api
+    runbook: RB-03
+    accion_automatica: escalar_replicas
+
+  - id: A2
+    nombre: "Latencia: SLO en riesgo (quema sostenida)"
+    plano: servicio
+    slo: latencia
+    condiciones:
+      - {metrica: quema_lat_30m, op: ">=", umbral: 6.0}
+      - {metrica: quema_lat_5m, op: ">=", umbral: 6.0}
+    ventanas: 2                  # dos ventanas seguidas: un pico aislado no alerta
+    severidad: P2
+    grupo: servicio_api
+    runbook: RB-03
+    accion_automatica: escalar_replicas
+
+  - id: A3
+    nombre: "ETA: desacuerdo con el campeón en sombra / fechas imposibles"
+    plano: servicio
+    slo: eta_sombra
+    condiciones_alguna:          # basta una (señales sin etiqueta: la calidad real tarda días en conocerse)
+      - {metrica: eta_desacuerdo_mediana, op: ">=", umbral: 1.0}
+      - {metrica: eta_imposibles, op: ">=", umbral: 0.05}
+    ventanas: 2
+    severidad: P1                # riesgo crítico R05 de la Fase 1: fechas sin respaldo
+    grupo: modelo_eta
+    runbook: RB-01
+    accion_automatica: rollback_modelo_eta
+
+  - id: A4
+    nombre: "ETA: carga de planta por encima de lo visto en entrenamiento (drift)"
+    plano: modelo
+    slo: eta_mae
+    condiciones:
+      # % de órdenes de la semana con utilizacion_planta > 0.97 (máximo del entrenamiento). Se vigila el
+      # lado de riesgo: arriba de 0.88 la producción se alarga y el modelo tendría que extrapolar.
+      - {metrica: pct_carga_sobre_rango, op: ">=", umbral: 0.20}
+    ventanas: 2
+    severidad: P3                # preventiva: todavía no hay degradación confirmada
+    grupo: drift_eta
+    runbook: RB-02
+
+  - id: A5
+    nombre: "ETA: MAE semanal fuera del SLO"
+    plano: modelo
+    slo: eta_mae
+    condiciones:
+      - {metrica: mae_semanal, op: ">", umbral: 1.30}
+    ventanas: 2
+    severidad: P2
+    grupo: drift_eta             # se agrupa con A4: mismo incidente, sube la severidad
+    runbook: RB-02
+    accion_automatica: reentrenar_challenger
+
+  - id: A6
+    nombre: "ETA: presupuesto de error de la cobertura del rango"
+    plano: modelo
+    slo: eta_cobertura
+    condiciones:
+      - {metrica: quema_cobertura_4s, op: ">=", umbral: 1.0}   # al ritmo actual se agota el presupuesto
+    ventanas: 2
+    severidad: P2
+    grupo: drift_eta
+    runbook: RB-02
+
+resolucion:
+  resolver_tras: 2               # ventanas consecutivas sin cumplir la condición
+  # Re-notificación por tiempo: en el servicio (ventanas de 5 min) sirve de recordatorio; en el plano semanal
+  # cada evaluación es una semana después, así que solo se notifica al abrir, al subir de severidad y al cerrar
+  # (el estado del incidente abierto se ve en el tablero). Corrección: antes generaba 6 recordatorios iguales.
+  renotificar_por_tiempo: {servicio: true, modelo: false}
+
+# Indicadores sin alerta (se ven en el tablero y en la revisión mensual):
+indicadores_informativos:
+  - {metrica: tasa_baja_confianza_es, objetivo_max: 0.10, motivo: "R02: revisión mensual por idioma; volumen bajo por ventana"}
+  - {metrica: tasa_baja_confianza_en, objetivo_max: 0.10, motivo: "R02"}
+  - {metrica: saturacion_cpu, objetivo_max: 0.85, motivo: "causa, no síntoma: se usa para diagnosticar A1/A2"}
+  # Infraestructura del contenedor: se leen con `docker stats` y el healthcheck de docker-compose (Fase 2).
+  # No se simulan en el game day (la cola no modela memoria); se documentan para la operación real.
+  - {metrica: memoria_api_gb, objetivo_max: 3.0, linea_base: "1.7-1.9 GB (Fase 2)", motivo: "fuga de memoria o modelo más pesado; diagnóstico de RB-03"}
+  - {metrica: reinicios_contenedor, objetivo_max: 0, motivo: "un reinicio indica caída (OOM o healthcheck); diagnóstico de RB-03"}
+  - {metrica: recall_riesgo, objetivo_min: 0.75, motivo: "alarma de la Fase 2; se revisa con la cobertura"}
+
+# -----------------------------------------------------------------------------
+# Respuestas automatizadas y sus límites de seguridad (cuándo NO automatizar)
+# -----------------------------------------------------------------------------
+respuestas:
+  rollback_modelo_eta:
+    tipo: automatico
+    requiere: "versión anterior con alias @champion previo en el Model Registry"
+    limite: "máximo 1 rollback por hora; si la versión anterior también falla, se escala a humano (P1)"
+  escalar_replicas:
+    tipo: automatico
+    requiere: "saturacion_cpu ≥ 0.85 (si la CPU no está saturada, escalar no ayuda: se escala a humano)"
+    limite: "réplicas máximas = 4; enfriamiento de 15 min antes de otro cambio"
+  reentrenar_challenger:
+    tipo: semiautomatico
+    requiere: "etiquetas de al menos 2 semanas con la condición nueva"
+    limite: "la promoción a @champion la aprueba una persona (Especialista MLOps); compuerta: MAE −5 % y cobertura ≥ 85 %"

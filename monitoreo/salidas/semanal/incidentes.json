@@ -1,0 +1,16 @@
+[
+  {
+    "id": "INC-SEM-01",
+    "grupo": "drift_eta",
+    "abierto": "2026-11-16T00:00:00",
+    "severidad": "P2",
+    "reglas": [
+      "A4",
+      "A5"
+    ],
+    "notificaciones": 2,
+    "notificaciones_suprimidas": 10,
+    "cerrado": null,
+    "acciones": []
+  }
+]
