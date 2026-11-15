@@ -1,4 +1,4 @@
-# Se regeneran con ejecutar_todo; el respaldo portable va en salidas/mlflow_respaldo_A8.zip (release de GitHub)
+# Se regeneran con ejecutar_todo; el respaldo portable (salidas/mlflow_respaldo_A8.zip) va adjunto al release ops-v1.0.0
 mlflow/
 mlruns/
 salidas/mlflow_server.log

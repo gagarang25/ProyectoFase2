@@ -45,7 +45,9 @@ powershell -ExecutionPolicy Bypass -File monitoreo\ejecutar_todo.ps1
 
 En Linux/macOS/Git Bash: `bash monitoreo/ejecutar_todo.sh`. Tarda unos 4 minutos.
 
-**Ver el panel sin volver a ejecutar:** descomprimir `mlflow_respaldo_A8.zip` dentro de `monitoreo/` y correr
+**Ver el panel sin volver a ejecutar:** el respaldo `mlflow_respaldo_A8.zip` (2.8 MB) no se versiona en Git; está
+adjunto al [release `ops-v1.0.0`](https://github.com/gagarang25/ProyectoFase2/releases/tag/ops-v1.0.0) y dentro del
+ZIP de entrega (`04_Codigo/monitoreo/salidas/`). Descomprimirlo dentro de `monitoreo/` y correr
 `python -m mlflow server --backend-store-uri sqlite:///mlflow/mlflow.db --artifacts-destination mlflow/artefactos --port 5000`.
 
 ## Decisiones importantes
