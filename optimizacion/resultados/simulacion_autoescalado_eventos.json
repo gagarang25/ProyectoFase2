@@ -1,0 +1,192 @@
+[
+ {
+  "escenario": "actual (A8)",
+  "config": "A_actual_A8",
+  "eventos": [
+   {
+    "min": 169,
+    "accion": "→3 (A1)",
+    "util": 1.0,
+    "p95": 341011
+   },
+   {
+    "min": 249,
+    "accion": "→1",
+    "util": 0.02,
+    "p95": 160
+   }
+  ]
+ },
+ {
+  "escenario": "actual (A8)",
+  "config": "B_vertical",
+  "eventos": []
+ },
+ {
+  "escenario": "actual (A8)",
+  "config": "C_horizontal_sin_opt",
+  "eventos": [
+   {
+    "min": 166,
+    "accion": "+2",
+    "util": 1.0,
+    "p95": 13004
+   },
+   {
+    "min": 234,
+    "accion": "-1",
+    "util": 0.02,
+    "p95": 173
+   },
+   {
+    "min": 249,
+    "accion": "-1",
+    "util": 0.02,
+    "p95": 160
+   }
+  ]
+ },
+ {
+  "escenario": "actual (A8)",
+  "config": "D_propuesta",
+  "eventos": []
+ },
+ {
+  "escenario": "actual (A8)",
+  "config": "E_propuesta_limite",
+  "eventos": []
+ },
+ {
+  "escenario": "crecimiento x4",
+  "config": "A_actual_A8",
+  "eventos": [
+   {
+    "min": 169,
+    "accion": "→3 (A1)",
+    "util": 1.0,
+    "p95": 403748
+   },
+   {
+    "min": 249,
+    "accion": "→1",
+    "util": 0.08,
+    "p95": 173
+   }
+  ]
+ },
+ {
+  "escenario": "crecimiento x4",
+  "config": "B_vertical",
+  "eventos": []
+ },
+ {
+  "escenario": "crecimiento x4",
+  "config": "C_horizontal_sin_opt",
+  "eventos": [
+   {
+    "min": 166,
+    "accion": "+2",
+    "util": 1.0,
+    "p95": 20912
+   },
+   {
+    "min": 234,
+    "accion": "-1",
+    "util": 0.07,
+    "p95": 166
+   },
+   {
+    "min": 249,
+    "accion": "-1",
+    "util": 0.08,
+    "p95": 173
+   }
+  ]
+ },
+ {
+  "escenario": "crecimiento x4",
+  "config": "D_propuesta",
+  "eventos": []
+ },
+ {
+  "escenario": "crecimiento x4",
+  "config": "E_propuesta_limite",
+  "eventos": []
+ },
+ {
+  "escenario": "estres: 3 portales",
+  "config": "A_actual_A8",
+  "eventos": [
+   {
+    "min": 169,
+    "accion": "→3 (A1)",
+    "util": 1.0,
+    "p95": 1656651
+   },
+   {
+    "min": 249,
+    "accion": "→1",
+    "util": 0.08,
+    "p95": 2752483
+   }
+  ]
+ },
+ {
+  "escenario": "estres: 3 portales",
+  "config": "B_vertical",
+  "eventos": []
+ },
+ {
+  "escenario": "estres: 3 portales",
+  "config": "C_horizontal_sin_opt",
+  "eventos": [
+   {
+    "min": 166,
+    "accion": "+2",
+    "util": 1.0,
+    "p95": 267074
+   },
+   {
+    "min": 275,
+    "accion": "-1",
+    "util": 0.07,
+    "p95": 170
+   },
+   {
+    "min": 290,
+    "accion": "-1",
+    "util": 0.09,
+    "p95": 171
+   }
+  ]
+ },
+ {
+  "escenario": "estres: 3 portales",
+  "config": "D_propuesta",
+  "eventos": [
+   {
+    "min": 166,
+    "accion": "+2",
+    "util": 1.0,
+    "p95": 4391
+   },
+   {
+    "min": 234,
+    "accion": "-1",
+    "util": 0.02,
+    "p95": 52
+   },
+   {
+    "min": 249,
+    "accion": "-1",
+    "util": 0.02,
+    "p95": 48
+   }
+  ]
+ },
+ {
+  "escenario": "estres: 3 portales",
+  "config": "E_propuesta_limite",
+  "eventos": []
+ }
+]

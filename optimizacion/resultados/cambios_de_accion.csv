@@ -1,0 +1,263 @@
+variante,conjunto,mensaje,idioma,intencion,accion_base,accion_variante,conf_base,conf_variante,seguro_variante
+onnx_int8_pc,prueba,modifying data on premium account regarding 4531168067,en,otro,canalizar,escalar,0.9965,0.6105,True
+onnx_int8_pc,prueba,wanna see pjrchase order 4551369075 damn current status,en,estatus_orden,automatica,escalar,0.9963,0.803,True
+onnx_int8_pc,prueba,¿dónde viene el embarque de la 4510346606? porfa,es,estatus_orden,automatica,escalar,0.9962,0.4933,True
+onnx_int8_pc,prueba,can uhelp me to check the fucking eta of the order PO 4535630292,en,fecha_entrega,automatica,aclarar,0.9967,0.5028,True
+onnx_int8_pc,prueba,"Hi, when is PO-4525995114 due at our plant? asap",en,fecha_entrega,automatica,escalar,0.9967,0.8425,True
+onnx_int8_pc,prueba,I do not know what to do to locate order #4590517271,en,estatus_orden,automatica,escalar,0.9964,0.785,True
+onnx_int8_pc,prueba,¿en qué etapa está mi pedido orden 4559268093? quedo atento,es,estatus_orden,automatica,escalar,0.9959,0.8186,True
+onnx_int8_pc,prueba,¿hacen descuentos por pronto pago? saludos,es,otro,canalizar,escalar,0.9967,0.5247,True
+onnx_int8_pc,prueba,help me to uby several products,en,otro,canalizar,escalar,0.9965,0.9879,True
+onnx_int8_pc,prueba,"Hola, necesito saber si la #4552990697 ya salió de planta de antemano gracias",es,estatus_orden,automatica,escalar,0.9959,0.9629,True
+onnx_int8_pc,prueba,can I see the current status of purchase OC-4551157708?,en,estatus_orden,automatica,escalar,0.996,0.6352,True
+onnx_int8_pc,prueba,"hi team, what's the status of po#4581103559 please",en,estatus_orden,automatica,escalar,0.9961,0.6258,True
+onnx_int8_pc,prueba,need help checking the damn ETA of purchase order 4535520201,en,fecha_entrega,automatica,aclarar,0.9969,0.7919,True
+onnx_int8_pc,prueba,update purchase00004587345,en,otro,automatica,escalar,0.9961,0.7267,True
+onnx_int8_pc,prueba,¿como va mi pedido? quedo atento,es,estatus_orden,automatica,escalar,0.9961,0.9454,True
+onnx_int8_pc,prueba,"Hola equipo CAB, cuándo nos llegan los otrnillería de la OC4537653656 gracias",es,fecha_entrega,automatica,aclarar,0.9967,0.7381,True
+onnx_int8_pc,prueba,¿como me registro como nuevo cliente? quedo atento,es,otro,canalizar,escalar,0.9967,0.9909,True
+onnx_int8_pc,prueba,i do not know what i need to do to earn some of ur article,en,otro,canalizar,escalar,0.9968,0.9812,True
+onnx_int8_pc,prueba,"Buenas tardes, ya está lista la producción de la orden 4578876916 quedo atento",es,estatus_orden,automatica,escalar,0.9966,0.8695,True
+onnx_int8_pc,prueba,show me in which situations can i request refunds,en,otro,canalizar,escalar,0.9967,0.9818,True
+onnx_int8_pc,prueba,"Qué tal, ¿mi pedido de molduras ya va en camino?",es,estatus_orden,automatica,escalar,0.9956,0.8442,True
+onnx_int8_pc,prueba,"Hola, ¿pueden enviarme el certificado de calidad del NP 5040-B86? porfa",es,otro,canalizar,escalar,0.9969,0.9824,True
+onnx_int8_pc,prueba,¿en qué etapa está mi pedido #4542339783?,es,estatus_orden,automatica,escalar,0.9958,0.9152,True
+onnx_int8_pc,prueba,I need assistance to see when my article is going to arrive,en,fecha_entrega,automatica,escalar,0.9967,0.5922,True
+onnx_int8_pc,prueba,¿la entreag de estampados sigue pa el el 15? grax,es,fecha_entrega,automatica,escalar,0.9967,0.9393,True
+onnx_int8_pc,prueba,"hola, ya salió el camión con la po 4509519256 gracias!",es,estatus_orden,automatica,escalar,0.9964,0.9211,True
+onnx_int8_pc,prueba,showing me purchase #4578458327 current status,en,estatus_orden,automatica,escalar,0.9963,0.5468,True
+onnx_int8_pc,prueba,¿la orden 4585215820 llega antes del jueves? es urgente,es,fecha_entrega,automatica,escalar,0.9966,0.4159,True
+onnx_int8_pc,prueba,"Hola buenas, ¿el transportista ya recogió la PO 4574825240? gracias",es,estatus_orden,automatica,escalar,0.9961,0.8973,True
+onnx_int8_pc,prueba,want assistance seeing the status of order PO 4501297845,en,estatus_orden,automatica,escalar,0.9963,0.6985,True
+onnx_int8_pc,prueba,necesito una nota de crédito de la 4539733158 por fvaor,es,otro,canalizar,escalar,0.9966,0.9277,True
+onnx_int8_pc,prueba,could you help me retrieve the password of my user account?,en,otro,canalizar,escalar,0.9965,0.9569,True
+onnx_int8_pc,prueba,"buenas tardes, ¿en cuántos días recibimos la orden 4598436935? grax!",es,fecha_entrega,automatica,escalar,0.9967,0.8778,True
+onnx_int8_pc,prueba,could you help me unsubscribe from your bloody newsletter on PO#4543936531,en,otro,canalizar,escalar,0.9966,0.993,True
+onnx_int8_pc,prueba,"Buen día, ya está lista la producción de la OC4591846715 es urgente",es,estatus_orden,automatica,escalar,0.9963,0.7421,True
+onnx_int8_pc,prueba,where do I acquire some items?,en,otro,canalizar,escalar,0.9962,0.9887,True
+onnx_int8_pc,prueba,"I have to see my bill, help me for PO#4544273769",en,otro,canalizar,escalar,0.9965,0.9774,True
+onnx_int8_pc,prueba,"hola equipo cab, ¿en donde esta mi orden de estampados?",es,estatus_orden,automatica,escalar,0.996,0.9266,True
+onnx_int8_pc,prueba,"buenas tardes, quiero agregar piezas a la #4579690750 porfa",es,otro,canalizar,escalar,0.9967,0.9768,True
+onnx_int8_pc,prueba,"Hey, track order 4541148878 please regards",en,estatus_orden,automatica,escalar,0.9965,0.611,True
+onnx_int8_pc,prueba,is it possible to set a different shipping address up?,en,otro,canalizar,escalar,0.9965,0.9915,True
+onnx_int8_pc,prueba,¿mantienen la fecah compromiso de la OC-4507971455? de antemano gracias,es,fecha_entrega,automatica,escalar,0.9951,0.7944,True
+onnx_int8_pc,prueba,ya salió el camión con la PO 4595746835 saludos,es,estatus_orden,automatica,escalar,0.9964,0.9248,True
+onnx_int8_pc,prueba,need help to check the eta of purchase PO 4551830338,en,fecha_entrega,automatica,aclarar,0.9967,0.5963,True
+onnx_int8_pc,prueba,is it possible to check the ETA oif order OC-4511908603,en,fecha_entrega,automatica,aclarar,0.9967,0.7851,True
+onnx_int8_pc,prueba,"Hola buenas, ¿me dan seguimineto a la #4533122766? de antemano gracias",es,estatus_orden,automatica,escalar,0.9563,0.9714,True
+onnx_int8_pc,prueba,quiero agregar piezas a la OC4576783086,es,otro,canalizar,escalar,0.9969,0.9886,True
+onnx_int8_pc,prueba,"Hola equipo CAB, ¿ya salio el camion con la OC 4557179047? pofra",es,estatus_orden,automatica,escalar,0.9961,0.8422,True
+onnx_int8_pc,prueba,mi pedido de molduras ya va en camino quedo atento,es,estatus_orden,automatica,escalar,0.9965,0.9597,True
+onnx_int8_pc,prueba,I don't know how I can check your refund policy on PO-4573284724,en,otro,canalizar,escalar,0.9966,0.5922,True
+onnx_int8_pc,prueba,"Hola, ¿hacen descuentos por pronto pago? es urgente",es,otro,canalizar,escalar,0.997,0.5805,True
+onnx_int8_pc,prueba,have a questoon about creating user profiles on OC-4590968005,en,otro,canalizar,escalar,0.9965,0.982,True
+onnx_int8_pc,prueba,how to locate order order 4514366125?,en,estatus_orden,automatica,escalar,0.9963,0.7844,True
+onnx_int8_pc,prueba,I want assistance to download my bill #85632 for order 4533101783,en,otro,canalizar,escalar,0.9966,0.9641,True
+onnx_int8_pc,prueba,¿me confirman si la oc 4504569008 ya está en tránsito? de antemano gracias,es,estatus_orden,automatica,escalar,0.9957,0.6999,True
+onnx_int8_pc,prueba,"buenas tardes, ¿ya esta lista la produccion de la oc-4552680236? gracias!",es,estatus_orden,automatica,escalar,0.9962,0.9003,True
+onnx_int8_pc,prueba,Saludos. ¿cuáles son sus térmnios de pago? gracias,es,otro,canalizar,escalar,0.9969,0.8701,True
+onnx_int8_pc,prueba,could i change something of purchase OC-4534788100,en,otro,canalizar,escalar,0.9964,0.9112,True
+onnx_int8_pc,prueba,I cannot see the current status of order PO#4575694715,en,estatus_orden,automatica,escalar,0.9961,0.715,True
+onnx_int8_pc,prueba,i need help seeing purchase PO 4544499873 status,en,estatus_orden,automatica,escalar,0.9961,0.6193,True
+onnx_int8_pc,prueba,give me information about the deletion of my standardaccount,en,otro,canalizar,escalar,0.9966,0.7579,True
+onnx_int8_pc,prueba,¿me envían el complemento de pago de la #4507435952? de antemano gracias,es,otro,canalizar,escalar,0.9967,0.969,True
+onnx_int8_pc,prueba,I need assistance to locate order #4598104023,en,estatus_orden,automatica,escalar,0.9968,0.7232,True
+onnx_int8_pc,prueba,i dont know how to check purchase PO#4506927215 status,en,estatus_orden,automatica,escalar,0.996,0.5456,True
+onnx_int8_pc,prueba,wanna see orer #4512448136 current status can ya help me,en,estatus_orden,automatica,escalar,0.9962,0.6971,True
+onnx_int8_pc,prueba,can you help me write a comment about your products for #4572109613,en,otro,canalizar,escalar,0.9964,0.9934,True
+onnx_int8_pc,prueba,"Buenas tardes, necesito una nota de crédito de la PO 4583293187 porfa",es,otro,canalizar,escalar,0.9967,0.9714,True
+onnx_int8_pc,prueba,can i get a credit note for 4555338168,en,otro,canalizar,escalar,0.9966,0.9746,True
+onnx_int8_pc,prueba,"hola buenas, eta oc 4594573720",es,fecha_entrega,automatica,escalar,0.9967,0.8511,True
+onnx_int8_pc,prueba,saludos. ¿mi odren ya se procesó? por favor,es,estatus_orden,automatica,escalar,0.996,0.9107,True
+onnx_int8_pc,prueba,can i get a credit note for po#4538710048,en,otro,canalizar,escalar,0.9967,0.9817,True
+onnx_int8_pc,prueba,how do I see when my item is going to arrive for OC-4586094462,en,fecha_entrega,automatica,escalar,0.9966,0.7187,True
+onnx_int8_pc,prueba,"hi, i forgot my portal password thank you",en,otro,canalizar,escalar,0.9967,0.9895,True
+onnx_int8_pc,prueba,¿cuales son sus terminos de pago? asludos,es,otro,canalizar,escalar,0.9966,0.9498,True
+onnx_int8_pc,prueba,¿me envían el complemento de pago de la oc4501398806?,es,otro,canalizar,escalar,0.9966,0.8049,True
+onnx_int8_pc,prueba,i want help acquiring an article,en,otro,canalizar,escalar,0.9967,0.9872,True
+onnx_int8_pc,prueba,"hello, will po-4518991345 be late? please",en,fecha_entrega,automatica,escalar,0.9965,0.8083,True
+onnx_int8_pc,prueba,need to check order PO-4521127115 current status how do i do it,en,estatus_orden,automatica,escalar,0.9961,0.5617,True
+onnx_int8_pc,prueba,where do i check how soon can i expect my purchase,en,fecha_entrega,automatica,aclarar,0.9967,0.815,True
+onnx_int8_pc,prueba,"que tal, ¿como va la oc 4520421134?",es,estatus_orden,automatica,escalar,0.9962,0.757,True
+onnx_int8_pc,prueba,i have to check the status of order OC-4529801436,en,estatus_orden,automatica,escalar,0.9962,0.8673,True
+onnx_int8_pc,prueba,hacen descuentos por pronto pago quedo atento,es,otro,canalizar,escalar,0.9967,0.81,True
+onnx_int8_pc,prueba,expected arrival date for PO-4581575137?,en,fecha_entrega,automatica,aclarar,0.9966,0.5154,True
+onnx_int8_pc,prueba,"qué tal, ¿cómo va mi pedido?",es,estatus_orden,automatica,escalar,0.9956,0.904,True
+onnx_int8_pc,prueba,did the carrier pick up 4550857535,en,estatus_orden,automatica,escalar,0.9957,0.7007,True
+onnx_int8_pc,prueba,¿dónde viene el embarque de la #4588673262? quedo atento,es,estatus_orden,automatica,escalar,0.9962,0.7328,True
+onnx_int8_pc,prueba,where can I check when my package is going to arrive for PO-4526054020,en,fecha_entrega,automatica,escalar,0.9966,0.7486,True
+onnx_int8_pc,prueba,I don't know how I could change to the premium account for PO 4563280554,en,otro,canalizar,escalar,0.9968,0.5,True
+onnx_int8_pc,prueba,"hola, ¿me pueden decir cómo va el pedido de soportes de motor?",es,estatus_orden,automatica,escalar,0.995,0.9794,True
+onnx_int8_pc,prueba,"hola buenas, eta #4576857173",es,fecha_entrega,automatica,escalar,0.9965,0.5719,True
+onnx_int8_pc,prueba,"hola, ¿me reenvían el xml de la factura? gracias",es,otro,canalizar,escalar,0.9968,0.918,True
+onnx_int8_pc,prueba,I have to list your damn allowed payment modalities,en,otro,canalizar,escalar,0.9968,0.9609,True
+onnx_int8_pc,prueba,"Hola buenas, consulta de estatus de la #4574834795 xfa",es,estatus_orden,automatica,escalar,0.9963,0.522,True
+onnx_int8_pc,prueba,did the carrier pick up PO#4564165645? regards,en,estatus_orden,automatica,escalar,0.9961,0.6157,True
+onnx_int8_pc,prueba,"Hola buenas, necesito la ficha técnica de los molduras gracias",es,otro,canalizar,escalar,0.9969,0.9892,True
+onnx_int8_pc,prueba,what's the status of #4509638979? regards,en,estatus_orden,automatica,escalar,0.9959,0.7706,True
+onnx_int8_pc,prueba,"hi, can you quote bushings asap",en,otro,canalizar,escalar,0.9968,0.9753,True
+onnx_int8_pc,prueba,¿hay avance en la PO 4510316277?,es,estatus_orden,automatica,escalar,0.9962,0.8356,True
+onnx_int8_pc,prueba,what do i need to do to see order 4561605634 status,en,estatus_orden,automatica,escalar,0.9966,0.7514,True
+onnx_int8_pc,prueba,"Buenas tardes, ¿cuando recibiremos los estampados?",es,fecha_entrega,automatica,escalar,0.9968,0.6914,True
+onnx_int8_pc,prueba,opneing new business account for daughter on PO-4502799319,en,otro,canalizar,escalar,0.9965,0.9823,True
+onnx_int8_pc,prueba,"Buen día, estatus orden 4587034430",es,estatus_orden,automatica,escalar,0.9964,0.5641,True
+onnx_int8_pc,prueba,how do i update my tax info regards,en,otro,canalizar,escalar,0.9965,0.9661,True
+onnx_int8_pc,prueba,ened help with cancelling purchase 4541870192,en,otro,canalizar,escalar,0.9964,0.9215,True
+onnx_int8_pc,prueba,"hola buenas, quiero un reembolso de la orden 4544918084 de antemano gracias",es,otro,canalizar,escalar,0.9969,0.9758,True
+onnx_int8_pc,prueba,"hola equipo cab, ¿ya está lista la producción de la orden 4518026223?",es,estatus_orden,automatica,escalar,0.9962,0.6514,True
+onnx_int8_pc,prueba,"q tal, ¿como cambio la direccion de entrega? quedo atento",es,otro,canalizar,escalar,0.9965,0.9784,True
+onnx_int8_pc,prueba,wanna check in what cases can i request a refund regarding OC-4500744212,en,otro,canalizar,escalar,0.9967,0.9872,True
+onnx_int8_pc,prueba,buenos días. ¿me evnían el complemento de pago de la oc-4571189253? quedo atento,es,otro,canalizar,escalar,0.9968,0.9755,True
+onnx_int8_pc,prueba,necesito la ficha técnica de los soportes de motor,es,otro,canalizar,escalar,0.9967,0.9874,True
+onnx_int8_pc,prueba,help seeing how long it takes for my item to arrive,en,fecha_entrega,automatica,escalar,0.9966,0.667,True
+onnx_int8_pc,prueba,cual es su cuenta para transferencia,es,otro,canalizar,escalar,0.9967,0.9484,True
+onnx_int8_pc,prueba,I have issues changing my shipping address,en,otro,canalizar,escalar,0.9966,0.9409,True
+onnx_int8_pc,prueba,i cant make payments notify of issujes,en,otro,canalizar,escalar,0.9966,0.9036,True
+onnx_int8_pc,prueba,how to see the status of order OC-4529314711,en,estatus_orden,automatica,escalar,0.9963,0.5028,True
+onnx_int8_pc,prueba,help to see order order 4511989814 current status,en,estatus_orden,automatica,escalar,0.9957,0.6993,True
+onnx_int8_pc,prueba,I do not know how I can see purchase PO#4560269093 status,en,estatus_orden,automatica,escalar,0.9961,0.6727,True
+onnx_int8_pc,prueba,ETA OC4568747232 es urgente,es,fecha_entrega,automatica,aclarar,0.9966,0.854,True
+onnx_int8_pc,prueba,"ubenas tardes, necesito una nota de credito de la oc-4502845714 saludos",es,otro,canalizar,escalar,0.9969,0.9887,True
+onnx_int8_pc,prueba,¿cómo cancelo la oc4576924129? es urgente,es,otro,canalizar,escalar,0.9965,0.9818,True
+onnx_int8_pc,prueba,I want assistance to download the invoices from Carlos Méndez,en,otro,canalizar,escalar,0.9967,0.6927,True
+onnx_int8_pc,prueba,"hola buenas, ya surtieron la oc-4555707438",es,estatus_orden,automatica,escalar,0.9959,0.4927,True
+onnx_int8_pc,prueba,I have troubles submittng the shipping address,en,otro,canalizar,escalar,0.9967,0.5791,True
+onnx_int8_pc,prueba,could you help me set up the new shipping address?,en,otro,canalizar,escalar,0.9965,0.9899,True
+onnx_int8_pc,prueba,"Qué tal, quiero cambiar la cantidad de piezas de la OC 4538832971",es,otro,canalizar,escalar,0.9966,0.9401,True
+onnx_int8_pc,prueba,Saludos. ¿cuándo llega la #4589393218?,es,fecha_entrega,automatica,aclarar,0.9968,0.8958,True
+onnx_int8_pc,prueba,"Hi team, has PO 4509863721 shipped yet?",en,estatus_orden,automatica,escalar,0.9961,0.7571,True
+onnx_int8_pc,prueba,"Qué tal, ¿cómo va la 4556640491? de antemano gracisa",es,estatus_orden,automatica,escalar,0.9959,0.7436,True
+onnx_int8_pc,prueba,"Good morning, expected arrival date for order 4535843604?",en,fecha_entrega,automatica,aclarar,0.9964,0.8388,True
+onnx_int8_pc,prueba,"I forgot my user password, help me to reset it",en,otro,canalizar,escalar,0.9965,0.9889,True
+onnx_int8_pc,prueba,me reenvían el xml de la factura gracias,es,otro,canalizar,escalar,0.9966,0.9664,True
+onnx_int8_pc,prueba,buenos dias. ¿hay avnace en la #4552924755? gracias,es,estatus_orden,automatica,escalar,0.9954,0.9464,True
+onnx_int8_pc,prueba,"hola buenas, cómo cancelo la oc4528122623",es,otro,canalizar,escalar,0.9967,0.9666,True
+onnx_int8_pc,prueba,help me open a supplier account for my dad for PO#4517544302,en,otro,canalizar,escalar,0.9966,0.9924,True
+onnx_int8_pc,prueba,i want help checking order PO-4596860153 current status,en,estatus_orden,automatica,escalar,0.9961,0.5863,True
+onnx_int8_pc,prueba,i want assistance to see the status of purchase PO 4508429833,en,estatus_orden,automatica,escalar,0.9963,0.5253,True
+onnx_int8_pc,prueba,"hello, do u offer volume discounts pls",en,otro,canalizar,escalar,0.9968,0.974,True
+onnx_int8_pc,prueba,I do not know what to do to locate purchase 4579442904,en,estatus_orden,automatica,escalar,0.9966,0.497,True
+onnx_int8_pc,prueba,"hi, any update on po#4511413833? regadrs",en,estatus_orden,automatica,escalar,0.9969,0.5146,True
+onnx_int8_pc,prueba,buenos días. necesito la factura de la oc-4542200544 saludos,es,otro,canalizar,escalar,0.9968,0.9863,True
+onnx_int8_pc,prueba,"Hola buenas, ¿me pueden dar la fecha estimada de la 4556987832?",es,fecha_entrega,automatica,escalar,0.9968,0.7812,True
+onnx_int8_pc,prueba,"hola, en cuántos días recibimos la po 4502512414 gracias",es,fecha_entrega,automatica,aclarar,0.9967,0.8071,True
+onnx_int8_pc,prueba,checking purchase #4590762665 current status,en,estatus_orden,automatica,escalar,0.9962,0.5694,True
+onnx_int8_pc,prueba,"I want to check when will my product arrive, how do I do it?",en,fecha_entrega,automatica,aclarar,0.9968,0.8596,True
+onnx_int8_pc,prueba,"que tal, ¿me dan seguimiento a la 4593333735? es urgente",es,estatus_orden,automatica,escalar,0.9966,0.95,True
+onnx_int8_pc,prueba,I'm trying to see the current status of order 4502735359,en,estatus_orden,automatica,escalar,0.9961,0.5623,True
+onnx_int8_pc,prueba,"hola buenas, ¿mantienen la fecha compromiso de la oc 4502137730?",es,fecha_entrega,automatica,escalar,0.9967,0.5853,True
+onnx_int8_pc,prueba,buenos días. cuándo nos llegan los soportes de motor de la #4573227680,es,fecha_entrega,automatica,aclarar,0.9968,0.8662,True
+onnx_int8_pc,prueba,"Que tal, ¿cual es su cuenta para transferencia? saludos",es,otro,canalizar,escalar,0.9967,0.9772,True
+onnx_int8_pc,prueba,where can i track order #4570372842,en,estatus_orden,automatica,escalar,0.9958,0.584,True
+onnx_int8_pc,prueba,I need to see how long it takes for the purchase to arrive regarding #4593517982,en,fecha_entrega,automatica,escalar,0.9967,0.821,True
+onnx_int8_pc,prueba,"Buenas tardes, me reenvían el XML de la factura",es,otro,canalizar,escalar,0.9968,0.9896,True
+onnx_int8_pc,prueba,"hola buenas, ¿me peuden dar la fecha estimada de la oc-4566478665? gracias",es,fecha_entrega,automatica,aclarar,0.9967,0.6853,True
+onnx_int8_pc,prueba,wanna know about delivery periods give me some informtion,en,fecha_entrega,automatica,escalar,0.9968,0.3857,True
+onnx_int8_pc,prueba,"buen día, ¿hacen descuentos por pronto pago? porfa",es,otro,canalizar,escalar,0.9968,0.7521,True
+onnx_int8_pc,prueba,I'm trying to check the eta of purchase PO-4570166708,en,fecha_entrega,automatica,aclarar,0.9967,0.6516,True
+onnx_int8_pc,prueba,"I want to submit my feedback for your products, help me",en,otro,canalizar,escalar,0.9966,0.8006,True
+onnx_int8_pc,prueba,i do not know what i need to do to get my invoice #37777,en,otro,canalizar,escalar,0.9967,0.9857,True
+onnx_int8_pc,prueba,"Hola equipo CAB, ¿cuando recibiremos los arneses? gracias",es,fecha_entrega,automatica,aclarar,0.9969,0.8347,True
+onnx_int8_pc,prueba,"Hola equipo CAB, ¿en qué etapa está mi pedido #4551489930? porfa",es,estatus_orden,automatica,escalar,0.9958,0.5938,True
+onnx_int8_pc,prueba,buenos días. ¿mi orden ya se procesó? es urgente,es,estatus_orden,automatica,escalar,0.9959,0.9615,True
+onnx_int8_pc,prueba,i try to check the termination epnalties,en,otro,canalizar,escalar,0.9959,0.8798,True
+onnx_int8_pc,prueba,could you help me shop a few of your article?,en,otro,canalizar,escalar,0.9961,0.9869,True
+onnx_int8_pc,prueba,I have to inform of errors with online payments,en,otro,canalizar,escalar,0.9966,0.9657,True
+onnx_int8_pc,prueba,I am trying to locate order PO#4554634663,en,estatus_orden,automatica,escalar,0.9963,0.6856,True
+onnx_int8_pc,prueba,editting details on standard account,en,otro,canalizar,escalar,0.9964,0.8173,True
+onnx_int8_pc,prueba,"hola buenas, para cuándo tienen la oc4596844485",es,fecha_entrega,automatica,aclarar,0.9967,0.6051,True
+onnx_int8_pc,prueba,"Buen día, ¿me reenvían el XML de la factura? quedo atento",es,otro,canalizar,escalar,0.9969,0.983,True
+onnx_int8_pc,prueba,"I would like to locate order PO-4588842638, I need help",en,estatus_orden,automatica,escalar,0.9969,0.6978,True
+onnx_int8_pc,prueba,i do not kow how i could delete the goddamn standard account for PO#4583955206,en,otro,canalizar,escalar,0.9966,0.985,True
+onnx_int8_pc,prueba,quiero un reembolso de la orden 4554786586 gracias!,es,otro,canalizar,escalar,0.9967,0.9735,True
+onnx_int8_pc,prueba,"hello, can you check the status of our injection molded parts order regards",en,estatus_orden,automatica,escalar,0.9939,0.9398,True
+onnx_int8_pc,prueba,I don't know hwat to do to earn several items,en,otro,canalizar,escalar,0.9968,0.9751,True
+onnx_int8_pc,prueba,"hello, how many days nutil po-4558918324 gets here",en,fecha_entrega,automatica,escalar,0.9969,0.8692,True
+onnx_int8_pc,prueba,"Hey, i forgot my portal password thank you",en,otro,canalizar,escalar,0.9967,0.9901,True
+onnx_int8_pc,prueba,I do not know how I can list the allowed payment options,en,otro,canalizar,escalar,0.9966,0.9232,True
+onnx_int8_pc,prueba,how do I shop some products on order 4586344420,en,otro,canalizar,escalar,0.9963,0.9827,True
+onnx_int8_pc,prueba,"I have to see purchase order 4564791834 status, how can I do it?",en,estatus_orden,automatica,escalar,0.9959,0.7696,True
+onnx_int8_pc,prueba,how to swap a product of order order 4509528530?,en,otro,canalizar,escalar,0.9961,0.9746,True
+onnx_int8_pc,prueba,"Hello, can i get a credit note for 4531992349?",en,otro,canalizar,escalar,0.9967,0.9782,True
+onnx_int8_pc,externa,where is my order?,en,estatus_orden,automatica,escalar,0.9956,0.8244,True
+onnx_int8_pc,externa,can you track my order 4500123987?,en,estatus_orden,automatica,escalar,0.9963,0.8422,True
+onnx_int8_pc,externa,has my order shipped yet?,en,estatus_orden,automatica,escalar,0.9886,0.7995,True
+onnx_int8_pc,externa,what's the status of my purchase order?,en,estatus_orden,automatica,escalar,0.9957,0.5291,True
+onnx_int8_pc,externa,i want to know where my shipment is right now,en,estatus_orden,automatica,escalar,0.9535,0.9258,True
+onnx_int8_pc,externa,is my order already on the way?,en,estatus_orden,automatica,escalar,0.9949,0.573,True
+onnx_int8_pc,externa,check the status of PO 4500998812 please,en,estatus_orden,automatica,escalar,0.9965,0.7076,True
+onnx_int8_pc,externa,"my order still says processing, what is happening with it?",en,estatus_orden,automatica,escalar,0.9966,0.9356,True
+onnx_int8_pc,externa,when will my order arrive?,en,fecha_entrega,automatica,aclarar,0.9966,0.5149,True
+onnx_int8_pc,externa,how many days until my parts get here?,en,fecha_entrega,automatica,escalar,0.9966,0.5014,True
+onnx_int8_pc,externa,will the shipment be here before friday?,en,fecha_entrega,automatica,escalar,0.9961,0.7009,True
+onnx_int8_pc,externa,how long does shipping take to queretaro?,en,fecha_entrega,automatica,aclarar,0.9968,0.6358,True
+onnx_int8_pc,externa,is the delivery still scheduled for next week?,en,fecha_entrega,automatica,escalar,0.9965,0.7636,True
+onnx_int8_pc,externa,i need a copy of the invoice for PO 4500123987,en,otro,canalizar,escalar,0.9966,0.9824,True
+onnx_int8_pc,externa,how do i change my billing address?,en,otro,canalizar,escalar,0.9965,0.6549,True
+onnx_int8_pc,externa,can i pay with bank transfer?,en,otro,canalizar,escalar,0.9965,0.9654,True
+onnx_int8_pc,externa,i want to cancel my order,en,otro,canalizar,escalar,0.9967,0.9747,True
+onnx_int8_pc,externa,how do i reset my password?,en,otro,canalizar,escalar,0.9963,0.9755,True
+onnx_int8_pc,externa,do you offer a discount for bulk orders?,en,otro,canalizar,escalar,0.9967,0.9841,True
+onnx_int8_pc,externa,how do i request a refund?,en,otro,canalizar,escalar,0.9965,0.9183,True
+onnx_int8_pc,externa,add another item to my order,en,otro,canalizar,escalar,0.9964,0.9897,True
+onnx_int8_pc,externa,¿dónde está mi pedido?,es,estatus_orden,automatica,escalar,0.9953,0.8131,True
+onnx_int8_pc,externa,¿cuál es el estatus de la OC 4500123987?,es,estatus_orden,automatica,escalar,0.9962,0.4927,True
+onnx_int8_pc,externa,necesito la factura de mi último pedido,es,otro,canalizar,escalar,0.9966,0.9594,True
+onnx_int8_pc,externa,¿cómo cambio mi dirección de envío?,es,otro,canalizar,escalar,0.9964,0.8718,True
+onnx_int8_pc,externa,"qué onda con mi pedido 4500872210, ya salió?",es,estatus_orden,automatica,escalar,0.9965,0.5281,True
+onnx_int8_pc,externa,chécame cómo va la orden de los arneses porfa,es,estatus_orden,automatica,escalar,0.9963,0.9485,True
+onnx_int8_pc,externa,a cómo andamos con la OC 4500339120,es,estatus_orden,automatica,escalar,0.9966,0.5735,True
+onnx_int8_pc,externa,"oigan, la 4500112233 sigue en planta o ya la mandaron?",es,estatus_orden,automatica,escalar,0.9955,0.5765,True
+onnx_int8_pc,externa,necesito saber en qué paso va nuestra compra de molduras,es,estatus_orden,automatica,escalar,0.9951,0.9676,True
+onnx_int8_pc,externa,me urge saber si ya cargaron el tráiler con lo de la 4500998001,es,estatus_orden,automatica,escalar,0.9967,0.9367,True
+onnx_int8_pc,externa,¿podrían revisar si la orden 4500661234 ya fue liberada por calidad?,es,estatus_orden,automatica,escalar,0.9962,0.8029,True
+onnx_int8_pc,externa,"la OC-4500445566 aparece como abierta en el portal, qué significa?",es,estatus_orden,automatica,escalar,0.9954,0.7248,True
+onnx_int8_pc,externa,ya va en ruta lo que pedimos el lunes?,es,estatus_orden,automatica,escalar,0.9946,0.867,True
+onnx_int8_pc,externa,confírmame si mi material ya está en el andén,es,estatus_orden,automatica,escalar,0.9963,0.9422,True
+onnx_int8_pc,externa,cómo va lo de la orden que levantamos la semana pasada,es,estatus_orden,automatica,escalar,0.9747,0.5854,True
+onnx_int8_pc,externa,sigue en proceso el pedido 4500777001?,es,estatus_orden,automatica,escalar,0.997,0.5402,True
+onnx_int8_pc,externa,tienen rastreo de la unidad que trae la 4500123450?,es,estatus_orden,automatica,escalar,0.9925,0.8309,True
+onnx_int8_pc,externa,quiero ver el avance de mi requisición 4500554433,es,estatus_orden,automatica,escalar,0.9873,0.9537,True
+onnx_int8_pc,externa,ya despacharon las piezas de la orden #4500909090?,es,estatus_orden,automatica,escalar,0.9945,0.9372,True
+onnx_int8_pc,externa,ya mero llega mi pedido 4500872210?,es,fecha_entrega,automatica,escalar,0.9925,0.5014,True
+onnx_int8_pc,externa,para cuándo me caen las piezas de la OC 4500339120,es,fecha_entrega,automatica,escalar,0.9967,0.7454,True
+onnx_int8_pc,externa,alcanzamos a tenerlo para el arranque de línea del jueves?,es,fecha_entrega,automatica,escalar,0.9959,0.891,True
+onnx_int8_pc,externa,"si la mandan hoy, cuándo la tendría en Saltillo?",es,fecha_entrega,automatica,aclarar,0.9967,0.7012,True
+onnx_int8_pc,externa,"me dicen que viene atrasada la 4500998001, para cuándo queda ahora?",es,fecha_entrega,automatica,escalar,0.9965,0.6833,True
+onnx_int8_pc,externa,¿la fecha compromiso del 30 sigue en pie?,es,fecha_entrega,automatica,escalar,0.9969,0.5844,True
+onnx_int8_pc,externa,cuánto le falta a la orden 4500445566 para llegar?,es,fecha_entrega,automatica,escalar,0.9918,0.4809,True
+onnx_int8_pc,externa,dame el ETA de los bujes por favor,es,fecha_entrega,automatica,escalar,0.9966,0.3307,True
+onnx_int8_pc,externa,llega esta semana o la otra?,es,fecha_entrega,automatica,escalar,0.9965,0.5479,True
+onnx_int8_pc,externa,"tengo que avisar a mi planta, cuándo se entrega la 4500777001?",es,fecha_entrega,automatica,escalar,0.9966,0.7996,True
+onnx_int8_pc,externa,el pedido 4500123450 llegará antes del cierre de mes?,es,fecha_entrega,automatica,aclarar,0.9966,0.8674,True
+onnx_int8_pc,externa,en qué fecha quedó reprogramada la entrega de la OC-4500554433?,es,fecha_entrega,automatica,aclarar,0.9965,0.5556,True
+onnx_int8_pc,externa,hay algún número directo de logística?,es,contactar_ejecutivo,canalizar,escalar,0.9889,0.9841,True
+onnx_int8_pc,externa,me mandan el PDF y XML de la factura de octubre?,es,otro,canalizar,escalar,0.9965,0.9768,True
+onnx_int8_pc,externa,quiero cancelar la OC 4500339120 porque cambió el programa,es,otro,canalizar,escalar,0.996,0.9663,True
+onnx_int8_pc,externa,cuánto cuesta el envío exprés a Monterrey?,es,otro,canalizar,escalar,0.997,0.9708,True
+onnx_int8_pc,externa,aumenten 200 piezas a la orden 4500112233,es,otro,canalizar,escalar,0.9964,0.9607,True
+onnx_int8_pc,externa,necesito el PPAP del número de parte NP 4410-C22,es,otro,canalizar,escalar,0.9956,0.954,True
+onnx_int8_pc,externa,no puedo entrar al portal de proveedores,es,otro,canalizar,escalar,0.9936,0.988,True
+onnx_int8_pc,externa,cuál es su RFC para darlos de alta?,es,otro,canalizar,escalar,0.9968,0.9793,True
+onnx_int8_pc,externa,me interesa cotizar 10 mil brackets,es,otro,canalizar,escalar,0.9969,0.9859,True
+onnx_int8_pc,externa,¿manejan crédito a 60 días?,es,otro,canalizar,escalar,0.9968,0.9735,True
+onnx_int8_pc,externa,cambien la dirección de embarque a nuestra nueva bodega,es,otro,canalizar,escalar,0.9967,0.9862,True
+onnx_int8_pc,externa,quisiera conocer su política de devoluciones,es,otro,canalizar,escalar,0.9965,0.9776,True
+onnx_int8_pc,externa,tienen vacantes en la planta de Celaya?,es,otro,canalizar,escalar,0.9952,0.9691,True
+onnx_int8_pc,externa,envíenme el estado de cuenta actualizado,es,otro,canalizar,escalar,0.997,0.9525,True
+onnx_int8_pc,externa,cómo actualizo el contacto de compras en su sistema?,es,otro,canalizar,escalar,0.9964,0.9427,True
+onnx_int8_pc,externa,necesito la hoja de seguridad del material,es,otro,canalizar,escalar,0.9965,0.9896,True
+onnx_int8_pc,externa,"oye, cuál es el status de mi PO 4500221100?",mix,estatus_orden,automatica,escalar,0.9962,0.6226,True
+onnx_int8_pc,externa,el shipment de la OC 4500221101 ya salió?,mix,estatus_orden,automatica,escalar,0.9964,0.5722,True
+onnx_int8_pc,externa,can you send me la factura de la 4500221103?,mix,otro,canalizar,escalar,0.9968,0.9897,True
+onnx_int8_pc,externa,tracking de la 4500221104 please,mix,estatus_orden,automatica,escalar,0.9961,0.6879,True
+onnx_int8_pc,externa,4500872210,es,ambigua,automatica,escalar,0.9955,0.4887,True
+onnx_int8_pc,externa,mi pedido,es,ambigua,automatica,escalar,0.9943,0.9753,True
+onnx_int8_pc,externa,info de la OC 4500339120,es,ambigua,automatica,escalar,0.9967,0.5916,True
+onnx_int8_pc,externa,y la 4500112233?,es,ambigua,automatica,escalar,0.9964,0.6207,True
+onnx_int8_pc,externa,hola,es,ambigua,automatica,escalar,0.9687,0.8952,True
+onnx_int8_pc,externa,order,en,ambigua,automatica,escalar,0.9865,0.7467,True
+onnx_int8_pc,externa,asdfghjkl,es,otro,automatica,escalar,0.9522,0.9816,True
+onnx_int8_pc,externa,¿cuál es la capital de Francia?,es,otro,canalizar,escalar,0.9958,0.987,True
+onnx_int8_pc,externa,?????,es,otro,automatica,escalar,0.936,0.493,True
+onnx_int8_pc,externa,"Buenas tardes, les escribo porque en nuestra planta estamos haciendo la planeación del siguiente trimestre y queremos revisar con ustedes la capacidad de producción para la nueva plataforma, además de los precios del próximo año y las condiciones de entrega para nuevos números de parte.",es,otro,automatica,escalar,0.9772,0.9013,True

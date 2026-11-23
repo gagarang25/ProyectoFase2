@@ -1,0 +1,34 @@
+{
+  "modelo_origen": "model-v1.0.0 (salida_router/modelo/model.safetensors)",
+  "sha256_origen": "3580b4e336378a9981fef99095ec788d2776a2badcfde693aeea98ef30e1704c",
+  "opset": 17,
+  "torch": "2.15.0",
+  "segundos_exportacion": "no medido (el ONNX fp32 ya existía)",
+  "variantes": {
+    "onnx_fp32": {
+      "archivo": "router_fp32.onnx",
+      "mb": 1116.2,
+      "sha256": "d6f5ee0dde14616b886d50494a6bdf44dae8d31dd3c4ccceef9053ee9db87e6a"
+    },
+    "onnx_emb8": {
+      "archivo": "router_emb8.onnx",
+      "mb": 538.2,
+      "sha256": "1d9fd839b3f0ef545cd925eb20eb83a422a08ef94bf35ecfb596fdd29480c5c2"
+    },
+    "onnx_int8_matmul": {
+      "archivo": "router_int8_matmul.onnx",
+      "mb": 916.6,
+      "sha256": "194ec5429ce06bdbfe5f1792fb575fc6261a2a413a66f5d229782d3ebfb631f4"
+    },
+    "onnx_int8_pc": {
+      "archivo": "router_int8_pc.onnx",
+      "mb": 917.1,
+      "sha256": "26e21bc50188b9c607ba9f1ecf1ebf7b6ed9900e68ac33777fe6fc27b1e96f41"
+    },
+    "onnx_int8_total": {
+      "archivo": "router_int8_total.onnx",
+      "mb": 338.4,
+      "sha256": "78fec5529299c5bcef771d76a709965d4e1f20b48f287f108eac5da2c7a13625"
+    }
+  }
+}

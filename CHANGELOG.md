@@ -1,5 +1,12 @@
 # Registro de cambios
 
+## opt-v1.0.0 · Actividad 9 (escalamiento eficiente y responsable)
+- Carpeta `optimizacion/`: exportación a ONNX, 5 variantes del router y compuertas de calidad/equidad (Q1–Q4, D1).
+- Variante elegida: ONNX Runtime con embeddings INT8 (mismas 560 decisiones; p95 −69 %, memoria −46 %). INT8 completo rechazado.
+- ETA y riesgo precalculados por lotes; medición de `/api/chat` de punta a punta (480/480 respuestas idénticas).
+- Simulación de autoescalado con el game day de la A8 y auditoría de fairness por idioma y por segmento de cliente.
+- La API (`backend/app`) no cambió; los componentes nuevos están en `optimizacion/src/optimizaciones_api.py`.
+
 ## ops-v1.0.0 · Actividad 8 (monitoreo y respuesta a incidentes)
 - Carpeta `monitoreo/`: SLI/SLO, presupuesto de error y reglas de alerta A1–A6 en `config/monitoring_config.yaml`.
 - Motor de alertas con ventanas, quema del presupuesto, severidad P1–P3, agrupación y deduplicación.

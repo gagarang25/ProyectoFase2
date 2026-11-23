@@ -1,0 +1,18 @@
+[
+ {
+  "variable": "transportista",
+  "grupo": "TR-A",
+  "recall": 0.698,
+  "brecha_recall": 0.148,
+  "cobertura": 0.938,
+  "tasa_retraso_real": 0.138
+ },
+ {
+  "variable": "modalidad",
+  "grupo": "Dedicado",
+  "recall": 0.725,
+  "brecha_recall": 0.118,
+  "cobertura": 0.913,
+  "tasa_retraso_real": 0.189
+ }
+]

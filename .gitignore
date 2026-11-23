@@ -12,3 +12,6 @@ backend/modelo_router/
 .ipynb_checkpoints/
 .venv/
 .venv-eb/
+
+# Actividad 9: modelos ONNX (pesados, se regeneran con optimizacion/ejecutar_todo.sh)
+optimizacion/modelos_onnx/*.onnx

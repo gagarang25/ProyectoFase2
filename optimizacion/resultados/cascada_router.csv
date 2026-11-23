@@ -1,0 +1,11 @@
+conjunto,variante,pct_a_mdeberta,mensajes,accuracy,f1_macro,cobertura_automatica,precision_automatica,resultados_seguros,respuestas_automaticas_erroneas,baja_confianza,seguros_es,pct_a_mdeberta_es,seguros_en,pct_a_mdeberta_en
+prueba,solo_mdeberta_emb8,1.0,400,0.9925,0.9921,0.4025,0.9814,0.9925,3,0.0,,,,
+prueba,solo_ligero,0.0,400,0.995,0.9945,0.3825,1.0,1.0,0,0.03,,,,
+prueba,cascada_tau_0.9,0.03,400,0.995,0.9947,0.4025,0.9876,0.995,2,0.0,0.9938,0.025,0.9958,0.0333
+prueba,cascada_tau_0.95,0.055,400,0.995,0.9947,0.4025,0.9876,0.995,2,0.0,0.9938,0.0375,0.9958,0.0667
+prueba,cascada_tau_0.98,0.1825,400,0.9925,0.9921,0.4025,0.9814,0.9925,3,0.0,0.9938,0.1375,0.9917,0.2125
+externa,solo_mdeberta_emb8,1.0,160,0.9643,0.9645,0.4125,0.9091,0.9625,6,0.0625,,,,
+externa,solo_ligero,0.0,160,0.8786,0.8795,0.2812,0.9778,0.9938,1,0.3937,,,,
+externa,cascada_tau_0.9,0.3938,160,0.9643,0.9644,0.4188,0.9104,0.9625,6,0.0437,0.9541,0.4862,0.9756,0.1951
+externa,cascada_tau_0.95,0.5375,160,0.9571,0.9572,0.4125,0.9091,0.9625,6,0.05,0.9541,0.6422,0.9756,0.2927
+externa,cascada_tau_0.98,0.625,160,0.9643,0.9645,0.4125,0.9091,0.9625,6,0.0625,0.9541,0.7064,0.9756,0.439

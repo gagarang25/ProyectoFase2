@@ -1,0 +1,51 @@
+{
+  "coincidencia_base_vs_fase2_externa": 1.0,
+  "tokens_iguales_sin_pytorch": true,
+  "compuertas": {
+    "onnx_fp32": {
+      "Q1_seguros": true,
+      "Q2_auto_erroneas": true,
+      "Q3_equidad_idioma": true,
+      "Q4_acciones_iguales": true,
+      "D1_latencia_p95": true,
+      "aprobada": true
+    },
+    "onnx_emb8": {
+      "Q1_seguros": true,
+      "Q2_auto_erroneas": true,
+      "Q3_equidad_idioma": true,
+      "Q4_acciones_iguales": true,
+      "D1_latencia_p95": true,
+      "aprobada": true
+    },
+    "onnx_int8_matmul": {
+      "Q1_seguros": true,
+      "Q2_auto_erroneas": true,
+      "Q3_equidad_idioma": false,
+      "Q4_acciones_iguales": false,
+      "D1_latencia_p95": true,
+      "aprobada": false
+    },
+    "onnx_int8_pc": {
+      "Q1_seguros": true,
+      "Q2_auto_erroneas": true,
+      "Q3_equidad_idioma": false,
+      "Q4_acciones_iguales": false,
+      "D1_latencia_p95": true,
+      "aprobada": false
+    },
+    "onnx_int8_total": {
+      "Q1_seguros": true,
+      "Q2_auto_erroneas": true,
+      "Q3_equidad_idioma": false,
+      "Q4_acciones_iguales": false,
+      "D1_latencia_p95": true,
+      "aprobada": false
+    }
+  },
+  "variante_elegida": "onnx_emb8",
+  "cambios_de_accion": {
+    "onnx_emb8": 0,
+    "onnx_int8_pc": 262
+  }
+}

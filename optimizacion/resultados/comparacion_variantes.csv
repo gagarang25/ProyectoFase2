@@ -1,0 +1,7 @@
+variante,segundos_carga,rss_mb_tras_cargar,rss_mb_pico,throughput_msg_s_lote1,throughput_msg_s_lote8,latencia_p50_ms,latencia_p95_ms,latencia_p99_ms,prueba_accuracy,prueba_f1_macro,prueba_cobertura_automatica,prueba_precision_automatica,prueba_resultados_seguros,prueba_respuestas_automaticas_erroneas,prueba_baja_confianza,prueba_max_dif_logit,externa_accuracy,externa_f1_macro,externa_cobertura_automatica,externa_precision_automatica,externa_resultados_seguros,externa_respuestas_automaticas_erroneas,externa_baja_confianza,externa_max_dif_logit,acciones_iguales_a_base
+pytorch_fp32,6.38,2207.0,2764.0,8.4,28.9,119.8,142.6,160.2,0.9925,0.9921,0.4025,0.9814,0.9925,3,0.0,0.0,0.9643,0.9645,0.4125,0.9091,0.9625,6,0.0625,0.0,1.0
+onnx_fp32,3.33,1818.0,2077.0,25.3,38.7,39.0,50.0,56.4,0.9925,0.9921,0.4025,0.9814,0.9925,3,0.0,0.0,0.9643,0.9645,0.4125,0.9091,0.9625,6,0.0625,0.0,1.0
+onnx_emb8,1.85,1167.0,1212.0,25.4,38.6,39.2,49.5,60.4,0.9925,0.9921,0.4025,0.9814,0.9925,3,0.0,0.0923,0.9643,0.9645,0.4125,0.9091,0.9625,6,0.0625,0.1349,1.0
+onnx_int8_matmul,2.66,1427.0,1883.0,55.8,77.1,17.5,23.0,27.0,0.6275,0.5842,0.14,0.8214,0.975,10,0.305,4.6061,0.5214,0.4818,0.0437,1.0,1.0,0,0.375,4.2363,0.5161
+onnx_int8_pc,2.62,1386.0,1884.0,53.3,81.9,18.0,26.3,30.9,0.6025,0.5502,0.1475,0.8814,0.9825,7,0.255,4.4616,0.5286,0.4925,0.075,0.9167,0.9938,1,0.325,4.4256,0.5321
+onnx_int8_total,1.69,849.0,856.0,49.0,70.2,20.5,25.2,28.1,0.6125,0.564,0.1325,0.8679,0.9825,7,0.295,4.4691,0.5071,0.4714,0.0688,1.0,1.0,0,0.35,4.3525,0.5179

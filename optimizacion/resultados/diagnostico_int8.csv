@@ -1,0 +1,4 @@
+variante,descripcion,prueba_mensajes,prueba_accuracy,prueba_f1_macro,prueba_cobertura_automatica,prueba_precision_automatica,prueba_resultados_seguros,prueba_respuestas_automaticas_erroneas,prueba_baja_confianza,externa_mensajes,externa_accuracy,externa_f1_macro,externa_cobertura_automatica,externa_precision_automatica,externa_resultados_seguros,externa_respuestas_automaticas_erroneas,externa_baja_confianza
+ffn_12_capas,Solo la red feed-forward (FFN) de las 12 capas,400,0.63,0.5875,0.15,0.8,0.97,12,0.27,160,0.5214,0.4833,0.05,1.0,1.0,0,0.3563
+capas_0_5,Proyecciones y FFN de las capas 0 a 5,400,0.9825,0.9819,0.4025,0.9752,0.99,4,0.0025,160,0.9357,0.9364,0.425,0.8529,0.9375,10,0.0312
+capas_6_11,Proyecciones y FFN de las capas 6 a 11,400,0.675,0.6285,0.1625,0.9385,0.99,4,0.28,160,0.55,0.5096,0.0875,0.9286,0.9938,1,0.3375
